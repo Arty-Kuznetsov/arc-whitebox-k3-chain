@@ -41,6 +41,12 @@ Most of the write-up is about why this family of estimators behaves as it does. 
 alone, on the ten public networks with their 10⁹-sample truth. `scripts/build_oracle_dataset.py` assembles the
 Monte-Carlo oracles we measured against.
 
+## Data
+
+The Monte-Carlo oracles we measured against (per-neuron moments of the first 30 public networks, full post-activation
+covariances of two, and the synthetic shapes; 94.6 MB, CC BY 4.0) are on Zenodo: https://doi.org/10.5281/zenodo.23562846. `scripts/build_oracle_dataset.py`
+assembles them from the generators in this repository.
+
 ## How to reproduce
 
 `scripts/setup.sh` clones the pinned upstream repositories into `external/`, builds the grading environment
@@ -101,3 +107,5 @@ made. No number in the write-up or in this repository comes from a model's state
 Artyom Kuznetsov, *A third-cumulant chain at its boundary: consistency, random projections, the price of carrying κ₃,
 and where the next order's accuracy lives*. Algorithmic Contribution write-up, ARC White-Box Estimation Challenge 2026,
 Phase 2, submission 333534 (2026). https://discourse.aicrowd.com/t/18249
+
+The oracle dataset: Artyom Kuznetsov, *Monte-Carlo oracles for random ReLU networks* (2026), Zenodo, https://doi.org/10.5281/zenodo.23562846
