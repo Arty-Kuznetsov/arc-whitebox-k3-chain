@@ -1,0 +1,5 @@
+  k3m base                                       (cached) raw 2.3462e-08
+  k3m + E4 agecut (4, -2.0)                      raw 2.5233e-08  x1.0755  better 0/10  [484s]
+      -> raw x1.0755  util x0.9150  projected x0.9841  projected-better 7/10
+  k3m + E4 agecut (4, -1.5)                      raw 3.4586e-08  x1.4741  better 0/10  [495s]
+      -> raw x1.4741  util x0.8429  projected x1.2425  projected-better 0/10

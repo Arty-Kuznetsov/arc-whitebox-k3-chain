@@ -1,0 +1,4 @@
+  split8rr mlp 0: final_mse=3.4861e-08  (5s)
+  split8rr mlp 1: final_mse=4.0068e-08  (5s)
+  split8rr mlp 2: final_mse=3.8862e-08  (5s)
+RESULT split8rr: mean final_mse over 3 MLPs = 3.7930e-08   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

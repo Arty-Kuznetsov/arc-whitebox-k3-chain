@@ -1,0 +1,4 @@
+AUGMENT mlp 0: final 2.0563e-08  all-layers 7.4556e-09  (1862s)
+  per-layer: 6.98e-10 7.02e-10 9.25e-10 1.59e-09 2.05e-09 2.90e-09 3.66e-09 4.59e-09 5.67e-09 7.69e-09 9.85e-09 1.12e-08 1.40e-08 1.58e-08 1.73e-08 2.06e-08
+/opt/anaconda3/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

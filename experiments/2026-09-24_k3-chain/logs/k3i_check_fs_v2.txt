@@ -1,0 +1,2 @@
+(1) k3i(all off) vs k3h, 1024x16: bitwise True, flops equal True (28.939%), residual 0.235s (k3h 0.219s)
+    k3i default: 29.855% of B (k3h 28.939%), residual 0.249s, wall 18.3s (k3h 17.6s); final-layer max|k3i-k3h| 2.42e-04

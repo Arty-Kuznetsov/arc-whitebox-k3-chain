@@ -1,0 +1,14 @@
+  mlp 0 done
+  mlp 1 done
+  mlp 2 done
+
+=== D21 applied to the newest k of J=4 sources (3 MLPs) ===
+
+  k |  final_layer_mse |  % of B   mult   adjusted
+  0 |       1.2264e-06 |  10.34%  0.103  1.269e-07
+  1 |       8.5274e-07 |  11.63%  0.116  9.919e-08
+  2 |       6.5275e-07 |  12.83%  0.128  8.378e-08
+  3 |       5.9478e-07 |  13.95%  0.140  8.298e-08
+  4 |       5.7123e-07 |  14.98%  0.150  8.558e-08
+
+best: k=3 at 8.2978e-08   (shipped k=4 scores 7.1794e-08 on the full split)

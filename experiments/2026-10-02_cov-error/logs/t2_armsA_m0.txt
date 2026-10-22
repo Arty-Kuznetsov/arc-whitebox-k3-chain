@@ -1,0 +1,6 @@
+arm MLP 0 all off  A: mse 1.6725e-08  x0.7339
+arm MLP 0 all diag A: mse 2.6958e-08  x1.1829
+arm MLP 0 all all  A: mse 1.9705e-08  x0.8647
+arm MLP 0 s4  off  A: mse 1.6766e-08  x0.7357
+arm MLP 0 s4  diag A: mse 2.5703e-08  x1.1279
+arm MLP 0 s4  all  A: mse 1.8410e-08  x0.8078

@@ -1,0 +1,1 @@
+marg1_sat_3.0 screen {'x': 1.0047051427117837, 'better': 0, 'n': 4, 'status': 'KILLED', 'raw': 2.2318008174801208e-08}

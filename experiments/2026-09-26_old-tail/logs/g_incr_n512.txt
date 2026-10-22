@@ -1,0 +1,8 @@
+n=512 layer=12 a0=4: S=2 old sources, R=1024 CP columns, ||T||=3.705402e+00
+      it      0 rel err 1.4646e-01
+      it    500 rel err 6.6002e-02
+      it   1000 rel err 5.2539e-02
+      it   1500 rel err 4.2433e-02
+      it   2000 rel err 3.3447e-02
+      it   2500 rel err 3.1613e-02
+  r=   512 (r/n= 1.00)  rel err 3.1358e-02   column-pruning init 1.4646e-01  [3000 its, 833s]

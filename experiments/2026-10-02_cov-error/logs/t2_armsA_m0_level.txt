@@ -1,0 +1,4 @@
+arm MLP 0 all diagr A: mse 2.3060e-08  x1.0119
+arm MLP 0 all allr A: mse 1.6745e-08  x0.7348
+arm MLP 0 s4  diagr A: mse 2.2865e-08  x1.0033
+arm MLP 0 s4  allr A: mse 1.6777e-08  x0.7362

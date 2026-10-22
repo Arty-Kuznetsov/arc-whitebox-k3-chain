@@ -1,0 +1,4 @@
+  full mlp 0: final_mse=3.7046e-08  (7s)
+  full mlp 1: final_mse=4.4592e-08  (6s)
+  full mlp 2: final_mse=4.5890e-08  (6s)
+RESULT full: mean final_mse over 3 MLPs = 4.2509e-08   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

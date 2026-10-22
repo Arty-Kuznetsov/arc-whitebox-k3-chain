@@ -1,0 +1,17 @@
+  mlp 0: none=4.502e-06 mean=3.705e-08 cov=7.389e-06 both=3.705e-08 (k3=3.705e-08)
+  mlp 1: none=5.055e-06 mean=4.459e-08 cov=6.983e-06 both=4.459e-08 (k3=4.459e-08)
+  mlp 2: none=5.891e-06 mean=4.589e-08 cov=7.818e-06 both=4.589e-08 (k3=4.589e-08)
+
+=== What the k=3 information buys, injected at EVERY layer (3 MLPs) ===
+SELF-CHECK 'none' = 5.1494e-06 (reference k=2 4.50e-06 on MLP 0); full k=3 = 4.2509e-08
+
+  injected |  final_layer_mse |    vs k=2
+      none |       5.1494e-06 |     1.00x
+      mean |       4.2509e-08 |   121.13x
+       cov |       7.3966e-06 |     0.70x
+      both |       4.2509e-08 |   121.13x
+  full k=3 |       4.2509e-08 |   121.13x
+
+If 'cov' is large, the covariance carried through depth is the missing piece and a cheap
+O(n^2) Wick regeneration of D21 is the next lever. If 'cov' ~ 1, the gap is higher-order
+terms in the mean and the readout correction itself has to get better.

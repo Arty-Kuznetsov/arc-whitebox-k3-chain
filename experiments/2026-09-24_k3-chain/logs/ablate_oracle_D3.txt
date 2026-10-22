@@ -1,0 +1,4 @@
+  oracle_D3 mlp 0: final_mse=1.9045e-07  (8s)
+  oracle_D3 mlp 1: final_mse=2.7008e-07  (8s)
+  oracle_D3 mlp 2: final_mse=2.1862e-07  (8s)
+RESULT oracle_D3: mean final_mse over 3 MLPs = 2.2639e-07   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

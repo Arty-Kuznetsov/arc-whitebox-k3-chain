@@ -1,0 +1,5 @@
+  m225 base                                      (cached) raw 2.4151e-08
+  m225 + margtail 2.5                            raw 2.4149e-08  x0.9999  better 5/10  [523s]
+      -> raw x0.9999  util x1.0000  projected x0.9999  projected-better 5/10
+  m225 + margtail 3.0                            raw 2.4112e-08  x0.9984  better 7/10  [862s]
+      -> raw x0.9984  util x1.0000  projected x0.9984  projected-better 7/10

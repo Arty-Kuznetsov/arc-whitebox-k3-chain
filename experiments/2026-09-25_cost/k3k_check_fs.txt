@@ -1,0 +1,2 @@
+(1) k3k(band_age=None) vs k3j, 1024x16: bitwise True, flops equal True (26.622%), residual 0.307s (k3j 0.276s)
+    k3k default: 27.784% of B (k3j 26.622%), residual 0.413s, wall 21.3s (k3j 20.8s); final-layer max|k3k-k3j| 9.39e-05, rel 2.3e-05

@@ -1,0 +1,2 @@
+  t=-2.25 band_6_384_pre                         raw 2.5195e-08  x1.0000  better 0/10  [453s]
+   t=-2.25 band_6_384_pre: raw x1.0739 util 19.11% projected 4.4552e-09 (L5 4.0832e-09)

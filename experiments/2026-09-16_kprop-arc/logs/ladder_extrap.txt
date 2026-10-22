@@ -1,0 +1,15 @@
+  mlp 0: k2 corr=+0.026 beta=+0.00590 | k3 corr=+0.163 beta=+0.01203
+  mlp 1: k2 corr=+0.247 beta=+0.03682 | k3 corr=+0.172 beta=+0.01733
+  mlp 2: k2 corr=+0.235 beta=+0.03924 | k3 corr=+0.204 beta=+0.01672
+
+=== Richardson extrapolation across cumulant order (3 MLPs) ===
+theoretical slope q/(q-1) with q = L/n = 1/64:  -0.015873
+
+                  rung |    corr   beta_hat |  mse before  after (theory)  after (fitted) |  gain th  gain fit
+           mu^2 - mu^1 |   0.169    0.02732 |   5.149e-06       5.575e-06       4.760e-06 |    0.92x     1.08x
+           mu^3 - mu^2 |   0.179    0.01536 |   4.251e-08       4.644e-08       4.120e-08 |    0.92x     1.03x
+
+If corr is high and beta_hat sits near the theoretical slope, the ladder is geometric per
+neuron and the step between two cumulant orders predicts the remaining error. k=1 is free,
+so a working k2 rung is accuracy for no compute. A working k3 rung would mean k=3 + one
+extrapolation reaches k=4-class accuracy without ever forming a 4th-cumulant tensor.

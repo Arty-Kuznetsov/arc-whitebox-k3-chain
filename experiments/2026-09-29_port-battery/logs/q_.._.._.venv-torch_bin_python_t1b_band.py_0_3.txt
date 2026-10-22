@@ -1,0 +1,4 @@
+  f32 (6,448) k=inf qr pre                       raw 2.3711e-08  x1.0106  better 3/10  [477s]
+  f32 (5,512) k=inf qr pre                       raw 2.3520e-08  x1.0025  better 5/10  [487s]
+  f32 (5,384) k=inf qr pre                       raw 2.7074e-08  x1.1540  better 0/10  [449s]
+  f32 (5,448) k=inf qr pre init=rr               raw 2.3922e-08  x1.0196  better 1/10  [466s]

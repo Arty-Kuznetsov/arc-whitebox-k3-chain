@@ -1,0 +1,6 @@
+run_arm.sh: line 8:  4129 Killed                  ../../.venv-whest/bin/whest run --estimator arms/v_$name.py --dataset hf://aicrowd/arc-whestbench-public-2026@v2-phase2 --split mini --n-mlps $n --runner local --max-threads $th --format json --no-residual-wall-time-limit --wall-time-limit 600 > $out.tmp 2> logs/$name.err
+run_arm.sh: line 8:  4130 Killed                  ../../.venv-whest/bin/whest run --estimator arms/v_$name.py --dataset hf://aicrowd/arc-whestbench-public-2026@v2-phase2 --split mini --n-mlps $n --runner local --max-threads $th --format json --no-residual-wall-time-limit --wall-time-limit 600 > $out.tmp 2> logs/$name.err
+run_arm.sh: line 8:  4253 Killed                  ../../.venv-whest/bin/whest run --estimator arms/v_$name.py --dataset hf://aicrowd/arc-whestbench-public-2026@v2-phase2 --split mini --n-mlps $n --runner local --max-threads $th --format json --no-residual-wall-time-limit --wall-time-limit 600 > $out.tmp 2> logs/$name.err
+run_arm.sh: line 8:  4264 Killed                  ../../.venv-whest/bin/whest run --estimator arms/v_$name.py --dataset hf://aicrowd/arc-whestbench-public-2026@v2-phase2 --split mini --n-mlps $n --runner local --max-threads $th --format json --no-residual-wall-time-limit --wall-time-limit 600 > $out.tmp 2> logs/$name.err
+Terminated
+Terminated

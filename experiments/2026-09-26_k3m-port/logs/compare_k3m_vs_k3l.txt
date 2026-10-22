@@ -1,0 +1,14 @@
+per-MLP keys: ['mlp_index', 'mlp_name', 'final_layer_mse', 'all_layers_mse', 'per_layer_mse', 'adjusted_final_layer_score', 'flops_used', 'effective_compute', 'budget_exhausted', 'time_exhausted', 'residual_wall_time_exhausted', 'combined_budget_exhausted', 'wall_time_s', 'flopscope_backend_time_s', 'flopscope_overhead_time_s', 'residual_wall_time_s', 'breakdowns', 'traceback']
+adjusted_final_layer_score         k3m:   5.5215e-09   k3l:   5.7387e-09  x0.9621
+final_layer_mse                    k3m:   2.2174e-08   k3l:   2.1837e-08  x1.0155
+all_layers_mse                     k3m:   8.3635e-09   k3l:   8.2645e-09  x1.0120
+mean_compute_utilization           k3m:      24.894%   k3l:      26.274%  x0.9475
+n_failed_mlps                      k3m:            0   k3l:            0
+resid                              k3m: mean 0.513 max 0.574   k3l: mean 0.207 max 0.239
+wall                               k3m: mean 66.816 max 72.542   k3l: mean 19.836 max 20.851
+
+per-MLP adjusted ratio k3m/k3l: mean 0.9625  median 0.9624  min 0.9354  max 1.0033
+  better (k3m < k3l): 99/100     worse: 1/100
+per-MLP raw final-MSE ratio:  mean 1.0159  better 10/100
+per-MLP utilisation k3m: 24.161% .. 25.713%   k3l: 25.494% .. 27.068%
+  worst 5 MLPs by adjusted ratio: #56 1.003, #63 0.997, #75 0.991, #58 0.986, #71 0.985

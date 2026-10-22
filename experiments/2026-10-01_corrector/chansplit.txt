@@ -1,0 +1,17 @@
+
+=== MLP 0, base B9 2.278922e-08
+  var  remove ALL of e (channel ceiling)    x0.6926
+  var  remove P_own e                       x1.0477
+  var  remove P_own+pair e                  x1.0309
+  k3   remove ALL of e (channel ceiling)    x0.9419
+  k3   remove P_own e                       x1.0658
+  k3   remove P_own+pair e                  x1.0948
+
+=== MLP 1, base B9 2.205732e-08
+  var  remove ALL of e (channel ceiling)    x1.0898
+  var  remove P_own e                       x1.1072
+  var  remove P_own+pair e                  x1.0996
+  k3   remove ALL of e (channel ceiling)    x0.9148
+  k3   remove P_own e                       x1.0148
+  k3   remove P_own+pair e                  x1.0146
+exit=0

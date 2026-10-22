@@ -1,0 +1,7 @@
+full k=3 (no cap): final_mse=3.705e-08  (max R reached ~ 32768)
+  R_max=  128: final_mse=3.957e-06   (x106.8 vs full)
+  R_max=  256: final_mse=3.551e-06   (x95.9 vs full)
+  R_max=  512: final_mse=3.240e-06   (x87.5 vs full)
+  R_max= 1024: final_mse=2.935e-06   (x79.2 vs full)
+  R_max= 2048: final_mse=1.863e-06   (x50.3 vs full)
+  R_max= 4096: final_mse=8.486e-07   (x22.9 vs full)

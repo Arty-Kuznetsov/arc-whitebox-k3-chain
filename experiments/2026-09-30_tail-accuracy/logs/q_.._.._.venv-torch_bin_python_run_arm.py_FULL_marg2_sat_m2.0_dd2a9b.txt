@@ -1,0 +1,1 @@
+FULL+marg2_sat_m2.0 screen {'x': 0.9801574516193456, 'better': 9, 'n': 10, 'status': 'done', 'raw': 2.194716731683157e-08}

@@ -1,0 +1,3 @@
+X_c250_p256          raw 2.3195e-08  util  23.44%  adjusted 5.4370e-09  (156s)
+X_c225_p256          raw 2.4290e-08  util  22.55%  adjusted 5.4769e-09  (153s)
+X_c250_p128          raw 2.3336e-08  util  23.32%  adjusted 5.4429e-09  (152s)

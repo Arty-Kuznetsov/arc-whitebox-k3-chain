@@ -1,0 +1,10 @@
+layer 9 -> 10: v = 0.0160
+  kappa4(z_x,z_x,u_i,u_i): MC vs closure corr 0.683, slope MC/closure 0.993
+  F (feed into t_10): |F_mc| 2.810e-02, |F_sm| 2.804e-02, corr 0.979, slope 0.982
+  t_10: |t_mc| 3.206e-01; chain error |t_mc - t_chain| 1.573e-02 (rel 0.049); corr(err, F_mc) 0.044, corr(err, F_mc - F_sm) 0.255; |F_mc - F_sm| 5.685e-03
+  regression of the chain error on F_mc: slope 0.024, residual fraction 0.999
+layer 13 -> 14: v = 0.0205
+  kappa4(z_x,z_x,u_i,u_i): MC vs closure corr 0.774, slope MC/closure 1.013
+  F (feed into t_14): |F_mc| 1.931e-02, |F_sm| 1.979e-02, corr 0.973, slope 0.949
+  t_14: |t_mc| 3.220e-01; chain error |t_mc - t_chain| 1.972e-02 (rel 0.061); corr(err, F_mc) -0.001, corr(err, F_mc - F_sm) 0.224; |F_mc - F_sm| 4.591e-03
+  regression of the chain error on F_mc: slope -0.002, residual fraction 1.000

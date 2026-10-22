@@ -1,0 +1,2 @@
+  t=-2.25 e2_2.5_sep + band_6_384_pre + e3_-3.0_b raw 2.3764e-08  x1.0000  better 0/10  [512s]
+   t=-2.25 e2_2.5_sep + band_6_384_pre + e3_-3.0_b: raw x1.0129 util 17.28% projected 3.7984e-09 (L5 3.4812e-09)

@@ -1,0 +1,4 @@
+  dlr64 mlp 0: final_mse=2.0541e-07  (7s)
+  dlr64 mlp 1: final_mse=2.3450e-07  (7s)
+  dlr64 mlp 2: final_mse=2.8431e-07  (7s)
+RESULT dlr64: mean final_mse over 3 MLPs = 2.4141e-07   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

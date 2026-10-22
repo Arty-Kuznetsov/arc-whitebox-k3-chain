@@ -1,0 +1,15 @@
+  m225 base                                      (cached) raw 2.4151e-08
+  m225 + E2 satrow 3.0 sep                       raw 2.3778e-08  x0.9845  better 10/10  [468s]
+      -> raw x0.9845  util x0.9520  projected x0.9372  projected-better 10/10
+  m225 + E2 satrow 2.5 restore                   raw 2.3026e-08  x0.9534  better 9/10  [489s]
+      -> raw x0.9534  util x0.9331  projected x0.8896  projected-better 10/10
+  m225 + E2 satrow 2.5 sep                       raw 2.2707e-08  x0.9402  better 9/10  [472s]
+      -> raw x0.9402  util x0.9331  projected x0.8773  projected-better 10/10
+  m225 + E2 satrow 2.75 restore                  raw 2.3613e-08  x0.9777  better 9/10  [489s]
+      -> raw x0.9777  util x0.9432  projected x0.9222  projected-better 10/10
+  m225 + E2 satrow 2.75 sep                      raw 2.3323e-08  x0.9657  better 9/10  [493s]
+      -> raw x0.9657  util x0.9432  projected x0.9109  projected-better 10/10
+  m225 + E2 satrow 3.25 restore                  raw 2.4077e-08  x0.9969  better 10/10  [495s]
+      -> raw x0.9969  util x0.9595  projected x0.9566  projected-better 10/10
+  m225 + E2 satrow 3.5 restore                   raw 2.4134e-08  x0.9993  better 7/10  [499s]
+      -> raw x0.9993  util x0.9661  projected x0.9655  projected-better 10/10

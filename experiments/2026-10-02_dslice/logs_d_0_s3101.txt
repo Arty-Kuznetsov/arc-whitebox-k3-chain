@@ -1,0 +1,11 @@
+  1.00M samples, 35s, eta 319s
+  2.00M samples, 71s, eta 283s
+  3.00M samples, 107s, eta 249s
+  4.00M samples, 143s, eta 214s
+  5.00M samples, 179s, eta 179s
+  6.00M samples, 215s, eta 143s
+  7.00M samples, 251s, eta 108s
+  8.00M samples, 288s, eta 72s
+  9.00M samples, 324s, eta 36s
+  10.00M samples, 360s, eta 0s
+done 10.0M in 361s

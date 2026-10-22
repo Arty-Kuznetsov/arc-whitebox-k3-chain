@@ -1,0 +1,25 @@
+PART A  singular-energy of the source propagator A_m, by age (1 MLP)
+ age |   top-32   top-64  top-128  top-256  top-512
+   1 |   0.1123   0.2100   0.3759   0.6229   0.8938
+   2 |   0.2218   0.3860   0.6168   0.8599   0.9901
+   3 |   0.3147   0.5164   0.7559   0.9426   0.9987
+   4 |   0.3941   0.6148   0.8403   0.9751   0.9998
+
+PART B  truncating A (and B) to rank r for sources older than min_age
+  mlp 0 done
+  mlp 1 done
+
+SELF-CHECK no truncation = 5.4547e-07 (the shipped chain)
+
+  rank  min_age |  final_layer_mse   vs full | cost of a truncated source
+  1024       99 |       5.4547e-07     1.00x |      full
+   512        1 |       5.5843e-07     0.98x |    0.500x
+   256        1 |       8.2763e-07     0.66x |    0.250x
+   128        1 |       1.3665e-06     0.40x |    0.125x
+    64        1 |       1.8999e-06     0.29x |    0.062x
+   256        2 |       5.6296e-07     0.97x |    0.250x
+   128        2 |       7.1011e-07     0.77x |    0.125x
+    64        2 |       8.8721e-07     0.61x |    0.062x
+
+vs full ~ 1 at rank 64-128 would mean the transport can run at O(n^2 r), cutting the
+dominant cost by 8-16x -- enough to drop under the 10% multiplier floor with sources to spare.

@@ -1,0 +1,4 @@
+  feedP2 mlp 0: final_mse=2.9594e-08  (6s)
+  feedP2 mlp 1: final_mse=2.9682e-08  (6s)
+  feedP2 mlp 2: final_mse=2.9756e-08  (6s)
+RESULT feedP2: mean final_mse over 3 MLPs = 2.9677e-08   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

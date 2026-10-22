@@ -1,0 +1,4 @@
+  corr_diag mlp 0: final_mse=1.6221e-06  (6s)
+  corr_diag mlp 1: final_mse=1.8188e-06  (6s)
+  corr_diag mlp 2: final_mse=1.7882e-06  (6s)
+RESULT corr_diag: mean final_mse over 3 MLPs = 1.7430e-06   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

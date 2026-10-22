@@ -1,0 +1,7 @@
+  k3m base                                       (cached) raw 2.3462e-08
+  k3m + E2 satrow 3.0 restore                    raw 2.3258e-08  x0.9913  better 10/10  [500s]
+      -> raw x0.9913  util x0.9509  projected x0.9426  projected-better 10/10
+  k3m + E2 satrow 3.0 sep                        raw 2.3093e-08  x0.9843  better 10/10  [501s]
+      -> raw x0.9843  util x0.9509  projected x0.9359  projected-better 10/10
+  k3m + E2 satrow 2.5 sep                        raw 2.2064e-08  x0.9405  better 9/10  [510s]
+      -> raw x0.9405  util x0.9318  projected x0.8763  projected-better 10/10

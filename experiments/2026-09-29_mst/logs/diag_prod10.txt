@@ -1,0 +1,12 @@
+  self-check: t-rule vs brute force 2.88e-16   D-rule vs brute force 4.31e-16
+
+all-distinct share of the OLD TAIL's own contribution (prod, 10 MLPs)
+  (62 measured 28.8% for ALL sources together)
+  a0=2  layers 1-7    f =  38.36%  (min 27.53%, max 61.11%, n=50)
+  a0=2  layers >=8    f =  28.23%  (min 25.89%, max 33.55%, n=80)
+  a0=3  layers 1-7    f =  38.10%  (min 26.57%, max 57.78%, n=40)
+  a0=3  layers >=8    f =  27.78%  (min 25.18%, max 31.63%, n=80)
+  a0=4  layers 1-7    f =  39.60%  (min 26.77%, max 56.35%, n=30)
+  a0=4  layers >=8    f =  27.53%  (min 24.70%, max 32.17%, n=80)
+  a0=5  layers 1-7    f =  42.14%  (min 30.21%, max 55.25%, n=20)
+  a0=5  layers >=8    f =  27.49%  (min 24.16%, max 32.64%, n=80)

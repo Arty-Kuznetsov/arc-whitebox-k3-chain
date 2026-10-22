@@ -1,0 +1,13 @@
+k3c L3 A: 34.421% of B, wall 12.5s, residual 0.256s
+k3c L3 B: 34.421% of B, wall 12.1s, residual 0.247s
+(1) k3d(batch_base=False), one instance, MLPs A, B, A:
+   A: bitwise equal to k3c: True  (max|diff| 0.0e+00, flops equal True), residual 0.233s
+   B: bitwise equal to k3c: True  (max|diff| 0.0e+00, flops equal True), residual 0.221s
+   A: bitwise equal to k3c: True  (max|diff| 0.0e+00, flops equal True), residual 0.218s
+(2) k3d (batched base products), one instance, MLPs A, B, A:
+   A: 34.216% of B (k3c 34.421%), wall 12.0s, residual 0.185s; vs k3c L3: final max|diff| 4.8e-06 rms 9.8e-07, all-layer max 5.7e-06
+   B: 34.216% of B (k3c 34.421%), wall 11.8s, residual 0.199s; vs k3c L3: final max|diff| 4.8e-06 rms 1.0e-06, all-layer max 6.2e-06
+   A: 34.216% of B (k3c 34.421%), wall 11.8s, residual 0.205s; vs k3c L3: final max|diff| 4.8e-06 rms 9.8e-07, all-layer max 5.7e-06
+   A run twice on one instance bitwise equal: True
+   reference spread k3c L0 vs L3 on A: final max|diff| 5.4e-06 rms 1.1e-06, all-layer max 5.4e-06
+   k3d vs k3c L0 on A: final max|diff| 4.2e-06 rms 1.1e-06

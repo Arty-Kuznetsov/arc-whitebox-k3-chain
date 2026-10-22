@@ -1,0 +1,4 @@
+arm MLP 0 s4  off  R0: mse 2.2789e-08  x1.0000
+arm MLP 0 all off  R0: mse 2.2789e-08  x1.0000
+arm MLP 0 s4  off  R: mse 2.4644e-08  x1.0814
+arm MLP 0 all off  R: mse 2.5549e-08  x1.1211

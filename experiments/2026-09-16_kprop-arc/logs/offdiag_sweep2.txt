@@ -1,0 +1,21 @@
+<repo>/experiments/2026-09-16_kprop-arc/offdiag_sweep.py:1: SyntaxWarning: invalid escape sequence '\_'
+  """Off-diagonal covariance correction: how many sources can we afford, and are both terms needed?
+  mlp 0 done
+  mlp 1 done
+  mlp 2 done
+
+=== Off-diagonal covariance correction, cost-aware (3 MLPs) ===
+SELF-CHECK J=4 no correction = 1.2264e-06 (the shipped chain)
+
+  J  terms |  final_layer_mse   vs none |  % of B   mult   adjusted
+  4    off |       1.2264e-06     1.00x |  10.34%  0.103  1.269e-07
+  3     t1 |       7.3872e-07     1.66x |  11.89%  0.119  8.783e-08
+  4     t1 |       5.7123e-07     2.15x |  14.98%  0.150  8.558e-08
+  5     t1 |       5.7073e-07     2.15x |  17.82%  0.178  1.017e-07
+  6     t1 |       6.1214e-07     2.00x |  20.39%  0.204  1.248e-07
+  8     t1 |       7.1692e-07     1.71x |  24.77%  0.248  1.776e-07
+  6    off |       1.0346e-06     1.19x |  13.95%  0.140  1.443e-07
+  8    off |       9.9161e-07     1.24x |  16.87%  0.169  1.673e-07
+
+best adjusted: J=4 terms=t1 at 8.5580e-08
+shipped configuration scores 1.0212e-07 locally (grader gave 9.9016e-08)

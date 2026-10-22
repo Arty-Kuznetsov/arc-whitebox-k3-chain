@@ -1,0 +1,12 @@
+# Vendored upstream dependencies — the exact commits this project was developed against.
+# Consumed by scripts/cloud_setup.sh; one record per line: <dir> <url> <commit>
+#
+# flopscope                 the FLOP meter. The *environment* installs it from PyPI
+#                           (pin flopscope>=0.12.1,<0.13.0 comes from the starter kit);
+#                           this clone is for reading the source of the meter we are billed by.
+# whest-starterkit          the `whest` CLI (validate / run / package / submit) + local grader.
+# mlp_cumulant_propagation  ARC's own reference kprop (MIT). Our k=3 chain re-implements its
+#                           SIMPLE k=3 algorithm — attribution is mandatory (rules §6).
+flopscope                 https://github.com/AIcrowd/flopscope.git                              33cf0c05d3a7e7273aeb68c7c2124a58f80628f9
+whest-starterkit          https://github.com/AIcrowd/whest-starterkit.git                       3e1e3b5f3da3e03a128ff292d0b14251727aeb5e
+mlp_cumulant_propagation  https://github.com/alignment-research-center/mlp_cumulant_propagation 93d091a4c26c042bfffa28f2e76a81bc0aba94bb

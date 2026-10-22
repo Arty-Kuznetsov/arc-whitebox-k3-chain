@@ -1,0 +1,80 @@
+Wed Oct 14 18:14:22 +05 2026
+n256_L8 net 0: full 7.447e-07 zero 3.395e-05 clos_own 1.289e-05 clos_univ 1.237e-05 clos_univ_t 2.849e-05 tlaw_Down 7.469e-06 town_Dr1 9.551e-06
+n256_L8 net 1: full 1.030e-06 zero 3.532e-05 clos_own 1.146e-05 clos_univ 1.210e-05 clos_univ_t 2.528e-05 tlaw_Down 1.000e-05 town_Dr1 7.667e-06
+n256_L8 net 2: full 9.785e-07 zero 3.245e-05 clos_own 1.662e-05 clos_univ 1.613e-05 clos_univ_t 2.851e-05 tlaw_Down 1.040e-05 town_Dr1 9.520e-06
+n256_L8 net 3: full 1.074e-06 zero 2.085e-05 clos_own 1.087e-05 clos_univ 1.393e-05 clos_univ_t 2.071e-05 tlaw_Down 8.524e-06 town_Dr1 9.052e-06
+n256_L8 net 4: full 8.129e-07 zero 2.593e-05 clos_own 1.069e-05 clos_univ 1.055e-05 clos_univ_t 1.921e-05 tlaw_Down 6.578e-06 town_Dr1 9.352e-06
+n256_L8 net 5: full 7.594e-07 zero 3.488e-05 clos_own 9.892e-06 clos_univ 9.765e-06 clos_univ_t 2.179e-05 tlaw_Down 8.669e-06 town_Dr1 7.266e-06
+n256_L8 net 6: full 8.652e-07 zero 3.058e-05 clos_own 1.048e-05 clos_univ 1.045e-05 clos_univ_t 2.072e-05 tlaw_Down 7.144e-06 town_Dr1 8.008e-06
+n256_L8 net 7: full 1.042e-06 zero 5.281e-05 clos_own 1.060e-05 clos_univ 1.095e-05 clos_univ_t 3.215e-05 tlaw_Down 7.043e-06 town_Dr1 1.131e-05
+n256_L8 net 8: full 1.250e-06 zero 4.833e-05 clos_own 1.011e-05 clos_univ 9.412e-06 clos_univ_t 2.197e-05 tlaw_Down 5.725e-06 town_Dr1 8.747e-06
+n256_L8 net 9: full 7.882e-07 zero 3.061e-05 clos_own 8.901e-06 clos_univ 1.126e-05 clos_univ_t 1.716e-05 tlaw_Down 7.739e-06 town_Dr1 7.351e-06
+== n256_L8: corr(D_ij, t_j/3) over i != j, chain 'full', mean over layers >= 2: 0.735
+   full         final MSE 9.345e-07 | x zero 0.029 | share of k=3's kappa3 gain kept  100.0% (min  100.0%, max  100.0%)
+   zero         final MSE 3.457e-05 | x zero 1.000 | share of k=3's kappa3 gain kept    0.0% (min    0.0%, max    0.0%)
+   clos_own     final MSE 1.125e-05 | x zero 0.348 | share of k=3's kappa3 gain kept   67.1% (min   50.3%, max   81.5%)
+   clos_univ    final MSE 1.169e-05 | x zero 0.367 | share of k=3's kappa3 gain kept   65.1% (min   35.0%, max   82.7%)
+   clos_univ_t  final MSE 2.360e-05 | x zero 0.709 | share of k=3's kappa3 gain kept   29.8% (min    0.7%, max   56.0%)
+   tlaw_Down    final MSE 7.929e-06 | x zero 0.247 | share of k=3's kappa3 gain kept   77.4% (min   62.3%, max   90.5%)
+   town_Dr1     final MSE 8.783e-06 | x zero 0.269 | share of k=3's kappa3 gain kept   75.2% (min   59.7%, max   84.1%)
+cs/cz added: n1024_L16_baked0; final MSE cs 1.57e-06 cz 3.94e-06 c 3.70e-08
+cs/cz added: n1024_L16_baked1; final MSE cs 1.69e-06 cz 4.79e-06 c 4.46e-08
+cs/cz added: n1024_L16_baked2; final MSE cs 1.31e-06 cz 5.37e-06 c 4.59e-08
+cs/cz added: n1024_L16_baked3; final MSE cs 1.42e-06 cz 3.52e-06 c 4.09e-08
+cs/cz added: n1024_L16_baked4; final MSE cs 1.51e-06 cz 3.40e-06 c 3.63e-08
+cs/cz added: n1024_L16_baked5; final MSE cs 1.42e-06 cz 4.56e-06 c 3.23e-08
+cs/cz added: n1024_L16_baked6; final MSE cs 1.27e-06 cz 2.23e-06 c 3.61e-08
+cs/cz added: n1024_L16_baked7; final MSE cs 1.31e-06 cz 4.70e-06 c 3.66e-08
+cs/cz added: n1024_L16_baked8; final MSE cs 1.23e-06 cz 3.28e-06 c 4.41e-08
+cs/cz added: n1024_L16_baked9; final MSE cs 1.63e-06 cz 5.31e-06 c 3.78e-08
+cs/cz added: n512_L16_net0; final MSE cs 7.28e-06 cz 1.90e-05 c 3.70e-07
+cs/cz added: n512_L16_net1; final MSE cs 4.66e-06 cz 1.29e-05 c 3.96e-07
+cs/cz added: n512_L16_net2; final MSE cs 6.46e-06 cz 2.66e-05 c 3.93e-07
+cs/cz added: n512_L16_net3; final MSE cs 7.05e-06 cz 1.60e-05 c 4.20e-07
+cs/cz added: n512_L16_net4; final MSE cs 6.09e-06 cz 1.19e-05 c 3.23e-07
+cs/cz added: n512_L16_net5; final MSE cs 4.47e-06 cz 1.19e-05 c 2.80e-07
+cs/cz added: n256_L8_net0; final MSE cs 1.24e-05 cz 3.40e-05 c 7.68e-07
+cs/cz added: n256_L8_net1; final MSE cs 1.21e-05 cz 3.54e-05 c 1.06e-06
+cs/cz added: n256_L8_net2; final MSE cs 1.62e-05 cz 3.25e-05 c 1.02e-06
+cs/cz added: n256_L8_net3; final MSE cs 1.40e-05 cz 2.09e-05 c 1.11e-06
+cs/cz added: n256_L8_net4; final MSE cs 1.06e-05 cz 2.60e-05 c 8.53e-07
+cs/cz added: n256_L8_net5; final MSE cs 9.81e-06 cz 3.49e-05 c 8.01e-07
+cs/cz added: n256_L8_net6; final MSE cs 1.05e-05 cz 3.06e-05 c 9.03e-07
+cs/cz added: n256_L8_net7; final MSE cs 1.10e-05 cz 5.29e-05 c 1.09e-06
+cs/cz added: n256_L8_net8; final MSE cs 9.46e-06 cz 4.84e-05 c 1.30e-06
+cs/cz added: n256_L8_net9; final MSE cs 1.13e-05 cz 3.06e-05 c 8.21e-07
+cs/cz added: n256_L16_net0; final MSE cs 4.60e-05 cz 9.71e-05 c 3.70e-06
+cs/cz added: n256_L16_net1; final MSE cs 3.60e-05 cz 8.60e-05 c 3.99e-06
+cs/cz added: n256_L16_net2; final MSE cs 3.52e-05 cz 5.16e-05 c 2.93e-06
+cs/cz added: n256_L16_net3; final MSE cs 2.65e-05 cz 4.67e-05 c 2.63e-06
+cs/cz added: n256_L16_net4; final MSE cs 3.88e-05 cz 5.97e-05 c 3.99e-06
+cs/cz added: n256_L16_net5; final MSE cs 2.76e-05 cz 5.37e-05 c 2.20e-06
+cs/cz added: n256_L16_net6; final MSE cs 6.82e-05 cz 3.41e-05 c 2.25e-06
+cs/cz added: n256_L16_net7; final MSE cs 2.48e-05 cz 7.35e-05 c 1.59e-06
+cs/cz added: n256_L16_net8; final MSE cs 3.82e-05 cz 4.55e-05 c 2.20e-06
+cs/cz added: n256_L16_net9; final MSE cs 1.82e-05 cz 1.01e-04 c 2.47e-06
+cs/cz added: n256_L32_net0; final MSE cs 1.23e-04 cz 2.49e-04 c 3.41e-05
+cs/cz added: n256_L32_net1; final MSE cs 1.31e-04 cz 1.38e-04 c 1.82e-05
+cs/cz added: n256_L32_net2; final MSE cs 2.84e-04 cz 7.78e-05 c 8.37e-06
+cs/cz added: n256_L32_net3; final MSE cs 2.32e-04 cz 3.73e-05 c 2.11e-06
+cs/cz added: n256_L32_net4; final MSE cs 2.22e-04 cz 4.13e-05 c 5.52e-06
+cs/cz added: n256_L32_net5; final MSE cs 1.23e-04 cz 3.54e-05 c 7.17e-06
+cs/cz added: n256_L32_net6; final MSE cs 1.63e-04 cz 3.80e-04 c 2.44e-05
+cs/cz added: n256_L32_net7; final MSE cs 1.05e-04 cz 9.11e-05 c 1.29e-05
+cs/cz added: n256_L32_net8; final MSE cs 2.40e-04 cz 4.40e-05 c 5.71e-06
+cs/cz added: n256_L32_net9; final MSE cs 8.93e-05 cz 7.01e-05 c 2.08e-05
+estimator: k=3 chain, kappa3 replaced by the skew law (../2026-10-14_skew)
+     shape     L/n nets | final MSE | CS final m |  LF loo  level*   const   k4pat in-sample |  CS mu CS var  CS k3
+1024x16     0.0156   10 |  1.44e-06 |      0.016 |   0.002   0.016  -0.004   0.000     0.044 | 
+ 256x8      0.0312   10 |  1.17e-05 |      0.040 |   0.017   0.040   0.002  -0.000     0.088 |  0.006  0.017  0.007
+ 512x16     0.0312    6 |  5.99e-06 |      0.042 |  -0.018   0.042  -0.003   0.003     0.103 |  0.002  0.145  0.002
+ 256x16     0.0625   10 |  3.59e-05 |      0.073 |   0.013   0.073   0.010   0.021     0.185 |  0.005  0.202  0.009
+ 256x32     0.1250   10 |  1.71e-04 |      0.049 | -7521.428   0.049   0.026   0.075     0.218 |  0.003  0.270  0.008
+estimator: k=3 chain, kappa3 = 0 (../2026-10-14_skew)
+     shape     L/n nets | final MSE | CS final m |  LF loo  level*   const   k4pat in-sample |  CS mu CS var  CS k3
+1024x16     0.0156   10 |  4.11e-06 |      0.245 |   0.639   0.245   0.234   0.008     0.649 | 
+ 256x8      0.0312   10 |  3.46e-05 |      0.310 |   0.598   0.310   0.296   0.012     0.632 |  0.003  0.305    n/a
+ 512x16     0.0312    6 |  1.64e-05 |      0.268 |   0.650   0.268   0.257   0.008     0.665 |  0.003  0.332    n/a
+ 256x16     0.0625   10 |  6.49e-05 |      0.246 |   0.616   0.246   0.228   0.008     0.654 |  0.003  0.331    n/a
+ 256x32     0.1250   10 |  1.16e-04 |      0.263 |   0.615   0.263   0.188   0.003     0.736 |  0.006  0.341    n/a
+Wed Oct 14 18:16:39 +05 2026

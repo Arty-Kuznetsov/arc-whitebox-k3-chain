@@ -1,0 +1,14 @@
+  m225 base                                      (cached) raw 2.4151e-08
+  m225 + E3 recv -3.0 a                          raw 2.4399e-08  x1.0102  better 2/10  [519s]
+      -> raw x1.0102  util x0.9453  projected x0.9550  projected-better 10/10
+   E3 arm a at -3.0: KILLED (> +0.5%) -> arm b
+  m225 + E3 recv -3.0 b                          raw 2.4199e-08  x1.0020  better 4/10  [525s]
+      -> raw x1.0020  util x0.9511  projected x0.9530  projected-better 10/10
+  m225 + E3 recv -3.25 a                         raw 2.4193e-08  x1.0017  better 3/10  [520s]
+      -> raw x1.0017  util x0.9533  projected x0.9549  projected-better 10/10
+   E3 arm a at -3.25: survives
+  m225 + E3 recv -3.5 a                          raw 2.4195e-08  x1.0018  better 5/10  [524s]
+      -> raw x1.0018  util x0.9605  projected x0.9622  projected-better 10/10
+   E3 arm a at -3.5: survives
+  m225 + E3 recv -3.0 zero                       raw 2.4523e-08  x1.0154  better 3/10  [478s]
+      -> raw x1.0154  util x0.9453  projected x0.9599  projected-better 10/10

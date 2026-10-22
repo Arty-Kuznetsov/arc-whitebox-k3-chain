@@ -1,0 +1,4 @@
+pathrank   192  deadcut -2.5  raw 2.3768e-08  (210s)
+pathrank   128  deadcut -2.5  raw 2.3840e-08  (177s)
+pathrank    64  deadcut -2.5  raw 2.3857e-08  (200s)
+pathrank    32  deadcut -2.5  raw 2.4111e-08  (774s)

@@ -1,0 +1,7 @@
+  1.0M samples, 97s
+  2.0M samples, 194s
+Traceback (most recent call last):
+  File "<repo>/experiments/2026-09-24_k3-chain/mc_oracle.py", line 44, in <module>
+    gt = np.load(BAKED / "gt.npy")[i]
+         ~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: index 24 is out of bounds for axis 0 with size 10

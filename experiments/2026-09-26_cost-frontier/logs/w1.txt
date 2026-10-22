@@ -1,0 +1,2 @@
+k3l                  raw 2.3002e-08  util  25.59%  adjusted 5.8871e-09  (151s)
+A_cut25              raw 2.3272e-08  util  24.14%  adjusted 5.6176e-09  (143s)

@@ -1,0 +1,19 @@
+
+=== MLP 0, base B9 2.278922e-08
+  exact                var+k3+k4  x0.2060
+  Pboth                var+k3+k4  x0.9174
+  Pboth k3+k4          k3+k4      x1.0121
+  Pboth var+k4         var+k4     x0.8846
+  Pboth var+k3         var+k3     x1.0398
+  Pboth, layers 8+     var+k3+k4  x0.9415
+  Pown                 var+k3+k4  x1.0146
+
+=== MLP 1, base B9 2.205732e-08
+  exact                var+k3+k4  x0.3024
+  Pboth                var+k3+k4  x0.8702
+  Pboth k3+k4          k3+k4      x0.9530
+  Pboth var+k4         var+k4     x0.9004
+  Pboth var+k3         var+k3     x1.0450
+  Pboth, layers 8+     var+k3+k4  x0.9227
+  Pown                 var+k3+k4  x0.9573
+exit=0

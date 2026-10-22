@@ -1,0 +1,11 @@
+  1.0M samples, 95s
+  2.0M samples, 189s
+  3.0M samples, 284s
+  4.0M samples, 382s
+  5.0M samples, 485s
+  6.0M samples, 607s
+  7.0M samples, 732s
+  8.0M samples, 842s
+  9.0M samples, 950s
+  10.0M samples, 1055s
+post-mean MC vs baked GT (N=1e9): mse per layer ['6.4e-08', '4.9e-08', '4.0e-08', '3.2e-08', '2.7e-08', '2.2e-08', '1.8e-08', '1.5e-08', '1.5e-08', '1.3e-08', '1.2e-08', '8.7e-09', '7.7e-09', '7.8e-09', '7.1e-09', '6.4e-09']

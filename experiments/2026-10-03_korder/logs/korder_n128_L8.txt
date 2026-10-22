@@ -1,0 +1,10 @@
+net 0: MC 1e+07 in 22 s; final var 0.2100; MC noise MSE 2.10e-08
+   k2S: final MSE 1.441e-04 (normalised 6.86e-04), all-layer 6.030e-05, 0.0 s
+   k3S: final MSE 1.082e-05 (normalised 5.15e-05), all-layer 3.069e-06, 0.1 s
+   k3A: final MSE 4.396e-06 (normalised 2.09e-05), all-layer 1.403e-06, 1.7 s
+   k4S: final MSE 1.076e-06 (normalised 5.12e-06), all-layer 3.098e-07, 6.3 s
+net 1: MC 1e+07 in 24 s; final var 0.2237; MC noise MSE 2.24e-08
+   k2S: final MSE 1.312e-04 (normalised 5.87e-04), all-layer 7.122e-05, 0.0 s
+   k3S: final MSE 7.960e-06 (normalised 3.56e-05), all-layer 3.582e-06, 0.1 s
+   k3A: final MSE 4.597e-06 (normalised 2.05e-05), all-layer 1.461e-06, 1.0 s
+   k4S: final MSE 1.114e-06 (normalised 4.98e-06), all-layer 3.222e-07, 6.1 s

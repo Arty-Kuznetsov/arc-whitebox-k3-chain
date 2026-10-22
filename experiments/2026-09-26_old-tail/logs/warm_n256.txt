@@ -1,0 +1,4 @@
+n=256: 10 old sources available; block holds the newest K=2, then +1 arrives
+  block over K=2 sources, COLD from pruning: init 2.4242e-01 -> best 2.8583e-02, reached 0.02 after None sweeps
+  +1 source, WARM from the block: init 4.8679e-01 -> best 2.8693e-02, reached 0.02 after None sweeps
+  +1 source, COLD from pruning  : init 4.2188e-01 -> best 3.0172e-02, reached 0.02 after None sweeps

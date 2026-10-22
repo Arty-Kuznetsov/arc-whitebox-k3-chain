@@ -1,0 +1,14 @@
+SELF-CHECK  arm 'none' on MLP 0 = 4.5018e-06   (reference k=2 = 4.50e-06)
+
+  mlp 0: none=4.502e-06  wick=2.715e-06  oracle=2.078e-06
+  mlp 1: none=5.055e-06  wick=3.215e-06  oracle=1.769e-06
+  mlp 2: none=5.891e-06  wick=3.328e-06  oracle=1.330e-06
+
+=== k=2 + Edgeworth mean correction, baked GT, 3 MLPs ===
+    arm |  final_layer_mse  all_layers_mse |  vs k=2 |  % of B   adjusted
+   none |       5.1494e-06      2.6955e-06 |   1.00x |   2.36%  5.149e-07
+   wick |       3.0860e-06      1.5373e-06 |   1.67x |   3.82%  3.086e-07
+ oracle |       1.7257e-06      7.8680e-07 |   2.98x |    nan%        nan
+
+'wick' FLOPs = measured k=2 cost + 15 extra (n,n)@(n,n) matmuls (2n^3-n^2 each).
+Both stay under the 10% multiplier floor, so the extra compute is free on the metric.

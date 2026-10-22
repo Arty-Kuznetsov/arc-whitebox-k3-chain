@@ -1,0 +1,5 @@
+  m225 base                                      (cached) raw 2.4151e-08
+  m225 + E2 satrow 2.5 restore ch=cov            raw 2.3499e-08  x0.9730  better 9/10  [488s]
+      -> raw x0.9730  util x0.9331  projected x0.9079  projected-better 10/10
+  m225 + E2 satrow 2.5 restore ch=leg            raw 2.3811e-08  x0.9859  better 8/10  [499s]
+      -> raw x0.9859  util x0.9331  projected x0.9200  projected-better 10/10

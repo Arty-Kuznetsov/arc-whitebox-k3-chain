@@ -1,0 +1,4 @@
+  m225 base                                      (cached) raw 2.4151e-08
+  m225 + E2 satrow 3.0 restore                   raw 2.3950e-08  x0.9917  better 10/10  [495s]
+      -> raw x0.9917  util x0.9520  projected x0.9440  projected-better 10/10
+   E2 kill test at 3.0: survives

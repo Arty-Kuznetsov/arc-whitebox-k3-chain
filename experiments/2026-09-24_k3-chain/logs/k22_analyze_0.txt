@@ -1,0 +1,15 @@
+# Recovered from the 2026-09-24 session transcript (the script printed to stdout; rerun the script to regenerate).
+
+  4.0M, 178s
+done
+N=4e+06; per-pair MC noise ~ sqrt(E[dz^4 dz^4]/N) ~ 3*var^2/sqrt(N)
+layer 3: MC k22 mean 4.72e-03 std 9.62e-04 (noise/pair 9.6e-04) | chain K22 mean 4.70e-03 | R2: const 0.000, const+C 0.000 (lam=0.000), +C^2 0.007, chain 0.118 (slope 1.00), const+chain 0.119
+          MC k4 diag mean 1.41e-02; 3*mean(k22)*? ratio diag/(k22 mean) = 2.99; mean rho 0.000
+layer 7: MC k22 mean 1.96e-03 std 4.59e-04 (noise/pair 2.2e-04) | chain K22 mean 1.84e-03 | R2: const 0.000, const+C 0.000 (lam=0.000), +C^2 0.032, chain 0.110 (slope 1.07), const+chain 0.110
+          MC k4 diag mean 5.86e-03; 3*mean(k22)*? ratio diag/(k22 mean) = 2.99; mean rho 0.000
+layer 11: MC k22 mean 9.73e-04 std 3.05e-04 (noise/pair 8.0e-05) | chain K22 mean 8.14e-04 | R2: const 0.000, const+C 0.000 (lam=-0.000), +C^2 0.116, chain 0.060 (slope 1.20), const+chain 0.060
+          MC k4 diag mean 2.90e-03; 3*mean(k22)*? ratio diag/(k22 mean) = 2.98; mean rho -0.000
+layer 14: MC k22 mean 7.25e-04 std 2.99e-04 (noise/pair 5.0e-05) | chain K22 mean 5.22e-04 | R2: const 0.000, const+C 0.000 (lam=0.000), +C^2 0.252, chain 0.054 (slope 1.39), const+chain 0.056
+          MC k4 diag mean 2.18e-03; 3*mean(k22)*? ratio diag/(k22 mean) = 3.01; mean rho -0.000
+layer 15: MC k22 mean 6.25e-04 std 2.71e-04 (noise/pair 4.1e-05) | chain K22 mean 4.38e-04 | R2: const -0.000, const+C 0.000 (lam=-0.000), +C^2 0.296, chain 0.041 (slope 1.43), const+chain 0.041
+          MC k4 diag mean 1.89e-03; 3*mean(k22)*? ratio diag/(k22 mean) = 3.03; mean rho -0.000

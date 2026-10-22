@@ -1,0 +1,4 @@
+  J2 mlp 0: final_mse=1.6438e-06  (2s)
+  J2 mlp 1: final_mse=2.0769e-06  (2s)
+  J2 mlp 2: final_mse=1.7830e-06  (2s)
+RESULT J2: mean final_mse over 3 MLPs = 1.8346e-06   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

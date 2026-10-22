@@ -1,0 +1,1 @@
+star_col_sat_3.0 screen {'x': 1.0000745789935273, 'better': 3, 'n': 7, 'status': 'KILLED', 'raw': 2.1549387324325555e-08}

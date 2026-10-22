@@ -1,0 +1,7 @@
+l 3 exact-k4 rd 3.09e-10 | var^2: corr 0.707 rd 9.84e-10 | rho_mc^2: corr 0.729 rd 1.02e-09 | var*rho_mc: corr 0.731 rd 9.52e-10 | (var+-2.25 g2)^2: corr 0.707 rd 9.84e-10
+l 6 exact-k4 rd 1.55e-10 | var^2: corr 0.784 rd 9.77e-10 | rho_mc^2: corr 0.798 rd 1.40e-09 | var*rho_mc: corr 0.810 rd 1.08e-09 | (var+12.75 g2)^2: corr 0.785 rd 1.04e-09
+l 7 exact-k4 rd 1.41e-10 | var^2: corr 0.749 rd 1.04e-09 | rho_mc^2: corr 0.771 rd 1.62e-09 | var*rho_mc: corr 0.780 rd 1.20e-09 | (var+11.50 g2)^2: corr 0.751 rd 1.12e-09
+l10 exact-k4 rd 9.49e-11 | var^2: corr 0.794 rd 1.05e-09 | rho_mc^2: corr 0.810 rd 1.45e-09 | var*rho_mc: corr 0.836 rd 1.13e-09 | (var+20.00 g2)^2: corr 0.812 rd 1.19e-09
+l11 exact-k4 rd 1.08e-10 | var^2: corr 0.771 rd 1.30e-09 | rho_mc^2: corr 0.795 rd 1.89e-09 | var*rho_mc: corr 0.826 rd 1.44e-09 | (var+20.00 g2)^2: corr 0.804 rd 1.53e-09
+l14 exact-k4 rd 9.96e-11 | var^2: corr 0.858 rd 1.15e-09 | rho_mc^2: corr 0.839 rd 2.01e-09 | var*rho_mc: corr 0.889 rd 1.32e-09 | (var+10.25 g2)^2: corr 0.885 rd 1.25e-09
+l15 exact-k4 rd 8.34e-11 | var^2: corr 0.855 rd 1.12e-09 | rho_mc^2: corr 0.845 rd 1.83e-09 | var*rho_mc: corr 0.891 rd 1.28e-09 | (var+10.00 g2)^2: corr 0.885 rd 1.24e-09

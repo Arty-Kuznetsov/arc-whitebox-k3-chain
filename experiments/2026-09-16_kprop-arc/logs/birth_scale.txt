@@ -1,0 +1,19 @@
+  mlp 0 done
+  mlp 1 done
+  mlp 2 done
+
+=== Birth-magnitude sensitivity (3 MLPs) ===
+SELF-CHECK scale = 1.00 : 5.7123e-07 (the shipped chain)
+
+  scale |  final_layer_mse   vs 1.00
+  0.900 |       6.2157e-07     0.92x
+  1.000 |       5.7123e-07     1.00x
+  1.050 |       5.8494e-07     0.98x
+  1.089 |       6.1408e-07     0.93x
+  1.150 |       6.9274e-07     0.82x
+  1.250 |       9.1138e-07     0.63x
+  1.400 |       1.4571e-06     0.39x
+
+A flat curve means the birth magnitude is not the bottleneck and the deficit is being
+absorbed elsewhere. A sharp optimum near 1.089 would say the missing higher-order birth
+diagrams are exactly the gap, and the factor would then be worth deriving properly.

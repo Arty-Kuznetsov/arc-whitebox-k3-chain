@@ -1,0 +1,4 @@
+  ulr128from11 mlp 0: final_mse=3.6479e-08  (5s)
+  ulr128from11 mlp 1: final_mse=4.2506e-08  (5s)
+  ulr128from11 mlp 2: final_mse=4.3978e-08  (6s)
+RESULT ulr128from11: mean final_mse over 3 MLPs = 4.0988e-08   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

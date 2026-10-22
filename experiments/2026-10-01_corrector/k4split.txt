@@ -1,0 +1,14 @@
+
+=== MLP 0, base B9 2.278922e-08   (in-sample R2 of the kappa4 error, layers 8-15: own 0.436, own+pair 0.517)
+  remove ALL of e (kappa4 ceiling)           x0.7529
+  remove P_own e   (best own-pattern)        x0.9967
+  remove (I-P_own) e                         x0.7772
+  remove P_both e  (best own+pair pattern)   x0.9160
+  remove (I-P_both) e                        x0.8402
+
+=== MLP 1, base B9 2.205732e-08   (in-sample R2 of the kappa4 error, layers 8-15: own 0.386, own+pair 0.470)
+  remove ALL of e (kappa4 ceiling)           x0.8094
+  remove P_own e   (best own-pattern)        x0.9578
+  remove (I-P_own) e                         x0.8883
+  remove P_both e  (best own+pair pattern)   x0.9183
+  remove (I-P_both) e                        x0.9119

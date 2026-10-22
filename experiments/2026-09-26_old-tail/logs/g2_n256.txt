@@ -1,0 +1,5 @@
+n=256 layer=12 a0=4: S=10 old sources, R=2560 CP columns, ||T||=5.380747e+00
+      it      0 rel err 7.7513e-01
+      it   5000 rel err 3.8291e-02
+      it  10000 rel err 1.8534e-02
+  r=   256 (r/n= 1.00)  rel err 1.2500e-02   column-pruning init 7.7513e-01  [15000 its, 2261s]

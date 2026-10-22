@@ -1,0 +1,1 @@
+AUGMENT mlp 1: final 1.9893e-08 (1993s); keys ['pre_mean', 'pre_var', 'pre_k3', 'pre_k4', 'post_mean']

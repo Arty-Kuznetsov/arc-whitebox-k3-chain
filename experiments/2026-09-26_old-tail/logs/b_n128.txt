@@ -1,0 +1,12 @@
+n=128 layer=12 a0=4: captured 10 old sources -> 1280 CP columns
+  tensor built, ||T|| = 4.4119e+00, CP terms R = 1280
+/home/user/arc-white-box/experiments/2026-09-26_old-tail/stage_b_cp.py:117: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  best = min(best, float(loss))
+  r=   32 (r/n= 0.25)  rel err 3.9633e-02  [1200 its, 74s]
+  r=   64 (r/n= 0.50)  rel err 1.4613e-02  [1200 its, 83s]
+  r=  128 (r/n= 1.00)  rel err 4.9398e-03  [1200 its, 130s]
+  r=  192 (r/n= 1.50)  rel err 2.6761e-03  [1200 its, 180s]
+  r=  256 (r/n= 2.00)  rel err 1.8067e-03  [1200 its, 317s]
+  r=  384 (r/n= 3.00)  rel err 9.7121e-04  [1200 its, 697s]
+  r=  512 (r/n= 4.00)  rel err 6.9582e-04  [1200 its, 1242s]

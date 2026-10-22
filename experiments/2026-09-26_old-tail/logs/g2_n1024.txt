@@ -1,0 +1,9 @@
+n=1024 layer=12 a0=4: S=10 old sources, R=10240 CP columns, ||T||=3.959294e+00
+      it      0 rel err 6.2835e-01
+      it     50 rel err 1.3621e-01
+      it    100 rel err 1.2029e-01
+      it    150 rel err 1.0950e-01
+      it    200 rel err 1.0566e-01
+      it    250 rel err 1.0358e-01
+      it    300 rel err 1.0260e-01
+      it    350 rel err 1.0221e-01

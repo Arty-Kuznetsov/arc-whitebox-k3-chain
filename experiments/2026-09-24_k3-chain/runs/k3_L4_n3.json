@@ -1,0 +1,608 @@
+{
+  "schema_version": "1.1",
+  "mode": "agent",
+  "results": {
+    "adjusted_final_layer_score": 1.0994563897450764,
+    "final_layer_mse": 1.0994563897450764,
+    "all_layers_mse": 0.8294421235720316,
+    "per_layer_mse": [
+      0.3184792697429657,
+      0.48385870456695557,
+      0.5958235859870911,
+      0.6308054327964783,
+      0.7199171185493469,
+      0.7443413734436035,
+      0.8224554657936096,
+      0.8454883694648743,
+      0.8949182629585266,
+      0.9160058498382568,
+      0.9036681652069092,
+      1.0271130800247192,
+      1.1064919233322144,
+      1.1029038429260254,
+      1.0593466758728027,
+      1.0994564294815063
+    ],
+    "best_mlp_adjusted_final_layer_score": 0.9434763193130493,
+    "worst_mlp_adjusted_final_layer_score": 1.2309821844100952,
+    "mean_score_multiplier": 1.0,
+    "mean_compute_utilization": 0.15089194049278376,
+    "n_failed_mlps": 3,
+    "mean_effective_compute": 331814886219.0,
+    "failure_breakdown": {
+      "budget_exhausted": 0,
+      "time_exhausted": 0,
+      "residual_wall_time_exhausted": 1,
+      "combined_budget_exhausted": 0,
+      "error": 2
+    },
+    "per_mlp": [
+      {
+        "mlp_index": 0,
+        "mlp_name": "logan-fitzgerald",
+        "error": "Tensor not symmetric along axes (0, 1): max deviation = 1.1920928955078125e-06 (tolerance: atol=1e-06, rtol=1e-05). See: https://aicrowd.github.io/flopscope/docs/guides/symmetry",
+        "error_code": "PREDICT_ERROR",
+        "traceback": "Traceback (most recent call last):\n  File \"<repo>/external/whest-starterkit/.venv/lib/python3.10/site-packages/whestbench/runner.py\", line 210, in predict\n    return self._estimator.predict(mlp, budget)\n  File \"<repo>/src/estimator_k3.py\", line 213, in predict\n    X = flops.as_symmetric(K22post + fnp.diag(K4post), symmetry=(0, 1))\n  File \"<repo>/external/whest-starterkit/.venv/lib/python3.10/site-packages/flopscope/_budget.py\", line 1208, in wrapped\n    return inner_fn(*args, **kwargs)\n  File \"<repo>/external/whest-starterkit/.venv/lib/python3.10/site-packages/flopscope/_symmetric.py\", line 1148, in as_symmetric\n    _validate_and_charge_symmetry(array, group, op_name=\"as_symmetric\")\n  File \"<repo>/external/whest-starterkit/.venv/lib/python3.10/site-packages/flopscope/_symmetric.py\", line 369, in _validate_and_charge_symmetry\n    validate_symmetry_groups(array, [group])\n  File \"<repo>/external/whest-starterkit/.venv/lib/python3.10/site-packages/flopscope/_symmetric.py\", line 336, in validate_symmetry_groups\n    raise SymmetryError(axes=tuple(axes), max_deviation=max_dev)\nflopscope.errors.SymmetryError: Tensor not symmetric along axes (0, 1): max deviation = 1.1920928955078125e-06 (tolerance: atol=1e-06, rtol=1e-05). See: https://aicrowd.github.io/flopscope/docs/guides/symmetry\n",
+        "final_layer_mse": 0.9434763193130493,
+        "all_layers_mse": 0.7062501907348633,
+        "per_layer_mse": [
+          0.3180968165397644,
+          0.47636178135871887,
+          0.6078811287879944,
+          0.6392258405685425,
+          0.7083872556686401,
+          0.6762359142303467,
+          0.7076292037963867,
+          0.6471665501594543,
+          0.675173282623291,
+          0.7265635132789612,
+          0.7172238826751709,
+          0.7717386484146118,
+          0.8619272708892822,
+          0.911322832107544,
+          0.9115918278694153,
+          0.9434763193130493
+        ],
+        "adjusted_final_layer_score": 0.9434763193130493,
+        "flops_used": 0,
+        "effective_compute": 0.0,
+        "budget_exhausted": false,
+        "time_exhausted": false,
+        "residual_wall_time_exhausted": false,
+        "combined_budget_exhausted": false,
+        "wall_time_s": 0.0,
+        "flopscope_backend_time_s": 0.0,
+        "flopscope_overhead_time_s": 0.0,
+        "residual_wall_time_s": 0.0,
+        "breakdowns": {
+          "estimator": null
+        }
+      },
+      {
+        "mlp_index": 1,
+        "mlp_name": "william-graves",
+        "final_layer_mse": 1.123910665512085,
+        "all_layers_mse": 0.8018853068351746,
+        "per_layer_mse": [
+          0.3186401128768921,
+          0.5227417945861816,
+          0.6175380349159241,
+          0.673511266708374,
+          0.7039758563041687,
+          0.718021035194397,
+          0.8087313771247864,
+          0.8208266496658325,
+          0.802144467830658,
+          0.8053853511810303,
+          0.8453100323677063,
+          0.9582808017730713,
+          1.0036166906356812,
+          1.0518689155578613,
+          1.0556623935699463,
+          1.123910665512085
+        ],
+        "adjusted_final_layer_score": 1.123910665512085,
+        "flops_used": 995444658657,
+        "effective_compute": 995444658657.0,
+        "budget_exhausted": false,
+        "time_exhausted": false,
+        "residual_wall_time_exhausted": true,
+        "combined_budget_exhausted": false,
+        "wall_time_s": 67.00614412501454,
+        "flopscope_backend_time_s": 58.29748460112023,
+        "flopscope_overhead_time_s": 2.0759770055592526,
+        "residual_wall_time_s": 6.632682518335059,
+        "breakdowns": {
+          "estimator": {
+            "flop_budget": 2199023255552,
+            "flops_used": 995444658657,
+            "flops_remaining": 1203578596895,
+            "wall_time_s": 67.00614412501454,
+            "flopscope_backend_time_s": 58.29748460112023,
+            "flopscope_overhead_time_s": 2.0759770055592526,
+            "residual_wall_time_s": 6.632682518335059,
+            "by_namespace": {
+              "estimator.estimator-client": {
+                "flops_used": 995444658657,
+                "calls": 12275,
+                "flopscope_backend_time_s": 58.29748460112023,
+                "flopscope_overhead_time_s": 2.074616339552449,
+                "operations": {
+                  "zeros": {
+                    "flop_cost": 0,
+                    "calls": 62,
+                    "flopscope_backend_time_s": 0.0002491221239324659,
+                    "flopscope_overhead_time_s": 0.003792877832893282
+                  },
+                  "eye": {
+                    "flop_cost": 1024,
+                    "calls": 1,
+                    "flopscope_backend_time_s": 0.0008193329849746078,
+                    "flopscope_overhead_time_s": 9.200000204145908e-05
+                  },
+                  "as_symmetric": {
+                    "flop_cost": 227540961,
+                    "calls": 31,
+                    "flopscope_backend_time_s": 0.0,
+                    "flopscope_overhead_time_s": 0.32120662508532405
+                  },
+                  "matmul": {
+                    "flop_cost": 824392434688,
+                    "calls": 99,
+                    "flopscope_backend_time_s": 8.900959210121073,
+                    "flopscope_overhead_time_s": 0.02419837299385108
+                  },
+                  "einsum": {
+                    "flop_cost": 99841720832,
+                    "calls": 31,
+                    "flopscope_backend_time_s": 0.12306950491620228,
+                    "flopscope_overhead_time_s": 0.17550499603385106
+                  },
+                  "diag": {
+                    "flop_cost": 76800,
+                    "calls": 136,
+                    "flopscope_backend_time_s": 0.02567328786244616,
+                    "flopscope_overhead_time_s": 0.009711301070638001
+                  },
+                  "maximum": {
+                    "flop_cost": 32768,
+                    "calls": 32,
+                    "flopscope_backend_time_s": 0.0001314559776801616,
+                    "flopscope_overhead_time_s": 0.003684293187689036
+                  },
+                  "subtract": {
+                    "flop_cost": 9913483264,
+                    "calls": 1888,
+                    "flopscope_backend_time_s": 9.665761093929177,
+                    "flopscope_overhead_time_s": 0.2828253112384118
+                  },
+                  "sqrt": {
+                    "flop_cost": 16384,
+                    "calls": 16,
+                    "flopscope_backend_time_s": 2.3957982193678617e-05,
+                    "flopscope_overhead_time_s": 0.0012579999456647784
+                  },
+                  "true_divide": {
+                    "flop_cost": 159744,
+                    "calls": 156,
+                    "flopscope_backend_time_s": 0.00024054222740232944,
+                    "flopscope_overhead_time_s": 0.013562211766839027
+                  },
+                  "stats.norm.cdf": {
+                    "flop_cost": 1572864,
+                    "calls": 16,
+                    "flopscope_backend_time_s": 0.0,
+                    "flopscope_overhead_time_s": 0.0044647089671343565
+                  },
+                  "astype": {
+                    "flop_cost": 65536,
+                    "calls": 32,
+                    "flopscope_backend_time_s": 0.00010054511949419975,
+                    "flopscope_overhead_time_s": 0.0023841618094593287
+                  },
+                  "stats.norm.pdf": {
+                    "flop_cost": 884736,
+                    "calls": 16,
+                    "flopscope_backend_time_s": 0.0,
+                    "flopscope_overhead_time_s": 0.001211789989611134
+                  },
+                  "multiply": {
+                    "flop_cost": 2464529408,
+                    "calls": 3740,
+                    "flopscope_backend_time_s": 2.090252040157793,
+                    "flopscope_overhead_time_s": 0.38340733922086656
+                  },
+                  "add": {
+                    "flop_cost": 20842305536,
+                    "calls": 4163,
+                    "flopscope_backend_time_s": 15.550295102788368,
+                    "flopscope_overhead_time_s": 0.600336274743313
+                  },
+                  "negative": {
+                    "flop_cost": 16384,
+                    "calls": 16,
+                    "flopscope_backend_time_s": 2.1500018192455173e-05,
+                    "flopscope_overhead_time_s": 0.0012209150299895555
+                  },
+                  "fill_diagonal": {
+                    "flop_cost": 75776,
+                    "calls": 74,
+                    "flopscope_backend_time_s": 0.0013399140734691173,
+                    "flopscope_overhead_time_s": 0.004797549801878631
+                  },
+                  "stack": {
+                    "flop_cost": 1022377984,
+                    "calls": 101,
+                    "flopscope_backend_time_s": 0.4462317478901241,
+                    "flopscope_overhead_time_s": 0.011287751112831756
+                  },
+                  "concatenate": {
+                    "flop_cost": 36189204480,
+                    "calls": 1360,
+                    "flopscope_backend_time_s": 21.387296441098442,
+                    "flopscope_overhead_time_s": 0.1676870797527954
+                  },
+                  "sum": {
+                    "flop_cost": 548159488,
+                    "calls": 272,
+                    "flopscope_backend_time_s": 0.10489000988309272,
+                    "flopscope_overhead_time_s": 0.060122113005490974
+                  },
+                  "swapaxes": {
+                    "flop_cost": 0,
+                    "calls": 32,
+                    "flopscope_backend_time_s": 0.00012699997751042247,
+                    "flopscope_overhead_time_s": 0.001753666962031275
+                  },
+                  "asarray": {
+                    "flop_cost": 0,
+                    "calls": 1,
+                    "flopscope_backend_time_s": 2.7919886633753777e-06,
+                    "flopscope_overhead_time_s": 0.00010699999984353781
+                  }
+                }
+              }
+            }
+          }
+        },
+        "traceback": null
+      },
+      {
+        "mlp_index": 2,
+        "mlp_name": "raymond-barnes",
+        "error": "Tensor not symmetric along axes (0, 1): max deviation = 1.3113021850585938e-06 (tolerance: atol=1e-06, rtol=1e-05). See: https://aicrowd.github.io/flopscope/docs/guides/symmetry",
+        "error_code": "PREDICT_ERROR",
+        "traceback": "Traceback (most recent call last):\n  File \"<repo>/external/whest-starterkit/.venv/lib/python3.10/site-packages/whestbench/runner.py\", line 210, in predict\n    return self._estimator.predict(mlp, budget)\n  File \"<repo>/src/estimator_k3.py\", line 213, in predict\n    X = flops.as_symmetric(K22post + fnp.diag(K4post), symmetry=(0, 1))\n  File \"<repo>/external/whest-starterkit/.venv/lib/python3.10/site-packages/flopscope/_budget.py\", line 1208, in wrapped\n    return inner_fn(*args, **kwargs)\n  File \"<repo>/external/whest-starterkit/.venv/lib/python3.10/site-packages/flopscope/_symmetric.py\", line 1148, in as_symmetric\n    _validate_and_charge_symmetry(array, group, op_name=\"as_symmetric\")\n  File \"<repo>/external/whest-starterkit/.venv/lib/python3.10/site-packages/flopscope/_symmetric.py\", line 369, in _validate_and_charge_symmetry\n    validate_symmetry_groups(array, [group])\n  File \"<repo>/external/whest-starterkit/.venv/lib/python3.10/site-packages/flopscope/_symmetric.py\", line 336, in validate_symmetry_groups\n    raise SymmetryError(axes=tuple(axes), max_deviation=max_dev)\nflopscope.errors.SymmetryError: Tensor not symmetric along axes (0, 1): max deviation = 1.3113021850585938e-06 (tolerance: atol=1e-06, rtol=1e-05). See: https://aicrowd.github.io/flopscope/docs/guides/symmetry\n",
+        "final_layer_mse": 1.2309821844100952,
+        "all_layers_mse": 0.9801908731460571,
+        "per_layer_mse": [
+          0.318700909614563,
+          0.4524725675582886,
+          0.56205153465271,
+          0.5796791911125183,
+          0.7473883628845215,
+          0.8387670516967773,
+          0.9510058760643005,
+          1.068471908569336,
+          1.2074369192123413,
+          1.2160687446594238,
+          1.1484706401824951,
+          1.3513200283050537,
+          1.4539318084716797,
+          1.345519781112671,
+          1.2107858657836914,
+          1.2309821844100952
+        ],
+        "adjusted_final_layer_score": 1.2309821844100952,
+        "flops_used": 0,
+        "effective_compute": 0.0,
+        "budget_exhausted": false,
+        "time_exhausted": false,
+        "residual_wall_time_exhausted": false,
+        "combined_budget_exhausted": false,
+        "wall_time_s": 0.0,
+        "flopscope_backend_time_s": 0.0,
+        "flopscope_overhead_time_s": 0.0,
+        "residual_wall_time_s": 0.0,
+        "breakdowns": {
+          "estimator": null
+        }
+      }
+    ],
+    "breakdowns": {
+      "sampling": {
+        "flop_budget": 101022720000420864,
+        "flops_used": 101022720000420864,
+        "flops_remaining": 0,
+        "wall_time_s": 4998.034356324235,
+        "flopscope_backend_time_s": 0.0,
+        "flopscope_overhead_time_s": 0.0,
+        "residual_wall_time_s": 4998.034356324235,
+        "by_namespace": {
+          "sampling.sample_layer_statistics": {
+            "flops_used": 101022720000420864,
+            "calls": 492342,
+            "flopscope_backend_time_s": 0.0,
+            "flopscope_overhead_time_s": 0.0,
+            "operations": {
+              "random.Generator.standard_normal": {
+                "flop_cost": 49152000000000,
+                "calls": 5724,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.0
+              },
+              "array": {
+                "flop_cost": 3072000000000,
+                "calls": 5724,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.0
+              },
+              "matmul": {
+                "flop_cost": 100614144000000000,
+                "calls": 91584,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.0
+              },
+              "maximum": {
+                "flop_cost": 49152000000000,
+                "calls": 91584,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.0
+              },
+              "asarray": {
+                "flop_cost": 104448000104448,
+                "calls": 97314,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.0
+              },
+              "sum": {
+                "flop_cost": 104447800713216,
+                "calls": 97308,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.0
+              },
+              "add": {
+                "flop_cost": 199286784,
+                "calls": 97308,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.0
+              },
+              "power": {
+                "flop_cost": 98304000098304,
+                "calls": 5727,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.0
+              },
+              "zeros": {
+                "flop_cost": 0,
+                "calls": 51,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.0
+              },
+              "stack": {
+                "flop_cost": 98304,
+                "calls": 3,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.0
+              },
+              "true_divide": {
+                "flop_cost": 104448,
+                "calls": 6,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.0
+              },
+              "subtract": {
+                "flop_cost": 6144,
+                "calls": 3,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.0
+              },
+              "mean": {
+                "flop_cost": 6144,
+                "calls": 3,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.0
+              },
+              "copy": {
+                "flop_cost": 3072,
+                "calls": 3,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.0
+              }
+            }
+          }
+        },
+        "time_source": "bake"
+      },
+      "estimator": {
+        "flop_budget": 2199023255552,
+        "flops_used": 995444658657,
+        "flops_remaining": 1203578596895,
+        "wall_time_s": 67.00614412501454,
+        "flopscope_backend_time_s": 58.29748460112023,
+        "flopscope_overhead_time_s": 2.0759770055592526,
+        "residual_wall_time_s": 6.632682518335059,
+        "by_namespace": {
+          "estimator.estimator-client": {
+            "flops_used": 995444658657,
+            "calls": 12275,
+            "flopscope_backend_time_s": 58.29748460112023,
+            "flopscope_overhead_time_s": 2.074616339552449,
+            "operations": {
+              "zeros": {
+                "flop_cost": 0,
+                "calls": 62,
+                "flopscope_backend_time_s": 0.0002491221239324659,
+                "flopscope_overhead_time_s": 0.003792877832893282
+              },
+              "eye": {
+                "flop_cost": 1024,
+                "calls": 1,
+                "flopscope_backend_time_s": 0.0008193329849746078,
+                "flopscope_overhead_time_s": 9.200000204145908e-05
+              },
+              "as_symmetric": {
+                "flop_cost": 227540961,
+                "calls": 31,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.32120662508532405
+              },
+              "matmul": {
+                "flop_cost": 824392434688,
+                "calls": 99,
+                "flopscope_backend_time_s": 8.900959210121073,
+                "flopscope_overhead_time_s": 0.02419837299385108
+              },
+              "einsum": {
+                "flop_cost": 99841720832,
+                "calls": 31,
+                "flopscope_backend_time_s": 0.12306950491620228,
+                "flopscope_overhead_time_s": 0.17550499603385106
+              },
+              "diag": {
+                "flop_cost": 76800,
+                "calls": 136,
+                "flopscope_backend_time_s": 0.02567328786244616,
+                "flopscope_overhead_time_s": 0.009711301070638001
+              },
+              "maximum": {
+                "flop_cost": 32768,
+                "calls": 32,
+                "flopscope_backend_time_s": 0.0001314559776801616,
+                "flopscope_overhead_time_s": 0.003684293187689036
+              },
+              "subtract": {
+                "flop_cost": 9913483264,
+                "calls": 1888,
+                "flopscope_backend_time_s": 9.665761093929177,
+                "flopscope_overhead_time_s": 0.2828253112384118
+              },
+              "sqrt": {
+                "flop_cost": 16384,
+                "calls": 16,
+                "flopscope_backend_time_s": 2.3957982193678617e-05,
+                "flopscope_overhead_time_s": 0.0012579999456647784
+              },
+              "true_divide": {
+                "flop_cost": 159744,
+                "calls": 156,
+                "flopscope_backend_time_s": 0.00024054222740232944,
+                "flopscope_overhead_time_s": 0.013562211766839027
+              },
+              "stats.norm.cdf": {
+                "flop_cost": 1572864,
+                "calls": 16,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.0044647089671343565
+              },
+              "astype": {
+                "flop_cost": 65536,
+                "calls": 32,
+                "flopscope_backend_time_s": 0.00010054511949419975,
+                "flopscope_overhead_time_s": 0.0023841618094593287
+              },
+              "stats.norm.pdf": {
+                "flop_cost": 884736,
+                "calls": 16,
+                "flopscope_backend_time_s": 0.0,
+                "flopscope_overhead_time_s": 0.001211789989611134
+              },
+              "multiply": {
+                "flop_cost": 2464529408,
+                "calls": 3740,
+                "flopscope_backend_time_s": 2.090252040157793,
+                "flopscope_overhead_time_s": 0.38340733922086656
+              },
+              "add": {
+                "flop_cost": 20842305536,
+                "calls": 4163,
+                "flopscope_backend_time_s": 15.550295102788368,
+                "flopscope_overhead_time_s": 0.600336274743313
+              },
+              "negative": {
+                "flop_cost": 16384,
+                "calls": 16,
+                "flopscope_backend_time_s": 2.1500018192455173e-05,
+                "flopscope_overhead_time_s": 0.0012209150299895555
+              },
+              "fill_diagonal": {
+                "flop_cost": 75776,
+                "calls": 74,
+                "flopscope_backend_time_s": 0.0013399140734691173,
+                "flopscope_overhead_time_s": 0.004797549801878631
+              },
+              "stack": {
+                "flop_cost": 1022377984,
+                "calls": 101,
+                "flopscope_backend_time_s": 0.4462317478901241,
+                "flopscope_overhead_time_s": 0.011287751112831756
+              },
+              "concatenate": {
+                "flop_cost": 36189204480,
+                "calls": 1360,
+                "flopscope_backend_time_s": 21.387296441098442,
+                "flopscope_overhead_time_s": 0.1676870797527954
+              },
+              "sum": {
+                "flop_cost": 548159488,
+                "calls": 272,
+                "flopscope_backend_time_s": 0.10489000988309272,
+                "flopscope_overhead_time_s": 0.060122113005490974
+              },
+              "swapaxes": {
+                "flop_cost": 0,
+                "calls": 32,
+                "flopscope_backend_time_s": 0.00012699997751042247,
+                "flopscope_overhead_time_s": 0.001753666962031275
+              },
+              "asarray": {
+                "flop_cost": 0,
+                "calls": 1,
+                "flopscope_backend_time_s": 2.7919886633753777e-06,
+                "flopscope_overhead_time_s": 0.00010699999984353781
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "run_meta": {
+    "run_started_at_utc": "2026-09-23T07:05:55.040647+00:00",
+    "run_finished_at_utc": "2026-09-23T07:05:55.040708+00:00",
+    "run_duration_s": 72.98122978210449,
+    "host": {
+      "hostname": "MacBook-Pro-Artyom.local",
+      "os": "Darwin",
+      "os_release": "24.6.0",
+      "platform": "macOS-15.6.1-arm64-arm-64bit",
+      "machine": "arm64",
+      "python_version": "3.10.20",
+      "cpu_brand": "arm",
+      "cpu_count_logical": 12,
+      "cpu_count_physical": 12,
+      "ram_total_bytes": 103079215104,
+      "ram_available_bytes": null,
+      "numpy_version": "2.2.6",
+      "flopscope_version": "0.12.1"
+    }
+  },
+  "run_config": {
+    "n_mlps": 3,
+    "width": 1024,
+    "depth": 16,
+    "seed": null,
+    "flop_budget": 2199023255552,
+    "setup_timeout_s": 5.0,
+    "wall_time_limit_s": 120.0,
+    "residual_wall_time_limit_s": 0.4,
+    "lambda_flops_per_second": 0.0,
+    "dataset": {
+      "path": "hf://aicrowd/arc-whestbench-public-2026@v2-phase2",
+      "sha256": "264fa1f416d16a40821fb5e8e94f5d2da4698a201d40da999616225b38b464f1",
+      "seed": null,
+      "n_mlps": 100
+    }
+  },
+  "whestbench_version": "0.16.1"
+}

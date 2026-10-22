@@ -1,0 +1,33 @@
+MLP 0 L 1: signal |dC0|^2 total 3.465e-04 | born 3.472e-04 (100.2%) carried -1.077e-04 (-31.1%) | noise total 1.36e-02 born 4.69e-03
+MLP 0 L 2: signal |dC0|^2 total 1.338e-03 | born 1.183e-03 ( 88.4%) carried 1.312e-04 (  9.8%) | noise total 8.44e-03 born 2.31e-03
+MLP 0 L 3: signal |dC0|^2 total 2.358e-03 | born 1.545e-03 ( 65.5%) carried 7.482e-04 ( 31.7%) | noise total 5.32e-03 born 1.30e-03
+MLP 0 L 4: signal |dC0|^2 total 3.179e-03 | born 1.757e-03 ( 55.3%) carried 1.371e-03 ( 43.1%) | noise total 3.59e-03 born 7.41e-04
+MLP 0 L 5: signal |dC0|^2 total 4.043e-03 | born 2.057e-03 ( 50.9%) carried 1.903e-03 ( 47.1%) | noise total 2.60e-03 born 4.87e-04
+MLP 0 L 6: signal |dC0|^2 total 5.113e-03 | born 2.407e-03 ( 47.1%) carried 2.589e-03 ( 50.6%) | noise total 1.96e-03 born 3.41e-04
+MLP 0 L 7: signal |dC0|^2 total 5.196e-03 | born 2.387e-03 ( 45.9%) carried 2.719e-03 ( 52.3%) | noise total 1.24e-03 born 2.20e-04
+MLP 0 L 8: signal |dC0|^2 total 6.150e-03 | born 2.238e-03 ( 36.4%) carried 3.817e-03 ( 62.1%) | noise total 9.27e-04 born 1.30e-04
+MLP 0 L 9: signal |dC0|^2 total 7.483e-03 | born 2.535e-03 ( 33.9%) carried 4.828e-03 ( 64.5%) | noise total 8.27e-04 born 1.03e-04
+MLP 0 L10: signal |dC0|^2 total 8.971e-03 | born 2.798e-03 ( 31.2%) carried 5.909e-03 ( 65.9%) | noise total 7.03e-04 born 8.67e-05
+MLP 0 L11: signal |dC0|^2 total 9.687e-03 | born 2.956e-03 ( 30.5%) carried 6.534e-03 ( 67.4%) | noise total 5.52e-04 born 6.56e-05
+MLP 0 L12: signal |dC0|^2 total 1.176e-02 | born 2.953e-03 ( 25.1%) carried 8.349e-03 ( 71.0%) | noise total 4.90e-04 born 4.79e-05
+MLP 0 L13: signal |dC0|^2 total 1.380e-02 | born 3.215e-03 ( 23.3%) carried 1.031e-02 ( 74.8%) | noise total 4.59e-04 born 3.83e-05
+MLP 0 L14: signal |dC0|^2 total 1.492e-02 | born 3.893e-03 ( 26.1%) carried 1.055e-02 ( 70.7%) | noise total 3.71e-04 born 3.41e-05
+MLP 1 L 1: signal |dC0|^2 total 3.691e-04 | born 3.348e-04 ( 90.7%) carried 4.635e-05 ( 12.6%) | noise total 1.40e-02 born 4.60e-03
+MLP 1 L 2: signal |dC0|^2 total 1.255e-03 | born 1.130e-03 ( 90.0%) carried 8.669e-05 (  6.9%) | noise total 9.01e-03 born 2.37e-03
+MLP 1 L 3: signal |dC0|^2 total 2.217e-03 | born 1.557e-03 ( 70.2%) carried 6.569e-04 ( 29.6%) | noise total 5.91e-03 born 1.39e-03
+MLP 1 L 4: signal |dC0|^2 total 3.121e-03 | born 1.937e-03 ( 62.1%) carried 1.169e-03 ( 37.5%) | noise total 3.97e-03 born 8.41e-04
+MLP 1 L 5: signal |dC0|^2 total 3.964e-03 | born 2.092e-03 ( 52.8%) carried 1.749e-03 ( 44.1%) | noise total 2.62e-03 born 4.97e-04
+MLP 1 L 6: signal |dC0|^2 total 5.007e-03 | born 2.319e-03 ( 46.3%) carried 2.572e-03 ( 51.4%) | noise total 1.91e-03 born 3.03e-04
+MLP 1 L 7: signal |dC0|^2 total 5.912e-03 | born 2.429e-03 ( 41.1%) carried 3.263e-03 ( 55.2%) | noise total 1.46e-03 born 2.12e-04
+MLP 1 L 8: signal |dC0|^2 total 7.277e-03 | born 2.660e-03 ( 36.6%) carried 4.323e-03 ( 59.4%) | noise total 1.14e-03 born 1.56e-04
+MLP 1 L 9: signal |dC0|^2 total 8.403e-03 | born 2.864e-03 ( 34.1%) carried 5.396e-03 ( 64.2%) | noise total 9.03e-04 born 1.11e-04
+MLP 1 L10: signal |dC0|^2 total 1.020e-02 | born 3.219e-03 ( 31.6%) carried 6.577e-03 ( 64.5%) | noise total 7.70e-04 born 8.97e-05
+MLP 1 L11: signal |dC0|^2 total 1.316e-02 | born 3.386e-03 ( 25.7%) carried 9.240e-03 ( 70.2%) | noise total 7.06e-04 born 6.72e-05
+MLP 1 L12: signal |dC0|^2 total 1.559e-02 | born 4.079e-03 ( 26.2%) carried 1.088e-02 ( 69.8%) | noise total 6.20e-04 born 5.98e-05
+MLP 1 L13: signal |dC0|^2 total 1.860e-02 | born 4.500e-03 ( 24.2%) carried 1.357e-02 ( 73.0%) | noise total 5.50e-04 born 4.93e-05
+MLP 1 L14: signal |dC0|^2 total 1.914e-02 | born 4.247e-03 ( 22.2%) carried 1.450e-02 ( 75.8%) | noise total 4.55e-04 born 4.00e-05
+L5: R^2 in-sample MLP0 0.033 (cross-seed 0.022, ceiling 0.607) MLP1 0.029 (ceiling 0.601) | out of sample 0->1 0.025 | best single corr MLP0: K31 -0.13, Cpost +0.12, K(kurt) +0.11, K(logvar) -0.11
+L8: R^2 in-sample MLP0 0.049 (cross-seed 0.041, ceiling 0.868) MLP1 0.050 (ceiling 0.864) | out of sample 0->1 0.029 | best single corr MLP0: Cpost +0.16, K(kurt) +0.16, K(logvar) -0.16, C0 +0.15
+L11: R^2 in-sample MLP0 0.072 (cross-seed 0.067, ceiling 0.946) MLP1 0.061 (ceiling 0.949) | out of sample 0->1 0.057 | best single corr MLP0: D +0.17, Cpost +0.17, K(kurt) +0.17, K(logvar) -0.17
+L14: R^2 in-sample MLP0 0.097 (cross-seed 0.094, ceiling 0.976) MLP1 0.067 (ceiling 0.977) | out of sample 0->1 0.051 | best single corr MLP0: K(skew) +0.22, Cpost +0.22, K(kurt) +0.22, K(logvar) -0.22
+T3B DONE

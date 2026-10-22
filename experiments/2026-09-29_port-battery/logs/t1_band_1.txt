@@ -1,0 +1,7 @@
+  f32 (6,448) k=1 ne                             raw 2.3624e-08  x1.0069  better 1/10  [270s]
+  f32 (6,448) k=3 ne                             raw 2.3624e-08  x1.0069  better 1/10  [257s]
+  f32 (6,448) k=inf ne                           raw 2.6346e-08  x1.1229  better 1/10  [456s]
+  f32 (6,384) k=1 ne                             raw 2.4040e-08  x1.0246  better 0/10  [272s]
+  f32 (6,384) k=3 ne                             raw 2.4040e-08  x1.0246  better 0/10  [1031s]
+  f32 (6,384) k=inf ne                           raw 2.4039e-08  x1.0246  better 0/10  [1070s]
+  f32 (5,448) k=1 ne                             raw 2.3966e-08  x1.0215  better 1/10  [1413s]

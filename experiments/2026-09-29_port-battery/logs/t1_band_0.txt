@@ -1,0 +1,7 @@
+  anchor f64 k=1 (6,448) ne                      raw 2.3624e-08  x1.0069  better 1/10  [281s]
+  f32 (6,448) k=2 ne                             raw 2.3624e-08  x1.0069  better 1/10  [253s]
+  f32 (6,448) k=5 ne                             raw 2.3624e-08  x1.0069  better 1/10  [437s]
+  f32 (6,448) k=inf qr                           raw 2.3624e-08  x1.0069  better 1/10  [246s]
+  f32 (6,384) k=2 ne                             raw 2.4040e-08  x1.0246  better 0/10  [992s]
+  f32 (6,384) k=5 ne                             raw 2.4040e-08  x1.0246  better 0/10  [1064s]
+  f32 (6,384) k=inf qr                           raw 2.4040e-08  x1.0246  better 0/10  [1169s]

@@ -1,0 +1,4 @@
+  k3f_pall mlp 0: final_mse=2.4694e-08  (18s)
+  k3f_pall mlp 1: final_mse=2.9578e-08  (19s)
+  k3f_pall mlp 2: final_mse=2.8076e-08  (18s)
+RESULT k3f_pall: mean final_mse over 3 MLPs = 2.7449e-08   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

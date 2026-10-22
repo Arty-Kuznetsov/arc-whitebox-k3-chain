@@ -1,0 +1,4 @@
+  tailamp4 mlp 0: final_mse=4.2050e-07  (4s)
+  tailamp4 mlp 1: final_mse=4.3707e-07  (4s)
+  tailamp4 mlp 2: final_mse=3.9058e-07  (4s)
+RESULT tailamp4: mean final_mse over 3 MLPs = 4.1605e-07   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

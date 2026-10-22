@@ -1,0 +1,18 @@
+width 64, depth 2, 20,000,000 Monte-Carlo samples
+
+  trial 0: mean|kappa3|=2.005e-01  mean|kappa4|=3.014e-01  |star|=0.000e+00  |path|=4.060e-02
+  trial 1: mean|kappa3|=2.307e-01  mean|kappa4|=3.315e-01  |star|=0.000e+00  |path|=4.386e-02
+  trial 2: mean|kappa3|=1.739e-01  mean|kappa4|=3.090e-01  |star|=0.000e+00  |path|=4.316e-02
+
+--- control: kappa3 prefactor (derivation says 3) ---
+  fitted prefactor = 3.3048   corr = 0.99733   residual/|kappa3| = 0.1555
+
+--- kappa4: least squares on [star, path] ---
+  star coefficient = 0.0000   path coefficient = 7.4467
+  corr(prediction, kappa4) = 0.98451
+  residual RMS / |kappa4| RMS = 0.0867
+  star only : best coefficient       nan   corr +nan
+  path only : best coefficient    7.4467   corr +0.98451
+
+Note: at layer 0 alpha = 0 exactly, so d3 = -alpha*phi/sigma^2 vanishes and the STAR term is
+identically zero there. If star is ~0, only the path coefficient is identified by this test.

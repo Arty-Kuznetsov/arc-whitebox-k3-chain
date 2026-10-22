@@ -1,0 +1,2 @@
+  k3m + E2 sep 2.5 + E3 b -3.0                   raw 2.2087e-08  x1.0000  better 0/10  [560s]
+   k3m + E2 sep 2.5 + E3 b -3.0: raw x0.9414 util 21.89% projected 4.4720e-09 (L5 4.0986e-09)

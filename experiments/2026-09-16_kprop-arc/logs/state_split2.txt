@@ -1,0 +1,16 @@
+  mlp 0: k2/gauss=4.502e-06  k2/edge=4.106e-06  k3/gauss=2.108e-07  k3/edge=1.901e-07  (k3=3.705e-08)
+  mlp 1: k2/gauss=5.055e-06  k2/edge=4.767e-06  k3/gauss=2.557e-07  k3/edge=2.130e-07  (k3=4.459e-08)
+  mlp 2: k2/gauss=5.891e-06  k2/edge=5.489e-06  k3/gauss=2.997e-07  k3/edge=2.517e-07  (k3=4.589e-08)
+
+=== Upstream mean quality x final readout quality (3 MLPs) ===
+SELF-CHECK k2/gauss = 5.1494e-06 (reference k=2) ; full k=3 = 4.2509e-08
+
+ upstream  readout |  final_layer_mse |    vs k=2
+       k2    gauss |       5.1494e-06 |     1.00x
+       k2     edge |       4.7877e-06 |     1.08x
+       k3    gauss |       2.5538e-07 |    20.16x
+       k3     edge |       2.1827e-07 |    23.59x
+      k=3      k=3 |       4.2509e-08 |   121.13x
+
+k3/gauss isolates what perfect upstream means are worth on their own; k2/edge isolates what
+a perfect final readout is worth on its own; k3/edge is what having both would give.

@@ -1,0 +1,11 @@
+  mlp 0: k1 final=2.571e-04  k2 final=4.502e-06  k3 final=3.705e-08
+  mlp 1: k1 final=3.504e-04  k2 final=5.055e-06  k3 final=4.459e-08
+  mlp 2: k1 final=3.974e-04  k2 final=5.891e-06  k3 final=4.589e-08
+  mlp 3: k1 final=3.190e-04  k2 final=3.695e-06  k3 final=4.092e-08
+  mlp 4: k1 final=3.392e-04  k2 final=3.338e-06  k3 final=3.634e-08
+
+=== ARC cumulant propagation @ 1024x16 vs baked GT (5 MLPs) ===
+baseline (our covariance+tetrachoric): final_layer_mse=4.06e-6, all_layers_mse=2.15e-6
+k=1: final_layer_mse=3.3263e-04  all_layers_mse=2.9406e-04  (0.4s/mlp)
+k=2: final_layer_mse=4.4963e-06  all_layers_mse=2.4323e-06  (1.0s/mlp)
+k=3: final_layer_mse=4.0957e-08  all_layers_mse=1.6274e-08  (12.4s/mlp)

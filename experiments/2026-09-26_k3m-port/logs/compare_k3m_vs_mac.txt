@@ -1,0 +1,14 @@
+per-MLP keys: ['mlp_index', 'mlp_name', 'final_layer_mse', 'all_layers_mse', 'per_layer_mse', 'adjusted_final_layer_score', 'flops_used', 'effective_compute', 'budget_exhausted', 'time_exhausted', 'residual_wall_time_exhausted', 'combined_budget_exhausted', 'wall_time_s', 'flopscope_backend_time_s', 'flopscope_overhead_time_s', 'residual_wall_time_s', 'breakdowns', 'traceback']
+adjusted_final_layer_score         k3m-cloud:   5.5215e-09   cut25-Mac:   5.5209e-09  x1.0001
+final_layer_mse                    k3m-cloud:   2.2174e-08   cut25-Mac:   2.2172e-08  x1.0001
+all_layers_mse                     k3m-cloud:   8.3635e-09   cut25-Mac:   8.3627e-09  x1.0001
+mean_compute_utilization           k3m-cloud:      24.894%   cut25-Mac:      24.894%  x1.0000
+n_failed_mlps                      k3m-cloud:            0   cut25-Mac:            0
+resid                              k3m-cloud: mean 0.513 max 0.574   cut25-Mac: mean 0.197 max 0.227
+wall                               k3m-cloud: mean 66.816 max 72.542   cut25-Mac: mean 19.382 max 20.401
+
+per-MLP adjusted ratio k3m-cloud/cut25-Mac: mean 1.0001  median 1.0001  min 0.9964  max 1.0027
+  better (k3m-cloud < cut25-Mac): 48/100     worse: 52/100
+per-MLP raw final-MSE ratio:  mean 1.0001  better 48/100
+per-MLP utilisation k3m-cloud: 24.161% .. 25.713%   cut25-Mac: 24.161% .. 25.713%
+  worst 5 MLPs by adjusted ratio: #73 1.003, #26 1.003, #3 1.003, #74 1.002, #97 1.002

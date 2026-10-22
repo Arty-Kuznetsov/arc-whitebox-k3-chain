@@ -1,0 +1,3 @@
+n=128 layer=12 a0=4: S=10 old sources, R=1280 CP columns, ||T||=4.411945e+00
+  r=   128 (r/n= 1.00)  rel err 3.0344e-03   column-pruning init 5.2143e-01  [40000 its, 377s]
+  r=   256 (r/n= 2.00)  rel err 5.5719e-04   column-pruning init 3.8201e-01  [40000 its, 896s]

@@ -1,0 +1,4 @@
+  sr4_128 mlp 0: final_mse=1.3803e-07  (9s)
+  sr4_128 mlp 1: final_mse=2.0734e-07  (8s)
+  sr4_128 mlp 2: final_mse=1.7812e-07  (9s)
+RESULT sr4_128: mean final_mse over 3 MLPs = 1.7450e-07   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

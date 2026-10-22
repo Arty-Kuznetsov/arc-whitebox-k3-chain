@@ -1,0 +1,3 @@
+A: fuse_base=False vs pre-trim: bitwise True, flops -279552; residual 0.193 -> 0.193 s | fused vs unfused: max|diff| 0.00e+00, flops -0.007% of B, residual 0.185 s
+B: fuse_base=False vs pre-trim: bitwise True, flops -279552; residual 0.207 -> 0.191 s | fused vs unfused: max|diff| 0.00e+00, flops -0.007% of B, residual 0.182 s
+A: fuse_base=False vs pre-trim: bitwise True, flops -279552; residual 0.193 -> 0.185 s | fused vs unfused: max|diff| 0.00e+00, flops -0.007% of B, residual 0.185 s

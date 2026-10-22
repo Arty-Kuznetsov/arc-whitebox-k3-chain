@@ -1,0 +1,1 @@
+corr_col_dead_2.0 screen {'x': 0.9994083988794523, 'better': 3, 'n': 7, 'status': 'KILLED', 'raw': 2.1535032621578873e-08}

@@ -1,0 +1,3 @@
+  L4 (k3q): flops 4.387447e+11  resid 0.338  wall 21.1
+  L5 (k3r): flops 4.104576e+11 (x0.93553)  resid 0.412 (x1.22)  wall 46.7 (x2.22)  max rel move vs L4 1.035e-06
+  peak RSS this process: 7.21 GB

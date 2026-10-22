@@ -1,0 +1,7 @@
+    pathrank None              25.169% of B  (1.0000 x pathrank=None)
+    pathrank 48 svd               24.581% of B  (0.9766 x pathrank=None)  residual 0.938s  wall  340.6s  final rel diff 2.19e-05
+    pathrank 48 rangefinder       24.635% of B  (0.9788 x pathrank=None)  residual 1.072s  wall  119.2s  final rel diff 2.50e-05
+    pathrank 32 svd               24.493% of B  (0.9732 x pathrank=None)  residual 0.821s  wall  235.0s  final rel diff 2.49e-05
+    pathrank 32 rangefinder       24.561% of B  (0.9758 x pathrank=None)  residual 0.792s  wall   76.4s  final rel diff 2.72e-05
+
+[exited with code 0]

@@ -1,0 +1,4 @@
+  k3f_ss_3_384 mlp 0: final_mse=4.1358e-08  (10s)
+  k3f_ss_3_384 mlp 1: final_mse=4.1145e-08  (10s)
+  k3f_ss_3_384 mlp 2: final_mse=4.1930e-08  (10s)
+RESULT k3f_ss_3_384: mean final_mse over 3 MLPs = 4.1477e-08   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

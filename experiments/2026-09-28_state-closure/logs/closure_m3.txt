@@ -1,0 +1,54 @@
+SELF-CHECKS
+  self-check 2a  closed form == brute-force (diag + two-equal):  rel 1.08e-16
+  self-check 2b  the three masks partition the contraction:      rel 1.72e-15
+  self-check 2c  (n=48, random probes) all-distinct / full = 33.31%
+
+How much of the next layer's kappa3 diagonal is NOT determined by (t, D)?  n=1024
+  MLP 0 layer  1 (S= 1): |distinct|/|t| =   61.33%   (from t   0.77%, from D  78.38%)   transport self-check 3.6e-16
+  MLP 0 layer  2 (S= 2): |distinct|/|t| =   42.43%   (from t   0.91%, from D  90.22%)   transport self-check 3.9e-16
+  MLP 0 layer  3 (S= 3): |distinct|/|t| =   34.96%   (from t   0.92%, from D  93.21%)   transport self-check 3.2e-16
+  MLP 0 layer  4 (S= 4): |distinct|/|t| =   30.85%   (from t   0.93%, from D  93.44%)   transport self-check 4.1e-16
+  MLP 0 layer  5 (S= 5): |distinct|/|t| =   32.98%   (from t   0.93%, from D  93.98%)   transport self-check 4.0e-16
+  MLP 0 layer  6 (S= 6): |distinct|/|t| =   29.71%   (from t   0.87%, from D  92.72%)   transport self-check 3.5e-16
+  MLP 0 layer  7 (S= 7): |distinct|/|t| =   29.64%   (from t   1.00%, from D  94.72%)   transport self-check 4.0e-16
+  MLP 0 layer  8 (S= 8): |distinct|/|t| =   30.09%   (from t   0.90%, from D  96.19%)   transport self-check 3.1e-16
+  MLP 0 layer  9 (S= 9): |distinct|/|t| =   27.98%   (from t   0.85%, from D  94.97%)   transport self-check 3.8e-16
+  MLP 0 layer 10 (S=10): |distinct|/|t| =   28.97%   (from t   0.83%, from D  96.30%)   transport self-check 4.1e-16
+  MLP 0 layer 11 (S=11): |distinct|/|t| =   27.24%   (from t   0.88%, from D  95.43%)   transport self-check 3.5e-16
+  MLP 0 layer 12 (S=12): |distinct|/|t| =   29.26%   (from t   0.81%, from D  95.08%)   transport self-check 3.5e-16
+  MLP 0 layer 13 (S=13): |distinct|/|t| =   28.25%   (from t   0.81%, from D  96.22%)   transport self-check 3.6e-16
+  MLP 0 layer 14 (S=14): |distinct|/|t| =   27.28%   (from t   0.84%, from D  96.41%)   transport self-check 4.2e-16
+  [MLP 0 done in 88s]
+  MLP 1 layer  1 (S= 1): |distinct|/|t| =   59.88%   (from t   0.81%, from D  78.34%)   transport self-check 4.0e-16
+  MLP 1 layer  2 (S= 2): |distinct|/|t| =   46.54%   (from t   0.89%, from D  91.28%)   transport self-check 3.9e-16
+  MLP 1 layer  3 (S= 3): |distinct|/|t| =   37.66%   (from t   0.97%, from D  92.62%)   transport self-check 3.3e-16
+  MLP 1 layer  4 (S= 4): |distinct|/|t| =   35.30%   (from t   0.96%, from D  92.36%)   transport self-check 3.9e-16
+  MLP 1 layer  5 (S= 5): |distinct|/|t| =   30.63%   (from t   0.97%, from D  93.74%)   transport self-check 4.4e-16
+  MLP 1 layer  6 (S= 6): |distinct|/|t| =   29.65%   (from t   0.88%, from D  92.09%)   transport self-check 4.4e-16
+  MLP 1 layer  7 (S= 7): |distinct|/|t| =   28.04%   (from t   0.90%, from D  93.87%)   transport self-check 3.9e-16
+  MLP 1 layer  8 (S= 8): |distinct|/|t| =   29.58%   (from t   0.88%, from D  93.70%)   transport self-check 2.9e-16
+  MLP 1 layer  9 (S= 9): |distinct|/|t| =   30.29%   (from t   0.86%, from D  92.67%)   transport self-check 3.4e-16
+  MLP 1 layer 10 (S=10): |distinct|/|t| =   30.35%   (from t   0.86%, from D  93.51%)   transport self-check 4.7e-16
+  MLP 1 layer 11 (S=11): |distinct|/|t| =   29.88%   (from t   0.79%, from D  93.18%)   transport self-check 3.3e-16
+  MLP 1 layer 12 (S=12): |distinct|/|t| =   28.31%   (from t   0.89%, from D  96.91%)   transport self-check 4.2e-16
+  MLP 1 layer 13 (S=13): |distinct|/|t| =   28.99%   (from t   0.79%, from D  96.68%)   transport self-check 3.4e-16
+  MLP 1 layer 14 (S=14): |distinct|/|t| =   28.90%   (from t   0.78%, from D  91.88%)   transport self-check 2.9e-16
+  [MLP 1 done in 80s]
+  MLP 2 layer  1 (S= 1): |distinct|/|t| =   61.75%   (from t   0.72%, from D  77.69%)   transport self-check 4.2e-16
+  MLP 2 layer  2 (S= 2): |distinct|/|t| =   46.02%   (from t   1.01%, from D  89.61%)   transport self-check 3.9e-16
+  MLP 2 layer  3 (S= 3): |distinct|/|t| =   35.84%   (from t   0.98%, from D  92.85%)   transport self-check 3.6e-16
+  MLP 2 layer  4 (S= 4): |distinct|/|t| =   32.09%   (from t   0.83%, from D  92.21%)   transport self-check 4.3e-16
+  MLP 2 layer  5 (S= 5): |distinct|/|t| =   29.52%   (from t   0.88%, from D  93.10%)   transport self-check 2.8e-16
+  MLP 2 layer  6 (S= 6): |distinct|/|t| =   28.37%   (from t   0.86%, from D  94.63%)   transport self-check 3.1e-16
+  MLP 2 layer  7 (S= 7): |distinct|/|t| =   27.25%   (from t   0.85%, from D  93.91%)   transport self-check 3.5e-16
+  MLP 2 layer  8 (S= 8): |distinct|/|t| =   26.90%   (from t   0.82%, from D  95.42%)   transport self-check 3.3e-16
+  MLP 2 layer  9 (S= 9): |distinct|/|t| =   27.21%   (from t   0.94%, from D  97.22%)   transport self-check 5.1e-16
+  MLP 2 layer 10 (S=10): |distinct|/|t| =   27.84%   (from t   0.82%, from D  96.87%)   transport self-check 3.1e-16
+  MLP 2 layer 11 (S=11): |distinct|/|t| =   28.35%   (from t   0.82%, from D  95.70%)   transport self-check 3.6e-16
+  MLP 2 layer 12 (S=12): |distinct|/|t| =   29.38%   (from t   0.82%, from D  93.97%)   transport self-check 3.9e-16
+  MLP 2 layer 13 (S=13): |distinct|/|t| =   29.12%   (from t   0.94%, from D  97.38%)   transport self-check 4.2e-16
+  MLP 2 layer 14 (S=14): |distinct|/|t| =   31.23%   (from t   0.78%, from D  93.68%)   transport self-check 3.8e-16
+  [MLP 2 done in 72s]
+
+  mean |distinct|/|t| over layers >= 8: 28.83%
+  max transport self-check: 5.09e-16

@@ -1,0 +1,3 @@
+D_nopath             raw 2.6174e-08  util  24.66%  adjusted 6.4552e-09  (133s)
+D_prank256           raw 2.2881e-08  util  24.90%  adjusted 5.6963e-09  (150s)
+A_c225               raw 2.4351e-08  util  23.25%  adjusted 5.6608e-09  (125s)

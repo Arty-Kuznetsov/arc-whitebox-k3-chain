@@ -1,0 +1,2 @@
+X_c20_w12            raw 3.6592e-08  util  21.63%  adjusted 7.9131e-09  (146s)
+X_c20_w10            raw 7.0571e-08  util  20.31%  adjusted 1.4331e-08  (125s)

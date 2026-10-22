@@ -1,0 +1,27 @@
+<repo>/experiments/2026-10-01_corrector/xmlp.py:65: RuntimeWarning: overflow encountered in multiply
+  np.clip(k4 / (var * var + 1e-30), -50.0, 50.0),   # variance clamp and overflow float64
+base B9, channels ['var', 'k3', 'k4']
+
+--- fit on MLP 0  ->  apply on MLP 1   (base raw 2.205732e-08)
+    shrink 0.25:  raw nan   xnan
+    shrink 0.50:  raw nan   xnan
+    shrink 0.75:  raw nan   xnan
+    shrink 1.00:  raw nan   xnan
+    [in sample, MLP 0] shrink 1.00: raw 4.489517e-08 x1.9700  (base 2.278922e-08)
+
+--- fit on MLP 1  ->  apply on MLP 0   (base raw 2.278922e-08)
+    shrink 0.25:  raw 2.323467e-01   x10195465.6366
+    shrink 0.50:  raw 2.323467e-01   x10195465.6366
+    shrink 0.75:  raw 2.323467e-01   x10195465.6366
+    shrink 1.00:  raw 2.323467e-01   x10195465.6366
+    [in sample, MLP 1] shrink 1.00: raw 3.345761e-08 x1.5168  (base 2.205732e-08)
+
+=== MLP 0, base 2.278922e-08   (features kept: the 20 smooth per-neuron ones + intercept)
+  remove all     s=1.0 x0.2060   s=0.5 x0.2989
+  remove proj    s=1.0 x1.0146   s=0.5 x0.9760
+  remove orth    s=1.0 x0.2693   s=0.5 x0.3424
+
+=== MLP 1, base 2.205732e-08   (features kept: the 20 smooth per-neuron ones + intercept)
+  remove all     s=1.0 x0.3024   s=0.5 x0.3527
+  remove proj    s=1.0 x0.9573   s=0.5 x0.9385
+  remove orth    s=1.0 x0.4500   s=0.5 x0.4405

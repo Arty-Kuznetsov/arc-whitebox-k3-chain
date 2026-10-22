@@ -1,0 +1,5 @@
+  self-check: t-rule vs brute force 2.88e-16   D-rule vs brute force 4.31e-16
+  mode base  : raw 2.6659e-08  x   1.000   (310s)
+  mode td    : raw 6.8220e-07  x  25.590   (59s)
+  mode td0.9 : raw 2.9755e-08  x   1.116   (110s)
+  mode td0.95: raw 2.6433e-08  x   0.992   (109s)

@@ -1,0 +1,1 @@
+=== k=1 total=3.465e+07 (0.0016% of B) — depth 16, n=1024, ARC counter ===

@@ -1,0 +1,4 @@
+  tk_y2_r256 mlp 0: final_mse=6.9205e-08  (106s)
+  tk_y2_r256 mlp 1: final_mse=8.3713e-08  (83s)
+  tk_y2_r256 mlp 2: final_mse=9.1419e-08  (84s)
+RESULT tk_y2_r256: mean final_mse over 3 MLPs = 8.1446e-08   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

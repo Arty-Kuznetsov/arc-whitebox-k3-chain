@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "error": {
+    "stage": "run",
+    "code": "SCORING_RUNTIME_ERROR",
+    "message": "invalid syntax. Perhaps you forgot a comma? (v_4 1_.py, line 9)"
+  },
+  "whestbench_version": "0.16.1"
+}

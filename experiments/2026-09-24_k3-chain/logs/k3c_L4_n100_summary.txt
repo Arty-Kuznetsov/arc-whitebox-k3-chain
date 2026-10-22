@@ -1,0 +1,4 @@
+k3c L4 100 MLPs: adj 3.3706e-02 final 3.3706e-02 all 3.0838e-02 util 0.3088 failed 4
+best/worst 7.789e-09 / 1.033e+00  max resid 0.453  max wall 32.66 mean wall 23.25
+
+[exited with code 0]

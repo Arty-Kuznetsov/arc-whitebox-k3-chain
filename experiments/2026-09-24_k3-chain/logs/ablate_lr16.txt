@@ -1,0 +1,4 @@
+  lr16 mlp 0: final_mse=7.2487e-07  (12s)
+  lr16 mlp 1: final_mse=7.7839e-07  (11s)
+  lr16 mlp 2: final_mse=9.1745e-07  (10s)
+RESULT lr16: mean final_mse over 3 MLPs = 8.0690e-07   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

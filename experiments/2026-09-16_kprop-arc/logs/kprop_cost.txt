@@ -1,0 +1,15 @@
+=== k=3 per-region breakdown (depth 16) ===
+    FactoredTensor3.get_dslice   1.556e+12   47.8%
+    FactoredTensor3.contract_W   1.546e+12   47.5%
+    nonlin_sum 111 factored      9.779e+10    3.0%
+    contract_W_basic             5.159e+10    1.6%
+    pK_to_K                      1.108e+09    0.0%
+    nonlin_sum                   5.838e+08    0.0%
+    eval_part                    2.612e+08    0.0%
+    harmonic diagslice           9.653e+07    0.0%
+
+=== depth scaling of k=3 total (paper predicts factorized ~ O(L^2)) ===
+  depth= 2: 4.543e+10     2.1% of B
+  depth= 4: 1.941e+11     8.8% of B  (x4.27 per 2x depth)
+  depth= 8: 8.011e+11    36.4% of B  (x4.13 per 2x depth)
+  depth=16: 3.254e+12   148.0% of B  (x4.06 per 2x depth)

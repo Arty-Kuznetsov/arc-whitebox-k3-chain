@@ -1,0 +1,97 @@
+MLP 0 L 0: |dC0_P|^2 2.431e-02 noise 2.426e-02 (signal   0.2%) | top |lam| P 1.32e-02 1.30e-02 1.28e-02 noise 1.30e-02 | rank r share P 1:0.007 4:0.028 16:0.101 64:0.328 | noise 1:0.007 4:0.027 16:0.100 64:0.326 | seed rep top3 0.01 0.07 0.03 | top1 vs mean/ones/sd/topC 0.04/0.04/0.04/0.25
+MLP 0 L 1: |dC0_P|^2 1.396e-02 noise 1.361e-02 (signal   2.5%) | top |lam| P 1.28e-02 1.26e-02 1.22e-02 noise 1.30e-02 | rank r share P 1:0.012 4:0.044 16:0.154 64:0.449 | noise 1:0.012 4:0.046 16:0.159 64:0.455 | seed rep top3 0.14 0.04 0.03 | top1 vs mean/ones/sd/topC 0.02/0.01/0.01/0.26
+MLP 0 L 2: |dC0_P|^2 9.776e-03 noise 8.438e-03 (signal  13.7%) | top |lam| P 1.28e-02 1.20e-02 1.18e-02 noise 1.19e-02 | rank r share P 1:0.017 4:0.059 16:0.197 64:0.528 | noise 1:0.017 4:0.064 16:0.213 64:0.557 | seed rep top3 0.13 0.27 0.02 | top1 vs mean/ones/sd/topC 0.51/0.43/0.50/0.40
+MLP 0 L 3: |dC0_P|^2 7.676e-03 noise 5.318e-03 (signal  30.7%) | top |lam| P 1.46e-02 1.26e-02 1.23e-02 noise 1.06e-02 | rank r share P 1:0.028 4:0.085 16:0.244 64:0.584 | noise 1:0.021 4:0.079 16:0.256 64:0.624 | seed rep top3 0.57 0.41 0.24 | top1 vs mean/ones/sd/topC 0.65/0.54/0.67/0.51
+/home/user/arc-white-box/experiments/2026-10-02_cov-error/t3.py:159: RuntimeWarning: invalid value encountered in sqrt
+  sdv = np.sqrt(np.diag(Cc))
+MLP 0 L 4: |dC0_P|^2 6.767e-03 noise 3.588e-03 (signal  47.0%) | top |lam| P 1.87e-02 1.54e-02 1.25e-02 noise 9.92e-03 | rank r share P 1:0.052 4:0.129 16:0.301 64:0.640 | noise 1:0.027 4:0.095 16:0.298 64:0.679 | seed rep top3 0.79 0.68 0.29 | top1 vs mean/ones/sd/topC 0.68/0.51/nan/0.64
+MLP 0 L 5: |dC0_P|^2 6.645e-03 noise 2.603e-03 (signal  60.8%) | top |lam| P 2.49e-02 1.80e-02 1.24e-02 noise 9.30e-03 | rank r share P 1:0.094 4:0.186 16:0.362 64:0.684 | noise 1:0.033 4:0.115 16:0.344 64:0.729 | seed rep top3 0.89 0.82 0.10 | top1 vs mean/ones/sd/topC 0.72/0.53/nan/0.68
+MLP 0 L 6: |dC0_P|^2 7.069e-03 noise 1.956e-03 (signal  72.3%) | top |lam| P 3.09e-02 2.33e-02 1.37e-02 noise 9.26e-03 | rank r share P 1:0.135 4:0.258 16:0.428 64:0.727 | noise 1:0.044 4:0.137 16:0.376 64:0.760 | seed rep top3 0.93 0.90 0.51 | top1 vs mean/ones/sd/topC 0.74/0.52/nan/0.69
+MLP 0 L 7: |dC0_P|^2 6.435e-03 noise 1.239e-03 (signal  80.7%) | top |lam| P 3.27e-02 2.70e-02 1.25e-02 noise 8.51e-03 | rank r share P 1:0.167 4:0.325 16:0.486 64:0.763 | noise 1:0.058 4:0.163 16:0.417 64:0.785 | seed rep top3 0.95 0.93 0.54 | top1 vs mean/ones/sd/topC 0.72/0.46/nan/0.69
+MLP 0 L 8: |dC0_P|^2 7.077e-03 noise 9.268e-04 (signal  86.9%) | top |lam| P 4.02e-02 2.89e-02 1.31e-02 noise 7.36e-03 | rank r share P 1:0.229 4:0.393 16:0.555 64:0.804 | noise 1:0.058 4:0.173 16:0.441 64:0.809 | seed rep top3 0.97 0.96 0.09 | top1 vs mean/ones/sd/topC 0.75/0.48/nan/0.73
+MLP 0 L 9: |dC0_P|^2 8.310e-03 noise 8.269e-04 (signal  90.0%) | top |lam| P 4.59e-02 3.30e-02 1.50e-02 noise 7.83e-03 | rank r share P 1:0.253 4:0.433 16:0.591 64:0.828 | noise 1:0.074 4:0.206 16:0.475 64:0.831 | seed rep top3 0.97 0.96 0.68 | top1 vs mean/ones/sd/topC 0.75/0.50/nan/0.75
+MLP 0 L10: |dC0_P|^2 9.674e-03 noise 7.028e-04 (signal  92.7%) | top |lam| P 5.06e-02 3.83e-02 1.77e-02 noise 6.96e-03 | rank r share P 1:0.264 4:0.474 16:0.632 64:0.851 | noise 1:0.069 4:0.222 16:0.496 64:0.846 | seed rep top3 0.98 0.97 0.89 | top1 vs mean/ones/sd/topC 0.74/0.48/nan/0.73
+MLP 0 L11: |dC0_P|^2 1.024e-02 noise 5.519e-04 (signal  94.6%) | top |lam| P 5.49e-02 4.35e-02 1.80e-02 noise 6.98e-03 | rank r share P 1:0.295 4:0.535 16:0.675 64:0.874 | noise 1:0.088 4:0.250 16:0.531 64:0.865 | seed rep top3 0.98 0.98 0.93 | top1 vs mean/ones/sd/topC 0.73/0.48/nan/0.73
+MLP 0 L12: |dC0_P|^2 1.225e-02 noise 4.896e-04 (signal  96.0%) | top |lam| P 6.56e-02 4.80e-02 1.79e-02 noise 6.48e-03 | rank r share P 1:0.352 4:0.589 16:0.722 64:0.897 | noise 1:0.086 4:0.262 16:0.549 64:0.879 | seed rep top3 0.99 0.99 0.85 | top1 vs mean/ones/sd/topC 0.74/0.47/nan/0.76
+MLP 0 L13: |dC0_P|^2 1.425e-02 noise 4.590e-04 (signal  96.8%) | top |lam| P 7.26e-02 5.37e-02 1.90e-02 noise 7.25e-03 | rank r share P 1:0.370 4:0.619 16:0.749 64:0.912 | noise 1:0.115 4:0.289 16:0.580 64:0.894 | seed rep top3 0.99 0.99 0.95 | top1 vs mean/ones/sd/topC 0.74/0.47/nan/0.75
+MLP 0 L14: |dC0_P|^2 1.529e-02 noise 3.706e-04 (signal  97.6%) | top |lam| P 7.90e-02 5.49e-02 1.90e-02 noise 6.59e-03 | rank r share P 1:0.408 4:0.650 16:0.776 64:0.925 | noise 1:0.117 4:0.286 16:0.584 64:0.900 | seed rep top3 0.99 0.99 0.92 | top1 vs mean/ones/sd/topC 0.75/0.45/nan/0.76
+MLP 0 L 0: |dC0_P|^2 2.431e-02 (noise 2.426e-02) | gain model explains 0.005 of P, 0.005 of noise -> of the signal 0.053 | fit on A scored on B -0.005 | rms delta 4.9e-04
+MLP 0 L 1: |dC0_P|^2 1.396e-02 (noise 1.361e-02) | gain model explains 0.009 of P, 0.009 of noise -> of the signal 0.03 | fit on A scored on B -0.009 | rms delta 1.3e-03
+MLP 0 L 2: |dC0_P|^2 9.776e-03 (noise 8.438e-03) | gain model explains 0.017 of P, 0.014 of noise -> of the signal 0.033 | fit on A scored on B -0.012 | rms delta 6.2e-03
+MLP 0 L 3: |dC0_P|^2 7.676e-03 (noise 5.318e-03) | gain model explains 0.021 of P, 0.018 of noise -> of the signal 0.03 | fit on A scored on B -0.010 | rms delta 1.5e-02
+MLP 0 L 4: |dC0_P|^2 6.767e-03 (noise 3.588e-03) | gain model explains 0.035 of P, 0.021 of noise -> of the signal 0.051 | fit on A scored on B -0.001 | rms delta 3.6e-02
+MLP 0 L 5: |dC0_P|^2 6.645e-03 (noise 2.603e-03) | gain model explains 0.044 of P, 0.026 of noise -> of the signal 0.056 | fit on A scored on B 0.008 | rms delta 9.4e-02
+MLP 0 L 6: |dC0_P|^2 7.069e-03 (noise 1.956e-03) | gain model explains 0.058 of P, 0.032 of noise -> of the signal 0.068 | fit on A scored on B 0.023 | rms delta 1.1e-01
+MLP 0 L 7: |dC0_P|^2 6.435e-03 (noise 1.239e-03) | gain model explains 0.060 of P, 0.039 of noise -> of the signal 0.065 | fit on A scored on B 0.030 | rms delta 1.9e-01
+MLP 0 L 8: |dC0_P|^2 7.077e-03 (noise 9.268e-04) | gain model explains 0.094 of P, 0.042 of noise -> of the signal 0.102 | fit on A scored on B 0.066 | rms delta 1.8e-01
+MLP 0 L 9: |dC0_P|^2 8.310e-03 (noise 8.269e-04) | gain model explains 0.119 of P, 0.054 of noise -> of the signal 0.127 | fit on A scored on B 0.089 | rms delta 1.6e-01
+MLP 0 L10: |dC0_P|^2 9.674e-03 (noise 7.028e-04) | gain model explains 0.135 of P, 0.057 of noise -> of the signal 0.141 | fit on A scored on B 0.115 | rms delta 2.3e-01
+MLP 0 L11: |dC0_P|^2 1.024e-02 (noise 5.519e-04) | gain model explains 0.154 of P, 0.073 of noise -> of the signal 0.159 | fit on A scored on B 0.135 | rms delta 3.0e-01
+MLP 0 L12: |dC0_P|^2 1.225e-02 (noise 4.896e-04) | gain model explains 0.202 of P, 0.081 of noise -> of the signal 0.207 | fit on A scored on B 0.183 | rms delta 3.5e-01
+MLP 0 L13: |dC0_P|^2 1.425e-02 (noise 4.590e-04) | gain model explains 0.211 of P, 0.095 of noise -> of the signal 0.215 | fit on A scored on B 0.196 | rms delta 3.5e-01
+MLP 0 L14: |dC0_P|^2 1.529e-02 (noise 3.706e-04) | gain model explains 0.253 of P, 0.093 of noise -> of the signal 0.257 | fit on A scored on B 0.243 | rms delta 3.8e-01
+MLP 0 L5: core 0.47; top 1%: core x core x0.21, |C0| top-decile x1.37, |D| top-decile x2.18, other-seed energy 0.065 | top 5%: core x core x0.49, |C0| top-decile x1.18, |D| top-decile x1.63, other-seed energy 0.224 | top 20%: core x core x1.04, |C0| top-decile x1.07, |D| top-decile x1.21, other-seed energy 0.559
+MLP 0 L8: core 0.35; top 1%: core x core x0.09, |C0| top-decile x1.76, |D| top-decile x2.81, other-seed energy 0.161 | top 5%: core x core x0.33, |C0| top-decile x1.32, |D| top-decile x2.12, other-seed energy 0.416 | top 20%: core x core x1.04, |C0| top-decile x1.05, |D| top-decile x1.52, other-seed energy 0.764
+MLP 0 L11: core 0.30; top 1%: core x core x0.03, |C0| top-decile x2.24, |D| top-decile x3.67, other-seed energy 0.213 | top 5%: core x core x0.17, |C0| top-decile x1.55, |D| top-decile x2.69, other-seed energy 0.523 | top 20%: core x core x0.89, |C0| top-decile x1.09, |D| top-decile x1.87, other-seed energy 0.863
+MLP 0 L14: core 0.24; top 1%: core x core x0.01, |C0| top-decile x3.19, |D| top-decile x3.78, other-seed energy 0.250 | top 5%: core x core x0.10, |C0| top-decile x1.81, |D| top-decile x2.97, other-seed energy 0.587 | top 20%: core x core x0.72, |C0| top-decile x1.08, |D| top-decile x2.09, other-seed energy 0.913
+gainarm MLP 0 s4 P: x1.0073
+rank MLP 0 s4 r=1 P: x1.0019
+rank MLP 0 s4 r=4 P: x0.9270
+rank MLP 0 s4 r=16 P: x0.8973
+rank MLP 0 s4 r=64 P: x0.7643
+rank MLP 0 s4 r=256 P: x0.6911
+sparse MLP 0 s4 q=0.01 sel=A: x0.9678
+sparse MLP 0 s4 q=0.01 sel=B: x1.0565
+sparse MLP 0 s4 q=0.05 sel=A: x0.8678
+sparse MLP 0 s4 q=0.05 sel=B: x0.8773
+sparse MLP 0 s4 q=0.2 sel=A: x0.7634
+sparse MLP 0 s4 q=0.2 sel=B: x0.7679
+MLP 1 L 0: |dC0_P|^2 2.445e-02 noise 2.442e-02 (signal   0.1%) | top |lam| P 1.31e-02 1.30e-02 1.29e-02 noise 1.32e-02 | rank r share P 1:0.007 4:0.027 16:0.100 64:0.325 | noise 1:0.007 4:0.028 16:0.102 64:0.327 | seed rep top3 0.02 0.00 0.03 | top1 vs mean/ones/sd/topC 0.03/0.03/0.03/0.18
+MLP 1 L 1: |dC0_P|^2 1.434e-02 noise 1.397e-02 (signal   2.6%) | top |lam| P 1.32e-02 1.30e-02 1.28e-02 noise 1.32e-02 | rank r share P 1:0.012 4:0.046 16:0.160 64:0.461 | noise 1:0.013 4:0.047 16:0.164 64:0.465 | seed rep top3 0.10 0.03 0.15 | top1 vs mean/ones/sd/topC 0.10/0.07/0.09/0.28
+MLP 1 L 2: |dC0_P|^2 1.026e-02 noise 9.006e-03 (signal  12.2%) | top |lam| P 1.35e-02 1.27e-02 1.22e-02 noise 1.21e-02 | rank r share P 1:0.018 4:0.063 16:0.209 64:0.540 | noise 1:0.016 4:0.062 16:0.213 64:0.561 | seed rep top3 0.13 0.23 0.07 | top1 vs mean/ones/sd/topC 0.31/0.26/0.31/0.40
+MLP 1 L 3: |dC0_P|^2 8.124e-03 noise 5.907e-03 (signal  27.3%) | top |lam| P 1.62e-02 1.27e-02 1.25e-02 noise 1.18e-02 | rank r share P 1:0.032 4:0.089 16:0.253 64:0.593 | noise 1:0.024 4:0.086 16:0.268 64:0.636 | seed rep top3 0.44 0.15 0.02 | top1 vs mean/ones/sd/topC 0.70/0.53/0.67/0.45
+/home/user/arc-white-box/experiments/2026-10-02_cov-error/t3.py:159: RuntimeWarning: invalid value encountered in sqrt
+  sdv = np.sqrt(np.diag(Cc))
+MLP 1 L 4: |dC0_P|^2 7.094e-03 noise 3.973e-03 (signal  44.0%) | top |lam| P 1.92e-02 1.54e-02 1.26e-02 noise 1.15e-02 | rank r share P 1:0.052 4:0.127 16:0.297 64:0.634 | noise 1:0.033 4:0.105 16:0.313 64:0.692 | seed rep top3 0.73 0.68 0.24 | top1 vs mean/ones/sd/topC 0.71/0.52/nan/0.61
+MLP 1 L 5: |dC0_P|^2 6.585e-03 noise 2.621e-03 (signal  60.2%) | top |lam| P 2.46e-02 1.90e-02 1.30e-02 noise 9.55e-03 | rank r share P 1:0.092 4:0.193 16:0.366 64:0.682 | noise 1:0.035 4:0.125 16:0.354 64:0.735 | seed rep top3 0.89 0.83 0.16 | top1 vs mean/ones/sd/topC 0.72/0.51/nan/0.64
+MLP 1 L 6: |dC0_P|^2 6.918e-03 noise 1.912e-03 (signal  72.4%) | top |lam| P 3.09e-02 2.51e-02 1.35e-02 noise 9.37e-03 | rank r share P 1:0.138 4:0.278 16:0.444 64:0.732 | noise 1:0.046 4:0.147 16:0.386 64:0.770 | seed rep top3 0.94 0.92 0.04 | top1 vs mean/ones/sd/topC 0.72/0.47/nan/0.69
+MLP 1 L 7: |dC0_P|^2 7.368e-03 noise 1.456e-03 (signal  80.2%) | top |lam| P 3.45e-02 2.97e-02 1.39e-02 noise 8.17e-03 | rank r share P 1:0.161 4:0.330 16:0.503 64:0.771 | noise 1:0.046 4:0.158 16:0.419 64:0.800 | seed rep top3 0.96 0.96 0.22 | top1 vs mean/ones/sd/topC 0.71/0.48/nan/0.67
+MLP 1 L 8: |dC0_P|^2 8.417e-03 noise 1.139e-03 (signal  86.5%) | top |lam| P 4.00e-02 3.67e-02 1.43e-02 noise 8.25e-03 | rank r share P 1:0.190 4:0.398 16:0.567 64:0.810 | noise 1:0.060 4:0.169 16:0.445 64:0.821 | seed rep top3 0.97 0.97 0.05 | top1 vs mean/ones/sd/topC 0.70/0.50/nan/0.64
+MLP 1 L 9: |dC0_P|^2 9.306e-03 noise 9.032e-04 (signal  90.3%) | top |lam| P 4.92e-02 3.76e-02 1.59e-02 noise 8.22e-03 | rank r share P 1:0.261 4:0.466 16:0.624 64:0.843 | noise 1:0.075 4:0.208 16:0.486 64:0.848 | seed rep top3 0.98 0.98 0.05 | top1 vs mean/ones/sd/topC 0.73/0.47/nan/0.69
+MLP 1 L10: |dC0_P|^2 1.097e-02 noise 7.700e-04 (signal  93.0%) | top |lam| P 5.35e-02 4.64e-02 1.87e-02 noise 8.29e-03 | rank r share P 1:0.261 4:0.515 16:0.665 64:0.866 | noise 1:0.089 4:0.234 16:0.523 64:0.862 | seed rep top3 0.98 0.98 0.79 | top1 vs mean/ones/sd/topC 0.71/0.46/nan/0.69
+MLP 1 L11: |dC0_P|^2 1.387e-02 noise 7.057e-04 (signal  94.9%) | top |lam| P 6.35e-02 5.68e-02 2.08e-02 noise 8.97e-03 | rank r share P 1:0.290 4:0.581 16:0.716 64:0.891 | noise 1:0.114 4:0.257 16:0.550 64:0.878 | seed rep top3 0.99 0.99 0.77 | top1 vs mean/ones/sd/topC 0.71/0.49/nan/0.69
+MLP 1 L12: |dC0_P|^2 1.621e-02 noise 6.201e-04 (signal  96.2%) | top |lam| P 7.35e-02 6.04e-02 2.18e-02 noise 8.74e-03 | rank r share P 1:0.333 4:0.609 16:0.745 64:0.906 | noise 1:0.123 4:0.283 16:0.572 64:0.891 | seed rep top3 0.99 0.99 0.84 | top1 vs mean/ones/sd/topC 0.72/0.46/nan/0.73
+MLP 1 L13: |dC0_P|^2 1.915e-02 noise 5.501e-04 (signal  97.1%) | top |lam| P 8.57e-02 6.46e-02 2.20e-02 noise 8.57e-03 | rank r share P 1:0.384 4:0.647 16:0.775 64:0.920 | noise 1:0.134 4:0.296 16:0.594 64:0.902 | seed rep top3 0.99 0.99 0.86 | top1 vs mean/ones/sd/topC 0.73/0.46/nan/0.73
+MLP 1 L14: |dC0_P|^2 1.960e-02 noise 4.550e-04 (signal  97.7%) | top |lam| P 8.62e-02 6.90e-02 2.35e-02 noise 8.86e-03 | rank r share P 1:0.379 4:0.670 16:0.789 64:0.928 | noise 1:0.173 4:0.342 16:0.621 64:0.911 | seed rep top3 0.99 0.99 0.95 | top1 vs mean/ones/sd/topC 0.73/0.42/nan/0.72
+MLP 1 L 0: |dC0_P|^2 2.445e-02 (noise 2.442e-02) | gain model explains 0.005 of P, 0.005 of noise -> of the signal -0.248 | fit on A scored on B -0.006 | rms delta 4.9e-04
+MLP 1 L 1: |dC0_P|^2 1.434e-02 (noise 1.397e-02) | gain model explains 0.010 of P, 0.009 of noise -> of the signal 0.055 | fit on A scored on B -0.008 | rms delta 1.4e-03
+MLP 1 L 2: |dC0_P|^2 1.026e-02 (noise 9.006e-03) | gain model explains 0.017 of P, 0.013 of noise -> of the signal 0.044 | fit on A scored on B -0.010 | rms delta 6.5e-03
+MLP 1 L 3: |dC0_P|^2 8.124e-03 (noise 5.907e-03) | gain model explains 0.023 of P, 0.018 of noise -> of the signal 0.037 | fit on A scored on B -0.010 | rms delta 1.3e-02
+MLP 1 L 4: |dC0_P|^2 7.094e-03 (noise 3.973e-03) | gain model explains 0.032 of P, 0.024 of noise -> of the signal 0.043 | fit on A scored on B -0.007 | rms delta 2.9e-02
+MLP 1 L 5: |dC0_P|^2 6.585e-03 (noise 2.621e-03) | gain model explains 0.045 of P, 0.027 of noise -> of the signal 0.057 | fit on A scored on B 0.008 | rms delta 1.8e-01
+MLP 1 L 6: |dC0_P|^2 6.918e-03 (noise 1.912e-03) | gain model explains 0.061 of P, 0.032 of noise -> of the signal 0.072 | fit on A scored on B 0.027 | rms delta 1.1e-01
+MLP 1 L 7: |dC0_P|^2 7.368e-03 (noise 1.456e-03) | gain model explains 0.070 of P, 0.040 of noise -> of the signal 0.077 | fit on A scored on B 0.039 | rms delta 1.2e-01
+MLP 1 L 8: |dC0_P|^2 8.417e-03 (noise 1.139e-03) | gain model explains 0.089 of P, 0.051 of noise -> of the signal 0.095 | fit on A scored on B 0.058 | rms delta 2.6e-01
+MLP 1 L 9: |dC0_P|^2 9.306e-03 (noise 9.032e-04) | gain model explains 0.113 of P, 0.056 of noise -> of the signal 0.119 | fit on A scored on B 0.086 | rms delta 2.2e-01
+MLP 1 L10: |dC0_P|^2 1.097e-02 (noise 7.700e-04) | gain model explains 0.119 of P, 0.065 of noise -> of the signal 0.123 | fit on A scored on B 0.094 | rms delta 2.1e-01
+MLP 1 L11: |dC0_P|^2 1.387e-02 (noise 7.057e-04) | gain model explains 0.153 of P, 0.082 of noise -> of the signal 0.156 | fit on A scored on B 0.131 | rms delta 3.0e-01
+MLP 1 L12: |dC0_P|^2 1.621e-02 (noise 6.201e-04) | gain model explains 0.165 of P, 0.097 of noise -> of the signal 0.168 | fit on A scored on B 0.142 | rms delta 4.0e-01
+MLP 1 L13: |dC0_P|^2 1.915e-02 (noise 5.501e-04) | gain model explains 0.217 of P, 0.100 of noise -> of the signal 0.221 | fit on A scored on B 0.199 | rms delta 3.6e-01
+MLP 1 L14: |dC0_P|^2 1.960e-02 (noise 4.550e-04) | gain model explains 0.219 of P, 0.138 of noise -> of the signal 0.221 | fit on A scored on B 0.201 | rms delta 4.2e-01
+MLP 1 L5: core 0.48; top 1%: core x core x0.25, |C0| top-decile x1.38, |D| top-decile x2.03, other-seed energy 0.067 | top 5%: core x core x0.58, |C0| top-decile x1.15, |D| top-decile x1.55, other-seed energy 0.230 | top 20%: core x core x1.16, |C0| top-decile x1.05, |D| top-decile x1.13, other-seed energy 0.570
+MLP 1 L8: core 0.36; top 1%: core x core x0.09, |C0| top-decile x1.66, |D| top-decile x2.83, other-seed energy 0.144 | top 5%: core x core x0.32, |C0| top-decile x1.29, |D| top-decile x2.20, other-seed energy 0.395 | top 20%: core x core x1.03, |C0| top-decile x1.06, |D| top-decile x1.60, other-seed energy 0.751
+MLP 1 L11: core 0.26; top 1%: core x core x0.01, |C0| top-decile x2.18, |D| top-decile x2.68, other-seed energy 0.204 | top 5%: core x core x0.12, |C0| top-decile x1.52, |D| top-decile x2.28, other-seed energy 0.511 | top 20%: core x core x0.76, |C0| top-decile x1.07, |D| top-decile x1.74, other-seed energy 0.858
+MLP 1 L14: core 0.23; top 1%: core x core x0.01, |C0| top-decile x2.71, |D| top-decile x3.55, other-seed energy 0.272 | top 5%: core x core x0.11, |C0| top-decile x1.66, |D| top-decile x2.82, other-seed energy 0.618 | top 20%: core x core x0.94, |C0| top-decile x1.02, |D| top-decile x2.02, other-seed energy 0.928
+gainarm MLP 1 s4 P: x1.0694
+rank MLP 1 s4 r=1 P: x1.0660
+rank MLP 1 s4 r=4 P: x1.0610
+rank MLP 1 s4 r=16 P: x0.9853
+rank MLP 1 s4 r=64 P: x0.8296
+rank MLP 1 s4 r=256 P: x0.8371
+sparse MLP 1 s4 q=0.01 sel=A: x1.0557
+sparse MLP 1 s4 q=0.01 sel=B: x1.0364
+sparse MLP 1 s4 q=0.05 sel=A: x1.0080
+sparse MLP 1 s4 q=0.05 sel=B: x0.9615
+sparse MLP 1 s4 q=0.2 sel=A: x0.8381
+sparse MLP 1 s4 q=0.2 sel=B: x0.8827
+T3 DONE

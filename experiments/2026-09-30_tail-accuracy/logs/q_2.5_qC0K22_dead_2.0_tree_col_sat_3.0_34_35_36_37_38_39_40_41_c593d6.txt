@@ -1,0 +1,1 @@
+FULL+marg2_sat_m2.0+K22_dead_2.5+star_col_dead_2.0+qC0sq_dead_3.0+path_row_dead_2.0+qC0cube_dead_2.0+qC0K22_sat_2.5+qC0K22_dead_2.0+tree_col_sat_3.0 34,35,36,37,38,39,40,41 {'x': 0.9961112110949522, 'better': 6, 'n': 8, 'status': 'done', 'raw': 2.234128456479754e-08}

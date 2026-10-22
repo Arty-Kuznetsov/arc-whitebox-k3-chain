@@ -1,0 +1,2 @@
+MLP 0: recorded; mse 2.278922e-08 (B9 res 2.278922e-08)
+MLP 1: recorded; mse 2.205732e-08 (B9 res 2.205732e-08)

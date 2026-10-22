@@ -1,0 +1,4 @@
+  split16 mlp 0: final_mse=3.4839e-08  (8s)
+  split16 mlp 1: final_mse=3.9837e-08  (7s)
+  split16 mlp 2: final_mse=3.8553e-08  (7s)
+RESULT split16: mean final_mse over 3 MLPs = 3.7743e-08   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

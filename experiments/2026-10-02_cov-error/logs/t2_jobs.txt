@@ -1,0 +1,68 @@
+ L 0-> 1 rel.rms e 3.13e-04 | signal: diag -2.89e-06 off -1.28e-05 2x +3.56e-07 tot -1.53e-05 (4-seed -1.33e-06) | noise/E tot 1.08 | core: diag -2.49e-06 off -2.00e-05 2x +1.59e-06 tot -2.09e-05
+ L 1-> 2 rel.rms e 3.21e-04 | signal: diag -1.29e-06 off -8.31e-06 2x -1.05e-06 tot -1.06e-05 (4-seed 2.69e-06) | noise/E tot 1.10 | core: diag -8.52e-07 off -5.98e-06 2x -3.82e-07 tot -7.22e-06
+ L 2-> 3 rel.rms e 3.35e-04 | signal: diag -2.98e-07 off 4.09e-06 2x -7.21e-07 tot 3.07e-06 (4-seed 1.03e-05) | noise/E tot 0.96 | core: diag -2.20e-07 off 6.91e-06 2x -6.44e-07 tot 6.04e-06
+ L 3-> 4 rel.rms e 3.93e-04 | signal: diag 7.08e-07 off 2.32e-05 2x -4.95e-07 tot 2.34e-05 (4-seed 1.83e-05) | noise/E tot 0.64 | core: diag 3.66e-07 off 7.40e-06 2x -4.17e-07 tot 7.34e-06
+ L 4-> 5 rel.rms e 4.19e-04 | signal: diag -6.35e-07 off 2.38e-05 2x -4.49e-07 tot 2.28e-05 (4-seed 2.30e-05) | noise/E tot 0.55 | core: diag -3.25e-07 off 1.07e-05 2x +3.00e-08 tot 1.04e-05
+ L 5-> 6 rel.rms e 5.06e-04 | signal: diag -3.61e-07 off 3.30e-05 2x -2.66e-07 tot 3.24e-05 (4-seed 2.89e-05) | noise/E tot 0.38 | core: diag -1.70e-07 off 1.04e-05 2x +7.24e-08 tot 1.03e-05
+ L 6-> 7 rel.rms e 6.23e-04 | signal: diag 8.58e-08 off 4.46e-05 2x +5.06e-07 tot 4.52e-05 (4-seed 4.10e-05) | noise/E tot 0.25 | core: diag 3.50e-08 off 1.48e-05 2x -5.34e-08 tot 1.47e-05
+ L 7-> 8 rel.rms e 7.41e-04 | signal: diag 2.93e-07 off 4.28e-05 2x +3.05e-07 tot 4.34e-05 (4-seed 4.31e-05) | noise/E tot 0.17 | core: diag 1.06e-07 off 1.08e-05 2x -3.62e-07 tot 1.06e-05
+ L 8-> 9 rel.rms e 9.01e-04 | signal: diag 2.20e-06 off 5.02e-05 2x -6.04e-07 tot 5.18e-05 (4-seed 5.10e-05) | noise/E tot 0.12 | core: diag 7.44e-07 off 1.14e-05 2x -1.14e-06 tot 1.10e-05
+ L 9->10 rel.rms e 1.04e-03 | signal: diag 3.83e-06 off 5.86e-05 2x +1.82e-06 tot 6.42e-05 (4-seed 6.61e-05) | noise/E tot 0.09 | core: diag 1.26e-06 off 1.12e-05 2x -7.34e-07 tot 1.18e-05
+ L10->11 rel.rms e 1.26e-03 | signal: diag 6.86e-06 off 7.41e-05 2x +1.32e-06 tot 8.23e-05 (4-seed 7.95e-05) | noise/E tot 0.06 | core: diag 2.05e-06 off 1.34e-05 2x +4.80e-07 tot 1.59e-05
+ L11->12 rel.rms e 1.39e-03 | signal: diag 6.42e-06 off 7.26e-05 2x +1.39e-06 tot 8.05e-05 (4-seed 7.84e-05) | noise/E tot 0.05 | core: diag 1.80e-06 off 1.05e-05 2x -5.00e-07 tot 1.18e-05
+ L12->13 rel.rms e 1.58e-03 | signal: diag 8.63e-06 off 8.70e-05 2x -2.92e-06 tot 9.27e-05 (4-seed 9.14e-05) | noise/E tot 0.04 | core: diag 2.02e-06 off 9.83e-06 2x -2.02e-06 tot 9.83e-06
+ L13->14 rel.rms e 1.92e-03 | signal: diag 8.15e-06 off 1.19e-04 2x +1.66e-06 tot 1.29e-04 (4-seed 1.28e-04) | noise/E tot 0.02 | core: diag 1.97e-06 off 1.42e-05 2x -1.63e-06 tot 1.45e-05
+ L14->15 rel.rms e 1.98e-03 | signal: diag 8.60e-06 off 1.03e-04 2x -6.02e-07 tot 1.11e-04 (4-seed 1.09e-04) | noise/E tot 0.02 | core: diag 1.96e-06 off 1.14e-05 2x -1.99e-06 tot 1.14e-05
+MLP 0 [all] sum over layers: signal diag 4.029e-05 off 7.147e-04 cross 2x +2.560e-07 total 7.553e-04 (4-seed 7.699e-04); noise of total 5.397e-04 = 41.7% of |e|^2
+MLP 0 [core] sum over layers: signal diag 8.251e-06 off 1.169e-04 cross 2x -7.698e-06 total 1.175e-04 (4-seed 1.416e-04); noise of total 3.630e-04 = 75.6% of |e|^2
+arm MLP 0 s4  off  P: mse 1.5399e-08  x0.6757
+arm MLP 0 s4  off  N: mse 2.7109e-08  x1.1895
+arm MLP 0 s4  diag P: mse 2.4795e-08  x1.0880
+arm MLP 0 s4  diag N: mse 2.3468e-08  x1.0298
+arm MLP 0 s4  all  P: mse 1.6081e-08  x0.7056
+arm MLP 0 s4  all  N: mse 2.7971e-08  x1.2274
+arm MLP 0 all off  P: mse 1.4210e-08  x0.6235
+arm MLP 0 all off  N: mse 7.3009e-08  x3.2037
+arm MLP 0 all diag P: mse 2.5267e-08  x1.1087
+arm MLP 0 all diag N: mse 3.2390e-08  x1.4213
+arm MLP 0 all all  P: mse 1.4957e-08  x0.6563
+arm MLP 0 all all  N: mse 8.6162e-08  x3.7808
+arm MLP 0 all off  B: mse 1.5252e-08  x0.6693
+arm MLP 0 all diag B: mse 2.4234e-08  x1.0634
+arm MLP 0 all all  B: mse 1.5121e-08  x0.6635
+ L 0-> 1 rel.rms e 3.14e-04 | signal: diag 1.76e-08 off -1.95e-05 2x -3.72e-07 tot -1.98e-05 (4-seed -7.71e-06) | noise/E tot 1.10 | core: diag 2.01e-08 off -1.99e-05 2x -4.70e-07 tot -2.03e-05
+ L 1-> 2 rel.rms e 3.23e-04 | signal: diag 1.16e-07 off 3.75e-06 2x -2.94e-08 tot 3.83e-06 (4-seed 5.16e-07) | noise/E tot 0.97 | core: diag 9.83e-08 off -1.34e-06 2x -1.25e-07 tot -1.37e-06
+ L 2-> 3 rel.rms e 3.40e-04 | signal: diag -8.81e-08 off 8.07e-06 2x -3.81e-07 tot 7.60e-06 (4-seed 1.32e-05) | noise/E tot 0.91 | core: diag -5.32e-08 off 3.72e-06 2x -4.41e-08 tot 3.62e-06
+ L 3-> 4 rel.rms e 3.62e-04 | signal: diag 6.27e-08 off 1.33e-05 2x -2.76e-07 tot 1.31e-05 (4-seed 1.58e-05) | noise/E tot 0.78 | core: diag 4.24e-08 off 6.77e-06 2x -1.03e-07 tot 6.71e-06
+ L 4-> 5 rel.rms e 4.21e-04 | signal: diag -1.14e-07 off 2.36e-05 2x +4.05e-07 tot 2.39e-05 (4-seed 2.47e-05) | noise/E tot 0.56 | core: diag -6.23e-08 off 9.18e-06 2x +4.33e-08 tot 9.16e-06
+ L 5-> 6 rel.rms e 5.01e-04 | signal: diag 2.10e-07 off 3.15e-05 2x +4.74e-07 tot 3.22e-05 (4-seed 3.06e-05) | noise/E tot 0.37 | core: diag 9.27e-08 off 1.01e-05 2x -7.91e-08 tot 1.01e-05
+ L 6-> 7 rel.rms e 5.83e-04 | signal: diag 8.79e-07 off 3.47e-05 2x +1.97e-07 tot 3.58e-05 (4-seed 3.52e-05) | noise/E tot 0.29 | core: diag 3.31e-07 off 1.18e-05 2x +1.30e-07 tot 1.22e-05
+ L 7-> 8 rel.rms e 7.12e-04 | signal: diag 1.79e-06 off 4.22e-05 2x +4.98e-07 tot 4.45e-05 (4-seed 4.64e-05) | noise/E tot 0.22 | core: diag 6.34e-07 off 9.99e-06 2x +2.05e-07 tot 1.08e-05
+ L 8-> 9 rel.rms e 8.83e-04 | signal: diag 2.89e-06 off 5.64e-05 2x +1.55e-06 tot 6.09e-05 (4-seed 5.86e-05) | noise/E tot 0.13 | core: diag 9.00e-07 off 9.66e-06 2x +3.62e-07 tot 1.09e-05
+ L 9->10 rel.rms e 1.02e-03 | signal: diag 5.08e-06 off 6.01e-05 2x -4.03e-07 tot 6.47e-05 (4-seed 6.53e-05) | noise/E tot 0.10 | core: diag 1.54e-06 off 1.09e-05 2x -3.80e-07 tot 1.21e-05
+ L10->11 rel.rms e 1.23e-03 | signal: diag 4.50e-06 off 7.95e-05 2x -5.88e-07 tot 8.35e-05 (4-seed 8.08e-05) | noise/E tot 0.07 | core: diag 1.16e-06 off 8.89e-06 2x -2.62e-07 tot 9.79e-06
+ L11->12 rel.rms e 1.42e-03 | signal: diag 6.07e-06 off 9.94e-05 2x -3.74e-07 tot 1.05e-04 (4-seed 1.05e-04) | noise/E tot 0.05 | core: diag 1.65e-06 off 1.51e-05 2x -5.78e-07 tot 1.61e-05
+ L12->13 rel.rms e 1.72e-03 | signal: diag 8.23e-06 off 1.27e-04 2x +1.98e-06 tot 1.37e-04 (4-seed 1.39e-04) | noise/E tot 0.03 | core: diag 2.05e-06 off 1.71e-05 2x -1.75e-06 tot 1.74e-05
+ L13->14 rel.rms e 1.92e-03 | signal: diag 9.38e-06 off 1.46e-04 2x -3.16e-06 tot 1.53e-04 (4-seed 1.54e-04) | noise/E tot 0.03 | core: diag 2.08e-06 off 1.78e-05 2x -1.67e-06 tot 1.82e-05
+ L14->15 rel.rms e 2.17e-03 | signal: diag 4.65e-06 off 1.61e-04 2x -2.12e-06 tot 1.64e-04 (4-seed 1.65e-04) | noise/E tot 0.02 | core: diag 1.00e-06 off 1.27e-05 2x -6.20e-07 tot 1.31e-05
+MLP 1 [all] sum over layers: signal diag 4.369e-05 off 8.675e-04 cross 2x -2.605e-06 total 9.086e-04 (4-seed 9.266e-04); noise of total 5.560e-04 = 38.0% of |e|^2
+MLP 1 [core] sum over layers: signal diag 1.148e-05 off 1.225e-04 cross 2x -5.336e-06 total 1.286e-04 (4-seed 1.451e-04); noise of total 3.603e-04 = 73.7% of |e|^2
+arm MLP 1 s4  off  P: mse 1.8718e-08  x0.8486
+arm MLP 1 s4  off  N: mse 2.6291e-08  x1.1919
+arm MLP 1 s4  diag P: mse 2.3091e-08  x1.0469
+arm MLP 1 s4  diag N: mse 2.2040e-08  x0.9992
+arm MLP 1 s4  all  P: mse 1.8998e-08  x0.8613
+arm MLP 1 s4  all  N: mse 2.6270e-08  x1.1910
+arm MLP 1 all off  P: mse 1.7018e-08  x0.7715
+arm MLP 1 all off  N: mse 8.3058e-08  x3.7656
+arm MLP 1 all diag P: mse 2.3715e-08  x1.0752
+arm MLP 1 all diag N: mse 2.3315e-08  x1.0570
+arm MLP 1 all all  P: mse 1.7669e-08  x0.8010
+arm MLP 1 all all  N: mse 8.5197e-08  x3.8625
+arm MLP 1 all off  A: mse 2.1318e-08  x0.9665
+arm MLP 1 all off  B: mse 1.7395e-08  x0.7886
+arm MLP 1 all diag A: mse 2.4228e-08  x1.0984
+arm MLP 1 all diag B: mse 2.3310e-08  x1.0568
+arm MLP 1 all all  A: mse 2.1971e-08  x0.9961
+arm MLP 1 all all  B: mse 1.7982e-08  x0.8152
+T2 DONE

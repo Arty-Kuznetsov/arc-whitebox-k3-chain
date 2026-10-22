@@ -1,0 +1,9 @@
+  mlp 0 done
+  mlp 1 done
+  mlp 2 done
+k4=True: final-layer MSE when exact means are injected at layers 0..u (mean of 3 MLPs)
+  u= -1: 4.2509e-08   (no injection)
+  u=  7: 3.6599e-08   (error accumulated in layers 8..15)
+  u= 11: 2.4468e-08   (error accumulated in layers 12..15)
+  u= 13: 1.5164e-08   (error accumulated in layers 14..15)
+  u= 14: 8.0304e-09   (error accumulated in layers 15..15)

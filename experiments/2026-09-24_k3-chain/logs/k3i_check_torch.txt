@@ -1,0 +1,5 @@
+(2) off     : max rel diff flopscope vs torch per layer 2.1e-07 2.5e-07 1.8e-07 3.1e-07 3.5e-07 2.1e-07
+(2) paths   : max rel diff flopscope vs torch per layer 2.1e-07 2.5e-07 1.8e-07 2.5e-07 2.9e-07 6.0e-07   | size of the change itself 0.0e+00 0.0e+00 1.3e-04 2.5e-04 2.7e-04 5.0e-04
+(2) star    : max rel diff flopscope vs torch per layer 2.1e-07 2.5e-07 1.7e-07 3.1e-07 2.2e-07 2.9e-07   | size of the change itself 0.0e+00 0.0e+00 6.0e-05 9.8e-05 1.1e-04 2.0e-04
+(2) c0k22   : max rel diff flopscope vs torch per layer 2.1e-07 2.5e-07 1.9e-07 2.8e-07 2.6e-07 2.7e-07   | size of the change itself 0.0e+00 0.0e+00 1.5e-05 3.2e-05 4.8e-05 9.8e-05
+(2) all     : max rel diff flopscope vs torch per layer 2.1e-07 2.5e-07 2.1e-07 2.7e-07 4.0e-07 3.0e-07   | size of the change itself 0.0e+00 0.0e+00 1.5e-04 3.3e-04 3.3e-04 4.2e-04

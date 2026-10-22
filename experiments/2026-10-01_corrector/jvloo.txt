@@ -1,0 +1,11 @@
+MLPs with an oracle: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+layers 8-15  k4  held-out R2 0.361
+layers 8-15  var held-out R2 0.004
+layers 8-15  k4      s=0.5: held-out raw x mean 0.9739  median 0.9750  better 10/10   [0.975 0.985 0.946 0.992 0.984 0.975 0.974 0.969 0.994 0.945]
+layers 8-15  var     s=0.5: held-out raw x mean 1.0190  median 1.0145  better 0/10   [1.016 1.010 1.066 1.024 1.022 1.001 1.013 1.011 1.011 1.017]
+layers 8-15  var+k4  s=0.5: held-out raw x mean 0.9799  median 0.9768  better 9/10   [0.978 0.975 0.975 1.000 0.998 0.972 0.980 0.971 0.998 0.950]
+layers 8-15  var+k4  s=1.0: held-out raw x mean 0.9872  median 0.9784  better 7/10   [0.978 0.978 0.990 1.033 1.029 0.976 0.979 0.960 1.018 0.930]
+layers 2-15  k4  held-out R2 0.248
+layers 2-15  var held-out R2 -0.003
+layers 2-15  k4      s=0.5: held-out raw x mean 0.9822  median 0.9794  better 9/10   [0.979 0.969 0.974 0.996 0.983 0.972 0.988 0.979 1.022 0.960]
+stopped by hand after the layers 2-15 kappa4 arm (the remaining var arms cannot change the verdict; CPU freed for the k3x 100-MLP run)

@@ -1,0 +1,38 @@
+SELF-CHECKS (MLP 0)
+  no injection            = 4.5018e-06   (expect 4.50e-06 = full k=2)
+  (A) inject GT at l=15   = 0.0000e+00   (expect 0 exactly)
+  (B) inject k=3 at l=15  = 3.7046e-08   (expect 3.71e-08 = full k=3)
+  (C) cov-only at l=15    = 4.5018e-06   (expect 4.5018e-06 = base exactly)
+
+  mlp 0: base=4.502e-06  A[l=8]=1.443e-06  B[l=8]=1.723e-06
+  mlp 1: base=5.055e-06  A[l=8]=1.373e-06  B[l=8]=1.501e-06
+  mlp 2: base=5.891e-06  A[l=8]=1.550e-06  B[l=8]=1.530e-06
+
+=== Per-layer localisation of the k=2 closure error (3 MLPs, mean) ===
+baseline (no injection, full k=2) = 5.1494e-06
+
+l  = layer where the oracle state is injected; the chain then runs plain k=2 to layer 15
+A = exact MEAN injected, cov left at k=2   C = cov replaced by k=3's, mean left at k=2
+B = both replaced by k=3's
+ l |     A: mse  A/base         dA |     C: mse  C/base |     B: mse  B/base
+ 0 |  5.150e-06   1.000  +8.20e-10 |  5.068e-06   0.984 |  5.068e-06   0.984
+ 1 |  4.448e-06   0.864  -7.02e-07 |  5.660e-06   1.099 |  4.899e-06   0.951
+ 2 |  3.841e-06   0.746  -6.07e-07 |  5.965e-06   1.158 |  4.452e-06   0.865
+ 3 |  3.337e-06   0.648  -5.04e-07 |  5.972e-06   1.160 |  3.874e-06   0.752
+ 4 |  2.959e-06   0.575  -3.78e-07 |  5.871e-06   1.140 |  3.323e-06   0.645
+ 5 |  2.504e-06   0.486  -4.55e-07 |  5.916e-06   1.149 |  2.800e-06   0.544
+ 6 |  2.060e-06   0.400  -4.44e-07 |  5.827e-06   1.132 |  2.196e-06   0.426
+ 7 |  1.740e-06   0.338  -3.21e-07 |  5.878e-06   1.141 |  1.842e-06   0.358
+ 8 |  1.455e-06   0.283  -2.84e-07 |  5.933e-06   1.152 |  1.585e-06   0.308
+ 9 |  1.268e-06   0.246  -1.88e-07 |  5.592e-06   1.086 |  1.278e-06   0.248
+10 |  1.066e-06   0.207  -2.02e-07 |  5.498e-06   1.068 |  1.059e-06   0.206
+11 |  8.632e-07   0.168  -2.03e-07 |  5.550e-06   1.078 |  8.302e-07   0.161
+12 |  6.618e-07   0.129  -2.01e-07 |  5.487e-06   1.066 |  6.485e-07   0.126
+13 |  4.740e-07   0.092  -1.88e-07 |  5.338e-06   1.037 |  4.539e-07   0.088
+14 |  2.399e-07   0.047  -2.34e-07 |  5.241e-06   1.018 |  2.429e-07   0.047
+15 |  0.000e+00   0.000  -2.40e-07 |  5.149e-06   1.000 |  4.251e-08   0.008
+
+Reading: X[l]/base = fraction of the final error that survives when that quantity is fixed
+at layer l. dA = the marginal blame of layer l's mean. If C stays near 1.0 while A falls,
+the k=2 error is carried by the propagated MEAN and not by the covariance.
+saved per-MLP arrays to layer_blame.npz

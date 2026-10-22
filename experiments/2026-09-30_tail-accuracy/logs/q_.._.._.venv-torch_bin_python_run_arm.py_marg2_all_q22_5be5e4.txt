@@ -1,0 +1,1 @@
+marg2_all_q22 screen {'x': 0.9996175903550559, 'better': 8, 'n': 10, 'status': 'done', 'raw': 2.195826444377937e-08}

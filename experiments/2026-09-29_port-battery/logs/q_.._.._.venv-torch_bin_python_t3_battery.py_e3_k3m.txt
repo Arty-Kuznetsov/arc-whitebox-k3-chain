@@ -1,0 +1,14 @@
+  k3m base                                       (cached) raw 2.3462e-08
+  k3m + E3 recv -3.0 a                           raw 2.3746e-08  x1.0121  better 1/10  [534s]
+      -> raw x1.0121  util x0.9442  projected x0.9556  projected-better 10/10
+   E3 arm a at -3.0: KILLED (> +0.5%) -> arm b
+  k3m + E3 recv -3.0 b                           raw 2.3502e-08  x1.0017  better 4/10  [552s]
+      -> raw x1.0017  util x0.9494  projected x0.9510  projected-better 10/10
+  k3m + E3 recv -3.25 a                          raw 2.3512e-08  x1.0022  better 3/10  [543s]
+      -> raw x1.0022  util x0.9522  projected x0.9543  projected-better 10/10
+   E3 arm a at -3.25: survives
+  k3m + E3 recv -3.5 a                           raw 2.3510e-08  x1.0021  better 4/10  [522s]
+      -> raw x1.0021  util x0.9596  projected x0.9615  projected-better 10/10
+   E3 arm a at -3.5: survives
+  k3m + E3 recv -3.0 zero                        raw 2.3864e-08  x1.0172  better 1/10  [461s]
+      -> raw x1.0172  util x0.9442  projected x0.9604  projected-better 10/10

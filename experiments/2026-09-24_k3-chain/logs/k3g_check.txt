@@ -1,0 +1,6 @@
+{'strassen_levels': 3, 'chunk': 16} rep 0: bitwise True, flops equal True (32.36% of B); residual k3f 0.232 -> k3g 0.242 s; wall 12.2 -> 11.2 s
+{'strassen_levels': 3, 'chunk': 16} rep 1: bitwise True, flops equal True (32.36% of B); residual k3f 0.265 -> k3g 0.255 s; wall 12.1 -> 11.0 s
+{'strassen_levels': 4, 'chunk': 8} rep 0: bitwise True, flops equal True (29.04% of B); residual k3f 0.321 -> k3g 0.300 s; wall 20.0 -> 18.1 s
+{'strassen_levels': 4, 'chunk': 8} rep 1: bitwise True, flops equal True (29.04% of B); residual k3f 0.325 -> k3g 0.332 s; wall 20.1 -> 18.0 s
+{'strassen_levels': 5, 'chunk': 4} rep 0: bitwise True, flops equal True (29.07% of B); residual k3f 0.405 -> k3g 0.457 s; wall 20.3 -> 18.4 s
+{'strassen_levels': 5, 'chunk': 4} rep 1: bitwise True, flops equal True (29.07% of B); residual k3f 0.436 -> k3g 0.437 s; wall 20.3 -> 18.3 s

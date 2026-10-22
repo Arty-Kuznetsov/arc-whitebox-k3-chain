@@ -1,0 +1,6 @@
+Wed Oct 14 19:09:09 +05 2026
+vm_0_gauss_s1.npz: pass 1 199 s, pass 2 232 s
+vm_0_sphere_s1.npz: pass 1 195 s, pass 2 234 s
+vm_1_gauss_s1.npz: pass 1 198 s, pass 2 233 s
+vm_1_sphere_s1.npz: pass 1 199 s, pass 2 241 s
+Wed Oct 14 19:38:03 +05 2026

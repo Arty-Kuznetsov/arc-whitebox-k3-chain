@@ -1,0 +1,17 @@
+  mlp 0: J3c0=1.347e-06 J3c2=1.325e-06 J3c4=1.307e-06 J3c7.45=1.282e-06 J3c12=1.261e-06 J2c7.45=1.685e-06 J2c0=1.774e-06
+  mlp 1: J3c0=1.678e-06 J3c2=1.657e-06 J3c4=1.640e-06 J3c7.45=1.617e-06 J3c12=1.602e-06 J2c7.45=2.181e-06 J2c0=2.251e-06
+
+=== 4th-cumulant path term on top of the 3-source chain (2 MLPs) ===
+SELF-CHECK J=3, c4=0 = 1.5122e-06 (the shipped chain)
+
+  J     c4 |  final_layer_mse   vs c4=0 |  % of B   mult   adjusted
+  3      0 |       1.5122e-06     1.00x |   9.09%  0.100  1.512e-07
+  3      2 |       1.4913e-06     1.01x |  13.19%  0.132  1.967e-07
+  3      4 |       1.4734e-06     1.03x |  13.19%  0.132  1.943e-07
+  3   7.45 |       1.4496e-06     1.04x |  13.19%  0.132  1.912e-07
+  3     12 |       1.4318e-06     1.06x |  13.19%  0.132  1.889e-07
+  2   7.45 |       1.9327e-06     0.78x |   9.38%  0.100  1.933e-07
+  2      0 |       2.0126e-06     0.75x |   6.55%  0.100  2.013e-07
+
+A prefactor sweep is a diagnostic, not a shipped constant: if the term helps, the exact
+combinatorial coefficient gets derived and verified before it goes into the estimator.

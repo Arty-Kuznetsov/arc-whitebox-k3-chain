@@ -1,0 +1,12 @@
+  mlp 0: --=1.112e-06 d-=6.131e-06 -o=7.441e-07 do=2.495e-06
+  mlp 1: --=1.316e-06 d-=5.442e-06 -o=6.570e-07 do=1.938e-06
+  mlp 2: --=1.251e-06 d-=5.539e-06 -o=6.214e-07 do=2.192e-06
+
+=== Splitting the covariance correction at J=4 (3 MLPs) ===
+SELF-CHECK no correction = 1.2264e-06 (the shipped chain)
+
+  diag  offdiag |  final_layer_mse   vs none | extra matmuls/layer
+ False    False |       1.2264e-06     1.00x |                  0
+  True    False |       5.7037e-06     0.22x |                  0
+ False     True |       6.7418e-07     1.82x |                  8
+  True     True |       2.2084e-06     0.56x |                  8

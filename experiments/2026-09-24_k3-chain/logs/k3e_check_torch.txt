@@ -1,0 +1,3 @@
+(2) c0d     : max rel diff flopscope vs torch per layer 2.1e-07 2.4e-07 3.3e-07 3.4e-07 2.6e-07 3.9e-07   | size of the change itself 0.0e+00 0.0e+00 1.0e-04 2.1e-04 3.9e-04 8.5e-04
+(2) closure : max rel diff flopscope vs torch per layer 2.1e-07 2.5e-07 1.9e-07 4.6e-07 5.2e-07 4.3e-07   | size of the change itself 0.0e+00 7.6e-04 7.2e-04 1.1e-03 1.6e-03 1.5e-03
+(2) both    : max rel diff flopscope vs torch per layer 2.1e-07 2.5e-07 2.0e-07 4.8e-07 3.3e-07 2.9e-07   | size of the change itself 0.0e+00 7.6e-04 7.0e-04 1.2e-03 1.8e-03 1.7e-03

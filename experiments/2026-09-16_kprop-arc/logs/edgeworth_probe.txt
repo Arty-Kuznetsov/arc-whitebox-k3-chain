@@ -1,0 +1,31 @@
+STEP 0  get_dslice((3,)) vs explicit diagonal at n=16: max|diff| = 8.882e-16   OK
+        (scale check: max|kappa3_iii| = 2.632e+00)
+
+  mlp 0 done
+  mlp 1 done
+
+=== Edgeworth diagonal-kappa3 readout probe (2 MLPs, mean) ===
+At each layer: take the k=3 chain's PRE-activation state, read the post-ReLU mean two ways,
+score both against the baked N=1e9 GT mean of that layer.
+
+ l |  Gaussian mse  Edgeworth mse   ratio |  k=3 chain mse |  mean|a| mean|skew|
+ 0 |     6.692e-10      6.692e-10    1.00 |      6.692e-10 |    0.000     0.0000
+ 1 |     1.557e-07      1.762e-08    8.83 |      9.166e-10 |    0.552     0.0076
+ 2 |     2.573e-07      2.884e-08    8.92 |      1.775e-09 |    0.790     0.0129
+ 3 |     3.058e-07      3.711e-08    8.24 |      3.346e-09 |    0.951     0.0179
+ 4 |     3.140e-07      4.050e-08    7.75 |      4.793e-09 |    1.123     0.0233
+ 5 |     3.249e-07      4.236e-08    7.67 |      6.573e-09 |    1.281     0.0294
+ 6 |     3.181e-07      4.711e-08    6.75 |      9.068e-09 |    1.437     0.0358
+ 7 |     3.113e-07      4.632e-08    6.72 |      1.039e-08 |    1.554     0.0419
+ 8 |     2.837e-07      4.662e-08    6.09 |      1.348e-08 |    1.722     0.0481
+ 9 |     2.788e-07      4.855e-08    5.74 |      1.804e-08 |    1.806     0.0527
+10 |     3.070e-07      5.339e-08    5.75 |      2.293e-08 |    1.859     0.0578
+11 |     2.973e-07      5.860e-08    5.07 |      2.850e-08 |    2.084     0.0669
+12 |     2.691e-07      5.822e-08    4.62 |      3.167e-08 |    2.249     0.0741
+13 |     2.573e-07      5.896e-08    4.36 |      3.727e-08 |    2.363     0.0800
+14 |     2.585e-07      6.273e-08    4.12 |      3.749e-08 |    2.462     0.0844
+15 |     2.270e-07      6.137e-08    3.70 |      4.082e-08 |    2.652     0.0906
+
+ratio > 1 = the diagonal-kappa3 correction improves the one-step readout at that layer.
+Compare 'Edgeworth mse' with 'k=3 chain mse': how much of the full k=3 accuracy a
+VECTOR-only correction recovers, against a tensor the full chain pays O(L^2 n^3) to carry.

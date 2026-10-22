@@ -1,0 +1,1 @@
+RESULT k3l_t: mean final_mse over 10 MLPs = 2.3135e-08 (final chain.py, 2026-09-27 20:4x)

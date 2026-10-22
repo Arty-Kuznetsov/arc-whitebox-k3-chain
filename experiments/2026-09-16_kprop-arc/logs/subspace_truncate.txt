@@ -1,0 +1,18 @@
+  mlp 0: full=4.502e-06  m=200 -> 8.030e-02
+  mlp 1: full=5.055e-06  m=200 -> 7.894e-02
+
+=== Covariance truncated to its top-m eigenspace every layer (2 MLPs) ===
+SELF-CHECK m = n = 1024: 4.7786e-06  (expect the reference k=2, 4.50e-06 on MLP 0)
+
+     m |  final_layer_mse |  vs full
+  1024 |       4.7786e-06 |    1.00x
+   512 |       1.6362e-02 | 3424.09x
+   300 |       5.0057e-02 | 10475.25x
+   200 |       7.9620e-02 | 16661.71x
+   150 |       1.0027e-01 | 20983.66x
+   100 |       1.2675e-01 | 26523.56x
+    64 |       1.5158e-01 | 31721.31x
+
+vs full ~ 1 means the covariance really does live in m directions and the deep, expensive
+layers of a k=3 chain could be run in that basis. Much larger than 1 means the small
+eigen-directions still drive the mean and the spectrum is not an exploitable subspace.

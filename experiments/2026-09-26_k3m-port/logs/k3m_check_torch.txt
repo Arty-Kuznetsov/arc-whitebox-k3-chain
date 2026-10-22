@@ -1,0 +1,3 @@
+(6) pathrank=None: max rel diff flopscope vs torch per layer 2.1e-07 1.8e-07 1.8e-07 1.8e-07 1.8e-07 2.6e-07 1.7e-07 1.9e-07
+(6) pathrank=  64: max rel diff flopscope vs torch per layer 2.1e-07 1.8e-07 1.7e-07 2.0e-07 1.8e-07 1.6e-07 1.8e-07 3.3e-07
+    size of the rank-64 truncation itself (torch p64 vs none): 0.0e+00 0.0e+00 2.3e-05 4.1e-05 4.2e-05 5.1e-05 6.0e-05 1.1e-04

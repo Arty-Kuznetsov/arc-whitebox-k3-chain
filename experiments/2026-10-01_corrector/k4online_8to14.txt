@@ -1,0 +1,7 @@
+MLPs with an oracle: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  held-out MLP 0: ONLINE raw x0.9863   (s=0.5)
+  held-out MLP 2: ONLINE raw x0.9575   (s=0.5)
+  held-out MLP 5: ONLINE raw x0.9754   (s=0.5)
+  held-out MLP 9: ONLINE raw x0.9532   (s=0.5)
+ONLINE s=0.5 layers 8..14: mean x0.9681  median x0.9665  better 4/4
+exit=0

@@ -1,0 +1,1 @@
+marg2_all_q11 screen {'x': 1.090814095277552, 'better': 0, 'n': 4, 'status': 'KILLED', 'raw': 2.4230788577317453e-08}

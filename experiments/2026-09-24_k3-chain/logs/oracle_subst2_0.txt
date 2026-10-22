@@ -1,0 +1,11 @@
+k3e chain                      final MSE vs baked GT = 2.9040e-08
+k4 exact @ all                 final MSE vs baked GT = 2.2892e-08
+k3 exact @ all                 final MSE vs baked GT = 2.2918e-08
+k3+k4 exact @ all              final MSE vs baked GT = 1.4885e-08
+k3+k4 exact @ layers 8-15      final MSE vs baked GT = 1.6496e-08
+k3+k4+var exact @ all          final MSE vs baked GT = 4.7941e-09
+var exact @ all                final MSE vs baked GT = 2.1756e-08
+var exact @ last               final MSE vs baked GT = 2.6750e-08
+var+k4 exact @ all             final MSE vs baked GT = 1.4967e-08
+var+k3 exact @ all             final MSE vs baked GT = 1.2584e-08
+k3+k4+var exact @ last only    final MSE vs baked GT = 2.1687e-08

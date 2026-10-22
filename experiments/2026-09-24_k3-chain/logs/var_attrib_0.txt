@@ -1,0 +1,6 @@
+layer 5->6: |dvar_6| 8.272e-03 (rel 5.77e-04); diagonal channel 1.607e-03, off-diagonal channel 8.444e-03; corr(dvar, diag) 0.035
+   |dK2| 8.020e-03 (rel 8.46e-04); attribution of dK2 by input error: mu 1.49e-03 (corr +0.02), var 4.45e-03 (corr +0.23), t 2.64e-03 (corr +0.15), K4d 1.50e-03 (corr +0.16); step-with-MC-inputs error 8.21e-03
+layer 9->10: |dvar_10| 8.706e-03 (rel 1.08e-03); diagonal channel 9.954e-04, off-diagonal channel 8.577e-03; corr(dvar, diag) 0.051
+   |dK2| 6.393e-03 (rel 1.20e-03); attribution of dK2 by input error: mu 8.22e-04 (corr +0.01), var 5.19e-03 (corr +0.67), t 2.13e-03 (corr +0.31), K4d 1.32e-03 (corr +0.17); step-with-MC-inputs error 4.33e-03
+layer 13->14: |dvar_14| 1.050e-02 (rel 1.76e-03); diagonal channel 1.526e-03, off-diagonal channel 1.036e-02; corr(dvar, diag) 0.119
+   |dK2| 7.099e-03 (rel 1.74e-03); attribution of dK2 by input error: mu 5.82e-04 (corr -0.02), var 6.10e-03 (corr +0.80), t 2.08e-03 (corr +0.28), K4d 1.32e-03 (corr +0.12); step-with-MC-inputs error 3.73e-03

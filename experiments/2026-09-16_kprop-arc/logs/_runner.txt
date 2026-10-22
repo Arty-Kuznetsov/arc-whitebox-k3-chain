@@ -1,0 +1,17 @@
+=== 2026-09-22 13:26:51 START kink_diag.py 
+=== 2026-09-22 13:26:53 END kink_diag.py (exit 0)
+=== 2026-09-22 13:26:53 START kprop_cost.py 
+=== 2026-09-22 13:27:24 END kprop_cost.py (exit 0)
+=== 2026-09-22 13:27:24 START flop_breakdown.py 
+=== 2026-09-22 13:27:38 END flop_breakdown.py (exit 0)
+=== 2026-09-22 13:27:38 START rank_diag.py 
+=== 2026-09-22 13:28:15 END rank_diag.py (exit 0)
+=== 2026-09-22 13:28:15 START kprop_1024.py 5 1,2,3
+=== 2026-09-22 13:29:25 END kprop_1024.py (exit 0)
+=== 2026-09-22 13:29:25 START rcap_test.py 
+=== 2026-09-22 13:29:55 END rcap_test.py (exit 0)
+=== 2026-09-22 13:29:55 START layer_adaptive.py 
+=== 2026-09-22 13:30:40 END layer_adaptive.py (exit 0)
+=== 2026-09-22 13:30:40 START reverse_adaptive.py 
+=== 2026-09-22 13:31:16 END reverse_adaptive.py (exit 0)
+=== 2026-09-22 13:31:16 ALL DONE

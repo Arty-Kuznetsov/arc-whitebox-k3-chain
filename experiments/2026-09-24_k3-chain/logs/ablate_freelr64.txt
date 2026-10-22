@@ -1,0 +1,4 @@
+  freelr64 mlp 0: final_mse=3.4765e-08  (7s)
+  freelr64 mlp 1: final_mse=4.0082e-08  (7s)
+  freelr64 mlp 2: final_mse=3.7895e-08  (7s)
+RESULT freelr64: mean final_mse over 3 MLPs = 3.7581e-08   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

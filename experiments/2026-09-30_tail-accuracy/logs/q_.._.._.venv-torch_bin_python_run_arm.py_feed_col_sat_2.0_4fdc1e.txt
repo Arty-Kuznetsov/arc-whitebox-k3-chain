@@ -1,0 +1,1 @@
+feed_col_sat_2.0 screen {'x': 0.9999467353341611, 'better': 4, 'n': 8, 'status': 'KILLED', 'raw': 2.159601187009735e-08}

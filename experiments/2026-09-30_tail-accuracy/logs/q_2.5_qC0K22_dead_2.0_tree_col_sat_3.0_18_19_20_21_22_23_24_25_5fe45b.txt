@@ -1,0 +1,1 @@
+marg2_sat_m2.0+K22_dead_2.5+star_col_dead_2.0+qC0sq_dead_3.0+path_row_dead_2.0+qC0cube_dead_2.0+qC0K22_sat_2.5+qC0K22_dead_2.0+tree_col_sat_3.0 18,19,20,21,22,23,24,25 {'x': 0.973666932694032, 'better': 7, 'n': 8, 'status': 'done', 'raw': 1.9847612867584655e-08}

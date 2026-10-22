@@ -1,0 +1,4 @@
+  k4pat_c0d mlp 0: final_mse=3.0170e-08  (5s)
+  k4pat_c0d mlp 1: final_mse=3.2651e-08  (5s)
+  k4pat_c0d mlp 2: final_mse=3.1396e-08  (5s)
+RESULT k4pat_c0d: mean final_mse over 3 MLPs = 3.1406e-08   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

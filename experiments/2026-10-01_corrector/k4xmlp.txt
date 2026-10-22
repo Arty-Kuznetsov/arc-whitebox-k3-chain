@@ -1,0 +1,24 @@
+
+--- fit on MLP 0 -> apply OFFLINE on MLP 1   (base 2.205732e-08)
+    per-layer OLS, s=0.5:  x3167135319607928084758528.0000
+    per-layer OLS, s=1.0:  x12668541345029488115712000.0000
+    POOLED L8-15, s=0.5:   x1.0131
+    POOLED L8-15, s=1.0:   x1.0768
+
+--- fit on MLP 1 -> apply OFFLINE on MLP 0   (base 2.278922e-08)
+    per-layer OLS, s=0.5:  x1841866244989020471820288.0000
+    per-layer OLS, s=1.0:  x7367464998425625597313024.0000
+    POOLED L8-15, s=0.5:   x1.0002
+    POOLED L8-15, s=1.0:   x1.0476
+
+dominant standardised features of the pooled kappa4-error model (both MLPs, layers 8-15):
+   C0^2r        beta +0.5157
+   t*a          beta -0.4626
+   |C0|^1.5r    beta -0.3857
+   sd           beta -0.3740
+   |C0|r        beta +0.2763
+   mu           beta -0.2481
+   C0^2r/var    beta -0.2414
+   a2           beta +0.2329
+   K22^2r       beta -0.2158
+   var          beta +0.1983

@@ -1,0 +1,4 @@
+MLP 0 L5: BORN dC0: R^2 in 0.057 (A->B 0.046, ceiling 0.808) | best single: K31 -0.16, D +0.12, vv +0.11, C0K22 +0.10
+MLP 0 L8: BORN dC0: R^2 in 0.089 (A->B 0.082, ceiling 0.945) | best single: D +0.19, K31 -0.17, vv +0.14, C0K22 +0.10
+MLP 0 L11: BORN dC0: R^2 in 0.123 (A->B 0.118, ceiling 0.978) | best single: D +0.27, K31 -0.17, vv +0.16, DDt +0.09
+MLP 0 L14: BORN dC0: R^2 in 0.146 (A->B 0.143, ceiling 0.991) | best single: D +0.32, K31 -0.16, vv +0.14, DDt +0.07

@@ -1,0 +1,26 @@
+<repo>/experiments/2026-10-01_k4corr/train.py:54: ConfigureNoOpWarning: flops.configure() configures the in-process flopscope backend only; it is a no-op on flopscope-client and the evaluation servers, so these settings will not affect a graded submission.
+  flops.configure(symmetry_warnings=False)
+whestbench: downloading 'mini' split from hf://aicrowd/arc-whestbench-public-2026@v2-phase2
+
+Fetching 16 files:   0%|          | 0/16 [00:00<?, ?it/s]
+Fetching 16 files: 100%|██████████| 16/16 [00:00<00:00, 7289.69it/s]
+<repo>/src/estimator_k3v.py:272: FlopscopeWarning: stats.norm.cdf promoted its float32 input to float64 to match scipy.stats. If float64 output was not intended, cast the result back with result.astype(np.float32) before downstream operations; float64 operations are billed at twice the float32 dtype rate.
+  Ph = flops.stats.norm.cdf(a).astype(_F32)
+<repo>/src/estimator_k3v.py:273: FlopscopeWarning: stats.norm.pdf promoted its float32 input to float64 to match scipy.stats. If float64 output was not intended, cast the result back with result.astype(np.float32) before downstream operations; float64 operations are billed at twice the float32 dtype rate.
+  ph = flops.stats.norm.pdf(a).astype(_F32)
+<repo>/src/estimator_k3v.py:407: FlopscopeWarning: stats.norm.pdf promoted its float32 input to float64 to match scipy.stats. If float64 output was not intended, cast the result back with result.astype(np.float32) before downstream operations; float64 operations are billed at twice the float32 dtype rate.
+  phi = flops.stats.norm.pdf(a).astype(_F32)
+<repo>/src/estimator_k3v.py:408: FlopscopeWarning: stats.norm.cdf promoted its float32 input to float64 to match scipy.stats. If float64 output was not intended, cast the result back with result.astype(np.float32) before downstream operations; float64 operations are billed at twice the float32 dtype rate.
+  Ph = flops.stats.norm.cdf(a).astype(_F32)
+  held-out MLP 0: PRODUCTION raw 2.2321e-08 -> 2.1932e-08  x0.9826   FLOPs x1.00052
+  held-out MLP 1: PRODUCTION raw 2.2858e-08 -> 2.2387e-08  x0.9794   FLOPs x1.00053
+  held-out MLP 2: PRODUCTION raw 2.1828e-08 -> 2.0916e-08  x0.9582   FLOPs x1.00053
+  held-out MLP 3: PRODUCTION raw 2.2237e-08 -> 2.2264e-08  x1.0012   FLOPs x1.00053
+  held-out MLP 4: PRODUCTION raw 2.1530e-08 -> 2.1354e-08  x0.9919   FLOPs x1.00052
+  held-out MLP 5: PRODUCTION raw 1.9839e-08 -> 1.9388e-08  x0.9773   FLOPs x1.00053
+  held-out MLP 6: PRODUCTION raw 1.9646e-08 -> 1.9020e-08  x0.9681   FLOPs x1.00053
+  held-out MLP 7: PRODUCTION raw 2.3617e-08 -> 2.3292e-08  x0.9862   FLOPs x1.00053
+  held-out MLP 8: PRODUCTION raw 2.0109e-08 -> 2.0126e-08  x1.0009   FLOPs x1.00052
+  held-out MLP 9: PRODUCTION raw 2.6699e-08 -> 2.5553e-08  x0.9571   FLOPs x1.00054
+PRODUCTION leave-one-out (lam 0.001, s 0.5): mean x0.9803  median x0.9810  better 8/10
+exit=0

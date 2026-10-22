@@ -1,0 +1,12 @@
+# Recovered from the 2026-09-24 session transcript (the script printed to stdout; rerun the script to regenerate).
+
+ok
+chain (split24rr + memo22)         final MSE vs baked GT = 3.5035e-08
+k4 exact @ last layer              final MSE vs baked GT = 3.2704e-08
+k4 exact @ all layers              final MSE vs baked GT = 2.2303e-08
+k3 exact @ last layer              final MSE vs baked GT = 3.1662e-08
+var exact @ last layer             final MSE vs baked GT = 3.2536e-08
+k3+k4 exact @ last                 final MSE vs baked GT = 2.9575e-08
+k3+k4+var exact @ last             final MSE vs baked GT = 2.7180e-08
+k4 exact @ all, k3 exact @ all     final MSE vs baked GT = 1.6660e-08
+(MC noise in the substituted k4 adds roughly (w41*se/24)^2 ~ few e-9)

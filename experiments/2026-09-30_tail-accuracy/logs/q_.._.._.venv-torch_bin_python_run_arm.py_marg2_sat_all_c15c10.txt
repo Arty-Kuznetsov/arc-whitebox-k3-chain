@@ -1,0 +1,1 @@
+marg2_sat_all screen {'x': 0.9835881738565285, 'better': 9, 'n': 10, 'status': 'done', 'raw': 2.1606151626087632e-08}

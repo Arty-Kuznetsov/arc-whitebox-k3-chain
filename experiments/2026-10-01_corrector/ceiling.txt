@@ -1,0 +1,16 @@
+R^2 ->  magnitude-equivalent exact strength s_eq = 1 - sqrt(1 - R^2):
+   var: R2 0.10 -> s_eq 0.051  k3: R2 0.51 -> s_eq 0.300  k4: R2 0.56 -> s_eq 0.337
+
+=== MLP 0, base 2.278922e-08
+  s_eq per channel (0.051/0.300/0.337)        x0.7074
+  s_eq, layers 8-15 only                      x0.7428
+  s_eq but var UNTOUCHED (k3,k4 only)         x0.7603
+  var at s_eq only                            x0.9495
+  all three at s=0.30 (var as good as k3)     x0.5289
+
+=== MLP 1, base 2.205732e-08
+  s_eq per channel (0.051/0.300/0.337)        x0.6955
+  s_eq, layers 8-15 only                      x0.7186
+  s_eq but var UNTOUCHED (k3,k4 only)         x0.7403
+  var at s_eq only                            x0.9618
+  all three at s=0.30 (var as good as k3)     x0.5710

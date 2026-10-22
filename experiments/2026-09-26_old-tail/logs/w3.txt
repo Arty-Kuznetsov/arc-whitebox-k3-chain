@@ -1,0 +1,8 @@
+A5c_scaleTD_1em3_a4        raw 2.3128e-08  x  1.000  (504s)
+A5c_scaleTD_1em2_a4        raw 2.3169e-08  x  1.001  (746s)
+A5c_scaleTD_1em1_a4        raw 3.4027e-08  x  1.471  (654s)
+A5i_noiseT_1em2_s0_a4      raw 2.3166e-08  x  1.001  (1306s)
+A5i_noiseT_1em2_s1_a4      raw 2.3193e-08  x  1.002  (1035s)
+A5i_noiseT_1em2_s2_a4      raw 2.3202e-08  x  1.003  (1098s)
+A5i_noiseT_1em2_s3_a4      raw 2.3205e-08  x  1.003  (723s)
+A5i_noiseT_1em2_s4_a4      raw 2.3131e-08  x  1.000  (423s)

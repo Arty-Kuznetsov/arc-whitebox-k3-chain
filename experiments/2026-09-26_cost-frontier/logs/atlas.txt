@@ -1,0 +1,77 @@
+ATLAS of k3l  (model 25.59% of B, rescaled onto the measured 26.27%)
+
+component                                 units   % of B   share
+  source leg transports (A, B)            200.6   12.79%   48.7%
+  D pairings (alive x alive)              166.5   10.62%   40.4%
+  path leg transport                       15.0    0.96%    3.6%
+  fused Wt.C (rides the leg stack)         15.0    0.96%    3.6%
+  C_pre second product                     15.0    0.96%    3.6%
+  TOTAL                                   412.1   26.27%  100.0%
+
+by layer (units of one n^3 product; 'cum%' = cumulative share of the bill)
+  l   S  alive    legs   pairs   base   total  % of B   cum%
+  0   0  1.000     0.0     0.0    1.0     1.0   0.06%   0.2%
+  1   1  1.000     1.0     2.0    3.0     6.0   0.38%   1.7%
+  2   2  0.998     3.0     4.0    3.0    10.0   0.64%   4.1%
+  3   3  0.994     5.0     5.9    3.0    13.9   0.89%   7.5%
+  4   4  0.987     7.0     7.8    3.0    17.8   1.13%  11.8%
+  5   5  0.967     8.9     9.4    3.0    21.2   1.35%  17.0%
+  6   6  0.947    10.6    10.8    3.0    24.4   1.56%  22.9%
+  7   7  0.928    12.3    12.1    3.0    27.4   1.75%  29.5%
+  8   8  0.918    13.9    13.5    3.0    30.4   1.94%  36.9%
+  9   9  0.902    15.6    14.7    3.0    33.3   2.12%  45.0%
+ 10  10  0.890    17.1    15.9    3.0    36.0   2.29%  53.7%
+ 11  11  0.868    18.7    16.6    3.0    38.3   2.44%  63.0%
+ 12  12  0.842    20.0    17.0    3.0    40.0   2.55%  72.7%
+ 13  13  0.832    21.1    18.0    3.0    42.1   2.68%  82.9%
+ 14  14  0.825    22.5    19.1    3.0    44.5   2.84%  93.7%
+ 15  15  0.811    23.9     0.0    2.0    25.9   1.65% 100.0%
+
+ceiling of each lever: utilisation if that component were FREE (accuracy ignored)
+  drop source leg transports (A, B)         ->  13.48%  (x1.95)
+  drop D pairings (alive x alive)           ->  15.65%  (x1.68)
+  drop path leg transport                   ->  25.31%  (x1.04)
+  drop fused Wt.C (rides the leg stack)     ->  25.31%  (x1.04)
+  drop C_pre second product                 ->  25.31%  (x1.04)
+  the 10% floor needs                  ->  10.00%  (x2.63), i.e. 157 of 412 units
+
+what the floor means structurally: units per layer if only the youngest k sources stay dense
+  window 1:   5.28%   (83 units)
+  window 2:   8.32%   (130 units)
+  window 3:  11.10%   (174 units)
+  window 4:  13.63%   (214 units)
+
+Strassen depth (billing 0.636 -> L5 would be ~0.560 on the stacked products; residual-bound, Mac call)
+  billing 0.636 L4 (current, measured)     ->  26.27%
+  billing 0.560 L5 (hypothetical)          ->  23.13%
+  billing 1.000 no Strassen                ->  41.31%
+  window 1:   5.28%   (83 units)
+  window 2:   8.32%   (130 units)
+  window 3:  11.10%   (174 units)
+  window 4:  13.63%   (214 units)
+
+Strassen depth (billing 0.636 -> L5 would be ~0.560 on the stacked products; residual-bound, Mac call)
+  billing 0.636 L4 (current, measured)     ->  26.27%
+  billing 0.560 L5 (hypothetical)          ->  23.13%
+  billing 1.000 no Strassen                ->  41.31%
+
+where the bill sits by SOURCE AGE (legs + D pairings only; 412 units total, 26.27% of B)
+ age   units  % of B  cum % of B    bill if all ages >= a were FREE
+   1    37.8   2.41%       2.41%     2.87% of B
+   2    47.7   3.04%       5.45%     5.28% of B
+   3    43.7   2.78%       8.23%     8.32% of B
+   4    39.7   2.53%      10.76%    11.10% of B
+   5    35.8   2.28%      13.04%    13.63% of B
+   6    31.9   2.04%      15.08%    15.91% of B
+   7    28.2   1.80%      16.88%    17.95% of B
+   8    24.6   1.57%      18.44%    19.75% of B
+   9    21.0   1.34%      19.79%    21.31% of B
+  10    17.6   1.12%      20.91%    22.65% of B
+  11    14.2   0.90%      21.81%    23.77% of B
+  12    10.9   0.69%      22.50%    24.68% of B
+  13     7.7   0.49%      23.00%    25.37% of B
+  14     4.7   0.30%      23.30%    25.87% of B
+  15     1.6   0.11%      23.40%    26.16% of B
+
+leaders' telemetry for scale: raw 1.56-1.67e-8 at 12.7-15.5% of B = 200-243 units;
+504aldo 2.13e-8 at ~25.4% = our cost.  10% = 157 units.

@@ -1,0 +1,2 @@
+n=128 layer=12 a0=4: S=10 old sources, R=1280 CP columns, ||T||=4.411945e+00
+  r=    64 (r/n= 0.50)  rel err 1.2518e-02  [40000 its, 526s]

@@ -1,0 +1,8 @@
+A2_dropT_a4                raw 9.6767e-07  x 41.827  (222s)
+A2_dropT_a5                raw 6.5710e-07  x 28.403  (217s)
+A2_dropT_a6                raw 4.3487e-07  x 18.797  (216s)
+A5c_scaleT_1em3_a4         raw 2.3097e-08  x  0.998  (282s)
+A5c_scaleT_1em2_a4         raw 2.2833e-08  x  0.987  (219s)
+A5c_scaleT_1em1_a4         raw 2.8215e-08  x  1.220  (222s)
+A4_diagD_a4                raw 6.1202e-07  x 26.454  (220s)
+X_d21_a4                   raw 6.1202e-07  x 26.454  (152s)

@@ -1,0 +1,4 @@
+  tk_y6_r64 mlp 0: final_mse=7.5663e-08  (4s)
+  tk_y6_r64 mlp 1: final_mse=8.7073e-08  (4s)
+  tk_y6_r64 mlp 2: final_mse=9.4252e-08  (4s)
+RESULT tk_y6_r64: mean final_mse over 3 MLPs = 8.5663e-08   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

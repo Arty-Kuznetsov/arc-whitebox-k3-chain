@@ -1,0 +1,24 @@
+
+=== k=2 total=5.184e+10 (2.4% of B) — top regions ===
+  contract_W_basic             5.159e+10   99.5%
+  pK_to_K                      1.344e+08    0.3%
+  nonlin_sum                   3.369e+07    0.1%
+  DSTensor.to_tensor           3.362e+07    0.1%
+  harmonic diagslice           3.355e+07    0.1%
+  eval_part                    1.678e+07    0.0%
+  get_wick_coef                8.028e+05    0.0%
+  DSTensor constructor         3.277e+04    0.0%
+  is_symmetric                 0.000e+00    0.0%
+  symmetrize                   0.000e+00    0.0%
+
+=== k=3 total=3.254e+12 (148.0% of B) — top regions ===
+  FactoredTensor3.get_dslice   1.556e+12   47.8%
+  FactoredTensor3.contract_W   1.546e+12   47.5%
+  nonlin_sum 111 factored      9.779e+10    3.0%
+  contract_W_basic             5.159e+10    1.6%
+  pK_to_K                      1.108e+09    0.0%
+  nonlin_sum                   5.838e+08    0.0%
+  eval_part                    2.612e+08    0.0%
+  harmonic diagslice           9.653e+07    0.0%
+  FactoredTensor3.from_dstensor 5.033e+07    0.0%
+  DSTensor.to_tensor           3.362e+07    0.0%

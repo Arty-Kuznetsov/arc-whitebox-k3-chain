@@ -1,0 +1,4 @@
+  sr3_256 mlp 0: final_mse=1.0935e-07  (9s)
+  sr3_256 mlp 1: final_mse=1.2728e-07  (9s)
+  sr3_256 mlp 2: final_mse=1.1555e-07  (9s)
+RESULT sr3_256: mean final_mse over 3 MLPs = 1.1739e-07   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

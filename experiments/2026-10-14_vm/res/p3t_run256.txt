@@ -1,0 +1,6 @@
+Wed Oct 14 20:29:52 +05 2026
+n256 L16 net0 layer 4: share meas 0.289 pred 0.307 (x0.94) f_AD 0.73 q_v 6.80 cos(v,m) 0.975 | R2 next pred 0.830 meas 0.847 | c*n pred 11.80 meas 12.20
+n256 L16 net0 layer 8: share meas 0.339 pred 0.353 (x0.96) f_AD 0.84 q_v 5.70 cos(v,m) 0.981 | R2 next pred 0.819 meas 0.836 | c*n pred 11.17 meas 11.64
+n256 L16 net0 layer 11: share meas 0.370 pred 0.360 (x1.03) f_AD 0.85 q_v 5.58 cos(v,m) 0.972 | R2 next pred 0.802 meas 0.798 | c*n pred 10.95 meas 11.08
+n256 L16 net0 layer 14: share meas 0.352 pred 0.365 (x0.96) f_AD 0.86 q_v 5.46 cos(v,m) 0.982 | R2 next pred 0.815 meas 0.832 | c*n pred 10.81 meas 10.31
+Wed Oct 14 20:51:50 +05 2026

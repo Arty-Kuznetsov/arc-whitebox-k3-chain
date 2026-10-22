@@ -1,0 +1,34 @@
+Wed Oct 14 20:15:11 +05 2026
+n64 L16 net0 layer 4: share meas 0.319 pred 0.355 (x0.90) f_AD 0.60 q_v 3.79 cos(v,m) 0.970 | R2 next pred 0.745 meas 0.724 | c*n pred 18.57 meas 25.38
+n64 L16 net0 layer 8: share meas 0.330 pred 0.388 (x0.85) f_AD 0.66 q_v 3.36 cos(v,m) 0.965 | R2 next pred 0.717 meas 0.818 | c*n pred 19.88 meas 21.47
+n64 L16 net0 layer 11: share meas 0.453 pred 0.495 (x0.91) f_AD 0.75 q_v 2.06 cos(v,m) 0.961 | R2 next pred 0.621 meas 0.695 | c*n pred 46.28 meas 51.66
+n64 L16 net0 layer 14: share meas 0.440 pred 0.492 (x0.89) f_AD 0.78 q_v 2.24 cos(v,m) 0.944 | R2 next pred 0.616 meas 0.619 | c*n pred 50.37 meas 55.44
+n64 L16 net1 layer 4: share meas 0.348 pred 0.373 (x0.93) f_AD 0.57 q_v 3.10 cos(v,m) 0.946 | R2 next pred 0.677 meas 0.770 | c*n pred 13.05 meas 11.02
+n64 L16 net1 layer 8: share meas 0.374 pred 0.388 (x0.96) f_AD 0.56 q_v 2.71 cos(v,m) 0.966 | R2 next pred 0.682 meas 0.769 | c*n pred 7.36 meas 6.76
+n64 L16 net1 layer 11: share meas 0.344 pred 0.421 (x0.82) f_AD 0.67 q_v 2.77 cos(v,m) 0.986 | R2 next pred 0.714 meas 0.864 | c*n pred 4.40 meas 3.51
+n64 L16 net1 layer 14: share meas 0.378 pred 0.449 (x0.84) f_AD 0.70 q_v 2.50 cos(v,m) 0.993 | R2 next pred 0.705 meas 0.778 | c*n pred 4.50 meas 6.05
+n64 L16 net2 layer 4: share meas 0.384 pred 0.366 (x1.05) f_AD 0.62 q_v 3.65 cos(v,m) 0.941 | R2 next pred 0.696 meas 0.642 | c*n pred 10.69 meas 12.79
+n64 L16 net2 layer 8: share meas 0.477 pred 0.398 (x1.20) f_AD 0.66 q_v 3.19 cos(v,m) 0.969 | R2 next pred 0.714 meas 0.726 | c*n pred 10.34 meas 12.15
+n64 L16 net2 layer 11: share meas 0.332 pred 0.442 (x0.75) f_AD 0.69 q_v 2.55 cos(v,m) 0.983 | R2 next pred 0.694 meas 0.780 | c*n pred 12.05 meas 9.80
+n64 L16 net2 layer 14: share meas 0.446 pred 0.489 (x0.91) f_AD 0.74 q_v 2.11 cos(v,m) 0.993 | R2 next pred 0.670 meas 0.774 | c*n pred 10.38 meas 9.06
+n64 L16 net3 layer 4: share meas 0.312 pred 0.384 (x0.81) f_AD 0.63 q_v 3.24 cos(v,m) 0.968 | R2 next pred 0.715 meas 0.825 | c*n pred 16.28 meas 13.78
+n64 L16 net3 layer 8: share meas 0.331 pred 0.354 (x0.93) f_AD 0.58 q_v 3.59 cos(v,m) 0.985 | R2 next pred 0.759 meas 0.806 | c*n pred 4.39 meas 4.58
+n64 L16 net3 layer 11: share meas 0.370 pred 0.400 (x0.93) f_AD 0.66 q_v 3.12 cos(v,m) 0.987 | R2 next pred 0.738 meas 0.853 | c*n pred 2.39 meas 2.09
+n64 L16 net3 layer 14: share meas 0.409 pred 0.385 (x1.06) f_AD 0.63 q_v 3.27 cos(v,m) 0.928 | R2 next pred 0.659 meas 0.547 | c*n pred 1.04 meas 0.97
+n64 L16 net4 layer 4: share meas 0.333 pred 0.338 (x0.98) f_AD 0.55 q_v 3.80 cos(v,m) 0.945 | R2 next pred 0.707 meas 0.631 | c*n pred 8.87 meas 10.46
+n64 L16 net4 layer 8: share meas 0.367 pred 0.379 (x0.97) f_AD 0.63 q_v 3.37 cos(v,m) 0.960 | R2 next pred 0.711 meas 0.664 | c*n pred 6.73 meas 9.22
+n64 L16 net4 layer 11: share meas 0.404 pred 0.434 (x0.93) f_AD 0.69 q_v 2.68 cos(v,m) 0.920 | R2 next pred 0.616 meas 0.464 | c*n pred 5.73 meas 5.65
+n64 L16 net4 layer 14: share meas 0.513 pred 0.483 (x1.06) f_AD 0.76 q_v 2.28 cos(v,m) 0.888 | R2 next pred 0.547 meas 0.330 | c*n pred 9.94 meas 8.66
+n128 L16 net0 layer 4: share meas 0.297 pred 0.321 (x0.93) f_AD 0.66 q_v 5.42 cos(v,m) 0.928 | R2 next pred 0.727 meas 0.809 | c*n pred 13.53 meas 13.09
+n128 L16 net0 layer 8: share meas 0.365 pred 0.372 (x0.98) f_AD 0.76 q_v 4.47 cos(v,m) 0.966 | R2 next pred 0.762 meas 0.759 | c*n pred 8.13 meas 7.36
+n128 L16 net0 layer 11: share meas 0.474 pred 0.380 (x1.25) f_AD 0.78 q_v 4.43 cos(v,m) 0.977 | R2 next pred 0.779 meas 0.690 | c*n pred 6.53 meas 6.30
+n128 L16 net0 layer 14: share meas 0.424 pred 0.421 (x1.01) f_AD 0.80 q_v 3.53 cos(v,m) 0.968 | R2 next pred 0.730 meas 0.773 | c*n pred 5.53 meas 4.96
+n128 L16 net1 layer 4: share meas 0.353 pred 0.330 (x1.07) f_AD 0.70 q_v 5.42 cos(v,m) 0.974 | R2 next pred 0.801 meas 0.782 | c*n pred 16.17 meas 14.86
+n128 L16 net1 layer 8: share meas 0.339 pred 0.352 (x0.97) f_AD 0.74 q_v 4.96 cos(v,m) 0.989 | R2 next pred 0.814 meas 0.798 | c*n pred 12.95 meas 13.83
+n128 L16 net1 layer 11: share meas 0.416 pred 0.418 (x0.99) f_AD 0.82 q_v 3.66 cos(v,m) 0.957 | R2 next pred 0.720 meas 0.712 | c*n pred 16.06 meas 13.57
+n128 L16 net1 layer 14: share meas 0.398 pred 0.432 (x0.92) f_AD 0.83 q_v 3.47 cos(v,m) 0.962 | R2 next pred 0.718 meas 0.730 | c*n pred 17.61 meas 18.49
+n128 L16 net2 layer 4: share meas 0.379 pred 0.327 (x1.16) f_AD 0.66 q_v 5.19 cos(v,m) 0.979 | R2 next pred 0.804 meas 0.757 | c*n pred 14.20 meas 13.95
+n128 L16 net2 layer 8: share meas 0.285 pred 0.362 (x0.79) f_AD 0.76 q_v 4.79 cos(v,m) 0.972 | R2 next pred 0.781 meas 0.811 | c*n pred 15.64 meas 15.12
+n128 L16 net2 layer 11: share meas 0.362 pred 0.410 (x0.88) f_AD 0.81 q_v 3.84 cos(v,m) 0.978 | R2 next pred 0.759 meas 0.797 | c*n pred 13.71 meas 13.57
+n128 L16 net2 layer 14: share meas 0.485 pred 0.406 (x1.20) f_AD 0.78 q_v 3.76 cos(v,m) 0.984 | R2 next pred 0.765 meas 0.728 | c*n pred 10.08 meas 9.82
+Wed Oct 14 20:29:16 +05 2026

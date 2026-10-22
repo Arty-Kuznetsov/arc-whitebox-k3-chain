@@ -1,0 +1,10 @@
+MLPs with an oracle: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  38 own+pair (+layer)   held-out R2 by lambda: 0.0001:0.361  0.001:0.361  0.01:0.351  0.1:0.281  1:0.198
+  8 small                held-out R2 by lambda: 0.0001:0.316  0.001:0.315  0.01:0.303  0.1:0.261  1:0.186
+
+through the chain, offline, every held-out MLP, at each set's best lambda:
+  38 own+pair (+layer)   lam 0.001 s=0.5: held-out raw x  mean 0.9739  median 0.9750  better 10/10   [0.975 0.985 0.946 0.992 0.984 0.975 0.974 0.969 0.994 0.945]
+  38 own+pair (+layer)   lam 0.001 s=1.0: held-out raw x  mean 0.9718  median 0.9697  better 8/10   [0.971 0.998 0.933 1.005 0.998 0.969 0.967 0.956 1.007 0.916]
+  8 small                lam 0.0001 s=0.5: held-out raw x  mean 0.9871  median 0.9915  better 9/10   [0.980 0.993 0.992 0.995 0.976 0.991 0.979 0.993 1.001 0.969]
+  8 small                lam 0.0001 s=1.0: held-out raw x  mean 0.9927  median 0.9992  better 5/10   [0.975 1.007 1.023 1.007 0.969 0.998 0.974 1.000 1.014 0.962]
+k4loo exit=0

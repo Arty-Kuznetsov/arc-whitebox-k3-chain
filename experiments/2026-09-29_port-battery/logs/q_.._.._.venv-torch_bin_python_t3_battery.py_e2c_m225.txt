@@ -1,0 +1,9 @@
+  m225 base                                      (cached) raw 2.4151e-08
+  m225 + E2 satrow 2.25 restore                  raw 2.3057e-08  x0.9547  better 7/10  [498s]
+      -> raw x0.9547  util x0.9221  projected x0.8803  projected-better 9/10
+  m225 + E2 satrow 2.25 sep                      raw 2.3177e-08  x0.9596  better 7/10  [494s]
+      -> raw x0.9596  util x0.9221  projected x0.8849  projected-better 9/10
+  m225 + E2 satrow 2.0 restore                   raw 2.6214e-08  x1.0854  better 3/10  [509s]
+      -> raw x1.0854  util x0.9098  projected x0.9876  projected-better 6/10
+  m225 + E2 satrow 2.0 sep                       raw 2.8053e-08  x1.1616  better 1/10  [476s]
+      -> raw x1.1616  util x0.9098  projected x1.0568  projected-better 5/10

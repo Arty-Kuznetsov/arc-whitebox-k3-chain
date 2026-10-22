@@ -1,0 +1,29 @@
+WICK CHECK  d1: max|ours - reference| = 0.00e+00   d2: 0.00e+00   OK
+
+  mlp 0 done
+  mlp 1 done
+
+=== Regenerated vs transported diagonal kappa3 (2 MLPs) ===
+prediction of kappa3_pre[i,i,i] at layer l+1, scored against the k=3 chain's truth
+
+ l+1 | wick corr  wick rel  wick mag | memo corr  memo mag | both corr  both rel  both mag
+   1 |     0.998     0.104     0.918 |     0.808     0.658 |     0.974     0.561     1.487
+   2 |     0.885     0.536     0.619 |     0.736     0.316 |     0.886     0.463     0.881
+   3 |     0.847     0.638     0.493 |     0.632     0.190 |     0.842     0.575     0.639
+   4 |     0.798     0.709     0.424 |     0.593     0.136 |     0.802     0.660     0.522
+   5 |     0.770     0.748     0.379 |     0.531     0.099 |     0.770     0.715     0.448
+   6 |     0.787     0.762     0.339 |     0.542     0.076 |     0.786     0.733     0.392
+   7 |     0.750     0.801     0.299 |     0.452     0.058 |     0.744     0.783     0.337
+   8 |     0.706     0.833     0.268 |     0.435     0.053 |     0.705     0.816     0.302
+   9 |     0.737     0.830     0.254 |     0.482     0.041 |     0.739     0.814     0.280
+  10 |     0.705     0.854     0.228 |     0.425     0.033 |     0.705     0.843     0.249
+  11 |     0.745     0.847     0.222 |     0.460     0.028 |     0.746     0.837     0.239
+  12 |     0.707     0.876     0.191 |     0.500     0.024 |     0.713     0.865     0.206
+  13 |     0.684     0.889     0.176 |     0.468     0.022 |     0.690     0.880     0.190
+  14 |     0.693     0.896     0.162 |     0.498     0.019 |     0.701     0.888     0.173
+  15 |     0.636     0.913     0.148 |     0.450     0.017 |     0.645     0.906     0.158
+
+means: wick corr 0.763 rel 0.749 mag 0.341  |  memo corr 0.534 mag 0.118  |  both corr 0.763 rel 0.756 mag 0.433
+
+corr -> 1, rel -> 0, mag -> 1 means the diagonal can be REGENERATED from the covariance
+the k=2 chain already carries, and no cross-cumulant tensor needs to be transported.

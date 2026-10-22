@@ -1,0 +1,1 @@
+star_col_dead_2.0+path_row_dead_2.0 screen {'x': 0.9982392869610509, 'better': 9, 'n': 10, 'status': 'done', 'raw': 2.1927987715257046e-08}

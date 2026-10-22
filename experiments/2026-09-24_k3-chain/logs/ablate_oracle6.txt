@@ -1,0 +1,4 @@
+  oracle6 mlp 0: final_mse=2.0251e-07  (6s)
+  oracle6 mlp 1: final_mse=2.1921e-07  (7s)
+  oracle6 mlp 2: final_mse=2.2292e-07  (7s)
+RESULT oracle6: mean final_mse over 3 MLPs = 2.1488e-07   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

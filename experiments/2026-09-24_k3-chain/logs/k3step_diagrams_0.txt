@@ -1,0 +1,18 @@
+layer 5->6: |res| 2.324e-02  |E3| 7.584e-03  |E3T| 6.041e-03  |TRI|(sub, scaled) 5.145e-04
+   full: res ~ E3      R2 0.090 coef [0.918]
+   full: res ~ E3T     R2 0.024 coef [0.597]
+   full: res ~ E3+E3T  R2 0.099 coef [0.855 0.371]
+   sub : res ~ TRI        R2 0.001 coef [-1.511]
+   sub : res ~ E3+E3T+TRI R2 0.091 coef [ 0.995  0.025 -0.588]
+layer 9->10: |res| 1.195e-02  |E3| 6.856e-03  |E3T| 4.428e-03  |TRI|(sub, scaled) 2.122e-04
+   full: res ~ E3      R2 0.268 coef [0.903]
+   full: res ~ E3T     R2 0.004 coef [0.171]
+   full: res ~ E3+E3T  R2 0.268 coef [0.901 0.022]
+   sub : res ~ TRI        R2 0.004 coef [3.517]
+   sub : res ~ E3+E3T+TRI R2 0.381 coef [ 1.035 -0.128  3.776]
+layer 13->14: |res| 9.237e-03  |E3| 6.045e-03  |E3T| 4.581e-03  |TRI|(sub, scaled) 1.307e-04
+   full: res ~ E3      R2 0.326 coef [0.873]
+   full: res ~ E3T     R2 0.036 coef [0.381]
+   full: res ~ E3+E3T  R2 0.332 coef [0.849 0.156]
+   sub : res ~ TRI        R2 0.009 coef [6.63]
+   sub : res ~ E3+E3T+TRI R2 0.378 coef [0.843 0.494 7.969]

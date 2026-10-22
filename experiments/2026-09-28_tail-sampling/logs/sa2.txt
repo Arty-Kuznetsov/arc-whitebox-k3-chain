@@ -1,0 +1,6 @@
+nTD_1em2_s0_a1         raw 2.3551e-08  x  1.018  (309s)
+nTD_1em2_s1_a1         raw 2.3652e-08  x  1.022  (216s)
+nTD_1em2_s0_a2         raw 2.3469e-08  x  1.014  (224s)
+sTD_1em3_a1            raw 2.3198e-08  x  1.003  (215s)
+sTD_1em1_a1            raw 9.3198e-08  x  4.028  (213s)
+nTD_1em3_s0_a1         raw 2.3131e-08  x  1.000  (219s)

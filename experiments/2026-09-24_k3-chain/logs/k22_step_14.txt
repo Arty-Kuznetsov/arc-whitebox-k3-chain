@@ -1,0 +1,19 @@
+# Recovered from the 2026-09-24 session transcript (the script printed to stdout; rerun the script to regenerate).
+
+post (2,2) at layer 14: ratio chain/MC of the pair-mean, and corr
+  chain inputs                 ratio 0.687  corr 0.888
+  MC K22_pre                   ratio 0.955  corr 0.978
+  MC K22_pre + MC K4 diag      ratio 0.955  corr 0.978
+  MC K22, K4, C                ratio 0.955  corr 0.978
+  MC K22, K4, C, t, mu         ratio 0.955  corr 0.978
+
+residual (MC - chain with exact inputs): mean 7.133e-06  (MC mean 1.590e-04)  std 7.376e-05
+  corr with const                  +nan   single-feature fit coef 7.133e-06
+  corr with Phi_a*Phi_b            +0.236   single-feature fit coef 4.232e-05
+  corr with K22pre                 +0.059   single-feature fit coef 1.052e-02
+  corr with Phi Phi K22pre         +0.270   single-feature fit coef 5.916e-02
+  corr with C0^2                   +0.065   single-feature fit coef 6.582e-03
+  corr with w22w22 C0^2            +0.243   single-feature fit coef 8.529e-03
+  corr with m1_a m1_b              +0.160   single-feature fit coef 1.486e-05
+  corr with w12 w12 (=4 m1 m1)     +0.160   single-feature fit coef 3.715e-06
+  corr with K4_a*K4_b              +0.039   single-feature fit coef 1.247e+00

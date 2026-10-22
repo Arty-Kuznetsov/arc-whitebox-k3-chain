@@ -1,0 +1,11 @@
+downloading data/mini-00000-of-00007.parquet (~1.1 GB) ...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+    removed mini-00000-of-00007.parquet
+downloading data/mini-00001-of-00007.parquet (~1.1 GB) ...
+    removed mini-00001-of-00007.parquet
+downloading data/mini-00002-of-00007.parquet (~1.1 GB) ...
+    removed mini-00002-of-00007.parquet
+baked 42 MLPs -> experiments/2026-09-30_tail-accuracy/baked42  (gt (42, 16, 1024), min 0.0000, max 6.7314)
+    sha256[weights_0] = d524e662eca3d117  OK
+    sha256[weights_9] = 3af7229b6cc196af  OK
+    sha256[gt_10] = 557e6fcc891474bb  OK

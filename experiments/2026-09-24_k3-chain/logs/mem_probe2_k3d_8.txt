@@ -1,0 +1,9 @@
+estimator_k3d {}: before predict: current 0.13 GB, peak 0.13 GB
+MEM after predict 0: current 2.95 GB, peak 2.95 GB
+MEM after predict 1: current 3.14 GB, peak 3.14 GB
+MEM after predict 2: current 3.23 GB, peak 3.23 GB
+MEM after predict 3: current 3.28 GB, peak 3.28 GB
+MEM after predict 4: current 3.32 GB, peak 3.32 GB
+MEM after predict 5: current 3.41 GB, peak 3.41 GB
+MEM after predict 6: current 3.47 GB, peak 3.47 GB
+MEM after predict 7: current 3.49 GB, peak 3.49 GB

@@ -1,0 +1,1 @@
+marg2_sat_m2.0+K22_dead_2.5+star_col_dead_2.0+qC0sq_dead_3.0+path_row_dead_2.0+qC0cube_dead_2.0+qC0K22_sat_2.5+qC0K22_dead_2.0+tree_col_sat_3.0 10,11,12,13,14,15,16,17 {'x': 0.9836936344804048, 'better': 8, 'n': 8, 'status': 'done', 'raw': 2.0246364003243354e-08}

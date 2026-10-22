@@ -1,0 +1,19 @@
+  mlp 0 done
+  mlp 1 done
+  mlp 2 done
+
+=== Paired injections, layers 0..14; last layer always computed (3 MLPs) ===
+SELF-CHECK plain = 5.1494e-06 (reference k=2) ; full k=3 = 4.2509e-08
+
+  mean    cov   edge |  final_layer_mse |    vs k=2
+  none   none  False |       5.1494e-06 |     1.00x
+    k3   none  False |       2.5538e-07 |    20.16x
+    gt   none  False |       2.2229e-07 |    23.16x
+    gt   none   True |       1.8388e-07 |    28.00x
+    k3     k3  False |       2.4293e-07 |    21.20x
+    k3     k3   True |       6.4131e-08 |    80.29x
+    gt     k3   True |       2.9370e-08 |   175.33x
+    --     --    k=3 |       4.2509e-08 |   121.13x
+
+'gt none False' is the hard ceiling of any method that only fixes the MEAN.
+If 'k3 k3' lands near full k=3, the covariance matters once paired with correct means.

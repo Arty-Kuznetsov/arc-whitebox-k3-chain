@@ -1,0 +1,40 @@
+# Recovered from the 2026-09-24 session transcript (the script printed to stdout; rerun the script to regenerate).
+
+ok
+done
+post layer 6: MC k22 mean 4.775e-04 | chain 4.481e-04 (ratio 0.938) | corr 0.986 | cov offdiag: MC mean 1.514e-03 chain 1.522e-03 | var mean MC 0.1925 chain 0.1925
+post layer 10: MC k22 mean 2.395e-04 | chain 2.015e-04 (ratio 0.841) | corr 0.956 | cov offdiag: MC mean 1.920e-03 chain 1.930e-03 | var mean MC 0.1151 chain 0.1151
+post layer 13: MC k22 mean 1.823e-04 | chain 1.301e-04 (ratio 0.714) | corr 0.899 | cov offdiag: MC mean 2.595e-03 chain 2.606e-03 | var mean MC 0.0922 chain 0.0922
+post layer 14: MC k22 mean 1.590e-04 | chain 1.092e-04 (ratio 0.687) | corr 0.888 | cov offdiag: MC mean 2.515e-03 chain 2.526e-03 | var mean MC 0.0839 chain 0.0839
+
+# ---- next run ----
+
+ok
+== {'q22x':1}
+post layer 6: MC k22 mean 4.775e-04 | chain 4.478e-04 (ratio 0.938) | corr 0.986 | cov offdiag: MC mean 1.514e-03 chain 
+post layer 10: MC k22 mean 2.395e-04 | chain 2.013e-04 (ratio 0.840) | corr 0.955 | cov offdiag: MC mean 1.920e-03 chain
+post layer 13: MC k22 mean 1.823e-04 | chain 1.294e-04 (ratio 0.710) | corr 0.895 | cov offdiag: MC mean 2.595e-03 chain
+post layer 14: MC k22 mean 1.590e-04 | chain 1.087e-04 (ratio 0.684) | corr 0.883 | cov offdiag: MC mean 2.515e-03 chain
+== {'q22x':2}
+post layer 6: MC k22 mean 4.775e-04 | chain 4.477e-04 (ratio 0.938) | corr 0.986 | cov offdiag: MC mean 1.514e-03 chain 
+post layer 10: MC k22 mean 2.395e-04 | chain 2.012e-04 (ratio 0.840) | corr 0.954 | cov offdiag: MC mean 1.920e-03 chain
+post layer 13: MC k22 mean 1.823e-04 | chain 1.292e-04 (ratio 0.708) | corr 0.893 | cov offdiag: MC mean 2.595e-03 chain
+post layer 14: MC k22 mean 1.590e-04 | chain 1.086e-04 (ratio 0.683) | corr 0.881 | cov offdiag: MC mean 2.515e-03 chain
+== {'q22x':1,'k4k3':1.0}
+post layer 6: MC k22 mean 4.775e-04 | chain 4.478e-04 (ratio 0.938) | corr 0.986 | cov offdiag: MC mean 1.514e-03 chain 
+post layer 10: MC k22 mean 2.395e-04 | chain 2.013e-04 (ratio 0.840) | corr 0.955 | cov offdiag: MC mean 1.920e-03 chain
+post layer 13: MC k22 mean 1.823e-04 | chain 1.295e-04 (ratio 0.710) | corr 0.895 | cov offdiag: MC mean 2.595e-03 chain
+post layer 14: MC k22 mean 1.590e-04 | chain 1.088e-04 (ratio 0.684) | corr 0.883 | cov offdiag: MC mean 2.515e-03 chain
+
+# ---- next run ----
+
+== {'tet':4}
+post layer 6: MC k22 mean 4.775e-04 | chain 4.485e-04 (ratio 0.939) | corr 0.987 | cov offdiag: MC mean 1.514e
+post layer 10: MC k22 mean 2.395e-04 | chain 2.017e-04 (ratio 0.842) | corr 0.956 | cov offdiag: MC mean 1.920
+post layer 13: MC k22 mean 1.823e-04 | chain 1.304e-04 (ratio 0.715) | corr 0.899 | cov offdiag: MC mean 2.595
+post layer 14: MC k22 mean 1.590e-04 | chain 1.094e-04 (ratio 0.688) | corr 0.888 | cov offdiag: MC mean 2.515
+== {'tet':6}
+post layer 6: MC k22 mean 4.775e-04 | chain 4.485e-04 (ratio 0.939) | corr 0.987 | cov offdiag: MC mean 1.514e
+post layer 10: MC k22 mean 2.395e-04 | chain 2.017e-04 (ratio 0.842) | corr 0.956 | cov offdiag: MC mean 1.920
+post layer 13: MC k22 mean 1.823e-04 | chain 1.304e-04 (ratio 0.715) | corr 0.899 | cov offdiag: MC mean 2.595
+post layer 14: MC k22 mean 1.590e-04 | chain 1.094e-04 (ratio 0.688) | corr 0.888 | cov offdiag: MC mean 2.515

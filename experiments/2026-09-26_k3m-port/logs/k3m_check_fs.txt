@@ -1,0 +1,64 @@
+/home/user/arc-white-box/src/estimator_k3l.py:620: SymmetryLossWarning: Symmetry lost along dims (0, 1): subtract — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  C0 = C_pre - fnp.diag(fnp.diag(C_pre))
+/home/user/arc-white-box/src/estimator_k3l.py:229: FlopscopeWarning: stats.norm.cdf promoted its float32 input to float64 to match scipy.stats. If float64 output was not intended, cast the result back with result.astype(np.float32) before downstream operations; float64 operations are billed at twice the float32 dtype rate.
+  Ph = flops.stats.norm.cdf(a).astype(_F32)
+/home/user/arc-white-box/src/estimator_k3l.py:230: FlopscopeWarning: stats.norm.pdf promoted its float32 input to float64 to match scipy.stats. If float64 output was not intended, cast the result back with result.astype(np.float32) before downstream operations; float64 operations are billed at twice the float32 dtype rate.
+  ph = flops.stats.norm.pdf(a).astype(_F32)
+/home/user/arc-white-box/src/estimator_k3l.py:280: SymmetryLossWarning: Symmetry lost along dims (0, 1): multiply — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  DC0 = D * C0
+/home/user/arc-white-box/src/estimator_k3l.py:281: SymmetryLossWarning: Symmetry lost along dims (1, 0): multiply — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  DTC0 = DT * C0
+/home/user/arc-white-box/src/estimator_k3l.py:301: SymmetryLossWarning: Symmetry lost along dims (1, 0): multiply — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  M = (a1 * b1) * C0 + (0.5 * a1 * b2) * DT + (0.5 * a2 * b1) * D + (0.5 * a2 * b2) * C0sq
+/home/user/arc-white-box/src/estimator_k3l.py:301: SymmetryLossWarning: Symmetry lost along dims (0, 1): multiply — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  M = (a1 * b1) * C0 + (0.5 * a1 * b2) * DT + (0.5 * a2 * b1) * D + (0.5 * a2 * b2) * C0sq
+/home/user/arc-white-box/src/estimator_k3l.py:695: SymmetryLossWarning: Symmetry lost along dims (0, 1): add — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  fnp.add(o["K11"], fnp.diag(o["K2"]), out=leg[cur][2 * S + 1])  # C of the next layer, in the newborn-A slot
+/home/user/arc-white-box/src/estimator_k3l.py:715: SymmetryLossWarning: Symmetry lost along dims (0, 1): multiply — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  dK21 = o["K21"] - (d11[:, None] * d1[None, :]) * D - (d11[:, None] * d2[None, :]) * (C0 * C0)
+/home/user/arc-white-box/src/estimator_k3l.py:718: SymmetryLossWarning: Symmetry lost along dims (1, 0): multiply — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  Yp = ((d1[:, None] * D.T) * d3[None, :] + (d2[:, None] * D) * d2[None, :]
+/home/user/arc-white-box/src/estimator_k3l.py:718: SymmetryLossWarning: Symmetry lost along dims (0, 1): multiply — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  Yp = ((d1[:, None] * D.T) * d3[None, :] + (d2[:, None] * D) * d2[None, :]
+/home/user/arc-white-box/src/estimator_k3l.py:507: SymmetryLossWarning: Symmetry lost along dims (0, 1): subtract — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  C0 = C_pre - fnp.diag(fnp.diag(C_pre))
+/home/user/arc-white-box/src/estimator_k3m.py:660: SymmetryLossWarning: Symmetry lost along dims (0, 1): subtract — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  C0 = C_pre - fnp.diag(fnp.diag(C_pre))
+/home/user/arc-white-box/src/estimator_k3m.py:245: FlopscopeWarning: stats.norm.cdf promoted its float32 input to float64 to match scipy.stats. If float64 output was not intended, cast the result back with result.astype(np.float32) before downstream operations; float64 operations are billed at twice the float32 dtype rate.
+  Ph = flops.stats.norm.cdf(a).astype(_F32)
+/home/user/arc-white-box/src/estimator_k3m.py:246: FlopscopeWarning: stats.norm.pdf promoted its float32 input to float64 to match scipy.stats. If float64 output was not intended, cast the result back with result.astype(np.float32) before downstream operations; float64 operations are billed at twice the float32 dtype rate.
+  ph = flops.stats.norm.pdf(a).astype(_F32)
+/home/user/arc-white-box/src/estimator_k3m.py:296: SymmetryLossWarning: Symmetry lost along dims (0, 1): multiply — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  DC0 = D * C0
+/home/user/arc-white-box/src/estimator_k3m.py:297: SymmetryLossWarning: Symmetry lost along dims (1, 0): multiply — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  DTC0 = DT * C0
+/home/user/arc-white-box/src/estimator_k3m.py:317: SymmetryLossWarning: Symmetry lost along dims (1, 0): multiply — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  M = (a1 * b1) * C0 + (0.5 * a1 * b2) * DT + (0.5 * a2 * b1) * D + (0.5 * a2 * b2) * C0sq
+/home/user/arc-white-box/src/estimator_k3m.py:317: SymmetryLossWarning: Symmetry lost along dims (0, 1): multiply — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  M = (a1 * b1) * C0 + (0.5 * a1 * b2) * DT + (0.5 * a2 * b1) * D + (0.5 * a2 * b2) * C0sq
+/home/user/arc-white-box/src/estimator_k3m.py:735: SymmetryLossWarning: Symmetry lost along dims (0, 1): add — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  fnp.add(o["K11"], fnp.diag(o["K2"]), out=leg[cur][2 * S + 1])  # C of the next layer, in the newborn-A slot
+/home/user/arc-white-box/src/estimator_k3m.py:755: SymmetryLossWarning: Symmetry lost along dims (0, 1): multiply — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  dK21 = o["K21"] - (d11[:, None] * d1[None, :]) * D - (d11[:, None] * d2[None, :]) * (C0 * C0)
+/home/user/arc-white-box/src/estimator_k3m.py:758: SymmetryLossWarning: Symmetry lost along dims (1, 0): multiply — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  Yp = ((d1[:, None] * D.T) * d3[None, :] + (d2[:, None] * D) * d2[None, :]
+/home/user/arc-white-box/src/estimator_k3m.py:758: SymmetryLossWarning: Symmetry lost along dims (0, 1): multiply — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  Yp = ((d1[:, None] * D.T) * d3[None, :] + (d2[:, None] * D) * d2[None, :]
+/home/user/arc-white-box/src/estimator_k3m.py:547: SymmetryLossWarning: Symmetry lost along dims (0, 1): subtract — no symmetry groups shared by both operands. Use as_symmetric() to re-tag if you know the result is symmetric. Suppress with flops.configure(symmetry_warnings=False).
+  C0 = C_pre - fnp.diag(fnp.diag(C_pre))
+(1) k3m(deadcut=-3.0, pathrank=None) vs k3l, 1024x16: BITWISE True, flops equal True (26.622% of B), residual 0.595s (k3l 0.590s)
+(2) k3m default (deadcut=-2.5): 25.169% of B (k3l 26.622%), residual 0.488s, wall 70.1s (k3l 92.7s); final-layer max|k3m-k3l| 6.59e-05 rel 1.6e-05
+(3) pathrank = n (exact reconstruction, factored transport) vs k3l: final-layer rel 6.1e-07, all-layer rel 6.1e-07 -- the machinery is exact; 47.471% of B
+(4) cost of the low-rank path leg on the real meter (deadcut=-2.5, 1024x16):
+    pathrank None              25.169% of B  (1.0000 x pathrank=None)  residual 0.496s  wall   75.0s  final rel diff 0.00e+00
+    pathrank 384 svd           26.414% of B  (1.0495 x pathrank=None)  residual 0.731s  wall  245.6s  final rel diff 5.21e-06
+    pathrank 384 rangefinder   26.467% of B  (1.0516 x pathrank=None)  residual 0.740s  wall  137.4s  final rel diff 1.35e-05
+    pathrank 256 svd           25.715% of B  (1.0217 x pathrank=None)  residual 0.715s  wall  190.0s  final rel diff 1.07e-05
+    pathrank 256 rangefinder   25.713% of B  (1.0216 x pathrank=None)  residual 0.776s  wall  115.9s  final rel diff 1.85e-05
+    pathrank 192 svd           25.366% of B  (1.0078 x pathrank=None)  residual 8.658s  wall  304.2s  final rel diff 1.30e-05
+    pathrank 192 rangefinder   25.360% of B  (1.0076 x pathrank=None)  residual 0.737s  wall   79.2s  final rel diff 1.94e-05
+    pathrank 128 svd           25.017% of B  (0.9940 x pathrank=None)  residual 0.644s  wall   75.6s  final rel diff 1.64e-05
+    pathrank 128 rangefinder   25.025% of B  (0.9943 x pathrank=None)  residual 0.788s  wall   76.4s  final rel diff 2.69e-05
+    pathrank 64 svd            24.668% of B  (0.9801 x pathrank=None)  residual 0.647s  wall   76.9s  final rel diff 1.79e-05
+    pathrank 64 rangefinder    24.711% of B  (0.9818 x pathrank=None)  residual 0.729s  wall   73.7s  final rel diff 2.84e-05
+(5) small-MLP outputs written (n=128, depth 8, thin=128, deadcut=-2.5)

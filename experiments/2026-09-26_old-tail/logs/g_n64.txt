@@ -1,0 +1,4 @@
+n=64 layer=12 a0=4: S=10 old sources, R=640 CP columns, ||T||=4.711346e+00
+  r=    32 (r/n= 0.50)  rel err 2.8865e-03  [40000 its, 161s]
+  r=    64 (r/n= 1.00)  rel err 4.2916e-04  [40000 its, 236s]
+  r=   128 (r/n= 2.00)  rel err 5.0246e-05  [40000 its, 515s]

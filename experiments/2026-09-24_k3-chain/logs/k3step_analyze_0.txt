@@ -1,0 +1,12 @@
+layer 5 -> 6 (v = 0.0105): |t'| 4.482e-01 | repeated R3 4.277e-01 | all-distinct T 1.338e-01
+   pass 1.104e-01  tree 6.995e-02  feedP2 5.065e-03  (P1 = v*tree 7.320e-04)
+   residual T - pass - tree - feedP2: 2.324e-02 (0.052 of |t'|); with P1 too: 2.326e-02; chain error |t' - t_chain| 1.833e-02 (0.041)
+   corr(residual, chain error) 0.447; corr(residual, tree) -0.010; corr(residual, pass) -0.132; fit residual ~ tree: coef -0.003
+layer 9 -> 10 (v = 0.0160): |t'| 3.206e-01 | repeated R3 3.121e-01 | all-distinct T 8.590e-02
+   pass 7.519e-02  tree 3.890e-02  feedP2 3.588e-03  (P1 = v*tree 6.227e-04)
+   residual T - pass - tree - feedP2: 1.195e-02 (0.037 of |t'|); with P1 too: 1.205e-02; chain error |t' - t_chain| 1.774e-02 (0.055)
+   corr(residual, chain error) 0.426; corr(residual, tree) -0.126; corr(residual, pass) -0.170; fit residual ~ tree: coef -0.038
+layer 13 -> 14 (v = 0.0205): |t'| 3.220e-01 | repeated R3 3.147e-01 | all-distinct T 8.109e-02
+   pass 7.460e-02  tree 2.683e-02  feedP2 3.148e-03  (P1 = v*tree 5.488e-04)
+   residual T - pass - tree - feedP2: 9.237e-03 (0.029 of |t'|); with P1 too: 9.370e-03; chain error |t' - t_chain| 2.349e-02 (0.073)
+   corr(residual, chain error) 0.433; corr(residual, tree) -0.214; corr(residual, pass) -0.254; fit residual ~ tree: coef -0.074

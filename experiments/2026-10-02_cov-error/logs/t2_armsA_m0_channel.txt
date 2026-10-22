@@ -1,0 +1,4 @@
+armch MLP 0 s4  off  A via var: mse 1.9130e-08  x0.8394
+armch MLP 0 s4  off  A via pair: mse 1.8348e-08  x0.8051
+armch MLP 0 l11 off  A via var: mse 2.1509e-08  x0.9438
+armch MLP 0 l11 off  A via pair: mse 1.9568e-08  x0.8587

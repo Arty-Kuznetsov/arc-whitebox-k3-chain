@@ -1,0 +1,1 @@
+qD-dbl_sat_2.0 screen {'x': 15.046128041482492, 'better': 0, 'n': 4, 'status': 'KILLED', 'raw': 3.3422702278855717e-07}

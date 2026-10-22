@@ -1,0 +1,4 @@
+arm MLP 0 l14 off  A: mse 2.0885e-08  x0.9164
+arm MLP 0 l11 off  A: mse 1.8903e-08  x0.8295
+arm MLP 0 l8  off  A: mse 2.0704e-08  x0.9085
+arm MLP 0 l5  off  A: mse 2.2738e-08  x0.9977

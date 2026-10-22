@@ -1,0 +1,4 @@
+  tet6 mlp 0: final_mse=3.3962e-08  (8s)
+  tet6 mlp 1: final_mse=4.0014e-08  (6s)
+  tet6 mlp 2: final_mse=3.9305e-08  (6s)
+RESULT tet6: mean final_mse over 3 MLPs = 3.7760e-08   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

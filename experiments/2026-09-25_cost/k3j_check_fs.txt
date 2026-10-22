@@ -1,0 +1,2 @@
+(1) k3j(deadcut=None) vs k3i, 1024x16: bitwise True, flops equal True (29.855%), residual 0.260s (k3i 0.286s)
+    k3j default: 26.622% of B (k3i 29.855%), residual 0.332s, wall 21.1s (k3i 18.8s); final-layer max|k3j-k3i| 1.36e-05, rel 3.3e-06

@@ -1,0 +1,4 @@
+  d21y6 mlp 0: final_mse=1.2147e-07  (5s)
+  d21y6 mlp 1: final_mse=1.3859e-07  (5s)
+  d21y6 mlp 2: final_mse=1.5167e-07  (5s)
+RESULT d21y6: mean final_mse over 3 MLPs = 1.3724e-07   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

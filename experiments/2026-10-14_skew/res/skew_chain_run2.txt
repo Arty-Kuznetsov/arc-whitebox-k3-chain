@@ -1,0 +1,93 @@
+Wed Oct 14 20:04:04 +05 2026
+n1024_L16 net 0: full 3.705e-08 zero 3.937e-06 clos_own 1.614e-06 clos_univ 1.569e-06 clos_univ_t 4.431e-06 tlaw_Down 8.106e-07 town_Dr1 1.155e-06 ptrace 1.270e-06
+n1024_L16 net 1: full 4.459e-08 zero 4.785e-06 clos_own 1.729e-06 clos_univ 1.693e-06 clos_univ_t 4.414e-06 tlaw_Down 1.008e-06 town_Dr1 9.674e-07 ptrace 1.149e-06
+n1024_L16 net 2: full 4.589e-08 zero 5.373e-06 clos_own 1.305e-06 clos_univ 1.313e-06 clos_univ_t 4.270e-06 tlaw_Down 8.262e-07 town_Dr1 9.881e-07 ptrace 1.014e-06
+n1024_L16 net 3: full 4.092e-08 zero 3.521e-06 clos_own 1.453e-06 clos_univ 1.419e-06 clos_univ_t 4.135e-06 tlaw_Down 8.267e-07 town_Dr1 9.781e-07 ptrace 1.139e-06
+n1024_L16 net 4: full 3.634e-08 zero 3.399e-06 clos_own 1.545e-06 clos_univ 1.511e-06 clos_univ_t 4.162e-06 tlaw_Down 6.774e-07 town_Dr1 1.216e-06 ptrace 1.325e-06
+n1024_L16 net 5: full 3.227e-08 zero 4.564e-06 clos_own 1.413e-06 clos_univ 1.420e-06 clos_univ_t 4.660e-06 tlaw_Down 7.743e-07 town_Dr1 8.935e-07 ptrace 1.240e-06
+n1024_L16 net 6: full 3.607e-08 zero 2.230e-06 clos_own 1.210e-06 clos_univ 1.275e-06 clos_univ_t 2.896e-06 tlaw_Down 6.871e-07 town_Dr1 9.503e-07 ptrace 1.076e-06
+n1024_L16 net 7: full 3.657e-08 zero 4.702e-06 clos_own 1.318e-06 clos_univ 1.314e-06 clos_univ_t 3.912e-06 tlaw_Down 7.461e-07 town_Dr1 9.970e-07 ptrace 7.392e-07
+n1024_L16 net 8: full 4.414e-08 zero 3.276e-06 clos_own 1.204e-06 clos_univ 1.231e-06 clos_univ_t 4.586e-06 tlaw_Down 8.456e-07 town_Dr1 8.750e-07 ptrace 9.504e-07
+n1024_L16 net 9: full 3.781e-08 zero 5.311e-06 clos_own 1.564e-06 clos_univ 1.629e-06 clos_univ_t 5.583e-06 tlaw_Down 9.829e-07 town_Dr1 1.050e-06 ptrace 1.080e-06
+== n1024_L16: corr(D_ij, t_j/3) over i != j, chain 'full', mean over layers >= 2: 0.807
+   full         final MSE 3.916e-08 | x zero 0.010 | share of k=3's kappa3 gain kept  100.0% (min  100.0%, max  100.0%)
+   zero         final MSE 4.110e-06 | x zero 1.000 | share of k=3's kappa3 gain kept    0.0% (min    0.0%, max    0.0%)
+   clos_own     final MSE 1.436e-06 | x zero 0.368 | share of k=3's kappa3 gain kept   63.9% (min   46.5%, max   76.4%)
+   clos_univ    final MSE 1.437e-06 | x zero 0.369 | share of k=3's kappa3 gain kept   63.7% (min   43.6%, max   76.2%)
+   clos_univ_t  final MSE 4.305e-06 | x zero 1.084 | share of k=3's kappa3 gain kept   -8.6% (min  -40.6%, max   20.7%)
+   tlaw_Down    final MSE 8.185e-07 | x zero 0.208 | share of k=3's kappa3 gain kept   80.0% (min   70.3%, max   85.4%)
+   town_Dr1     final MSE 1.007e-06 | x zero 0.261 | share of k=3's kappa3 gain kept   74.6% (min   58.3%, max   82.3%)
+   ptrace       final MSE 1.098e-06 | x zero 0.287 | share of k=3's kappa3 gain kept   72.0% (min   52.6%, max   84.9%)
+n256_L8 net 0: full 7.447e-07 zero 3.395e-05 clos_own 1.289e-05 clos_univ 1.237e-05 clos_univ_t 2.849e-05 tlaw_Down 7.469e-06 town_Dr1 9.551e-06 ptrace 1.077e-05
+n256_L8 net 1: full 1.030e-06 zero 3.532e-05 clos_own 1.146e-05 clos_univ 1.210e-05 clos_univ_t 2.528e-05 tlaw_Down 1.000e-05 town_Dr1 7.667e-06 ptrace 8.259e-06
+n256_L8 net 2: full 9.785e-07 zero 3.245e-05 clos_own 1.662e-05 clos_univ 1.613e-05 clos_univ_t 2.851e-05 tlaw_Down 1.040e-05 town_Dr1 9.520e-06 ptrace 1.295e-05
+n256_L8 net 3: full 1.074e-06 zero 2.085e-05 clos_own 1.087e-05 clos_univ 1.393e-05 clos_univ_t 2.071e-05 tlaw_Down 8.524e-06 town_Dr1 9.052e-06 ptrace 1.117e-05
+n256_L8 net 4: full 8.129e-07 zero 2.593e-05 clos_own 1.069e-05 clos_univ 1.055e-05 clos_univ_t 1.921e-05 tlaw_Down 6.578e-06 town_Dr1 9.352e-06 ptrace 1.015e-05
+n256_L8 net 5: full 7.594e-07 zero 3.488e-05 clos_own 9.892e-06 clos_univ 9.765e-06 clos_univ_t 2.179e-05 tlaw_Down 8.669e-06 town_Dr1 7.266e-06 ptrace 7.887e-06
+n256_L8 net 6: full 8.652e-07 zero 3.058e-05 clos_own 1.048e-05 clos_univ 1.045e-05 clos_univ_t 2.072e-05 tlaw_Down 7.144e-06 town_Dr1 8.008e-06 ptrace 8.230e-06
+n256_L8 net 7: full 1.042e-06 zero 5.281e-05 clos_own 1.060e-05 clos_univ 1.095e-05 clos_univ_t 3.215e-05 tlaw_Down 7.043e-06 town_Dr1 1.131e-05 ptrace 9.513e-06
+n256_L8 net 8: full 1.250e-06 zero 4.833e-05 clos_own 1.011e-05 clos_univ 9.412e-06 clos_univ_t 2.197e-05 tlaw_Down 5.725e-06 town_Dr1 8.747e-06 ptrace 9.808e-06
+n256_L8 net 9: full 7.882e-07 zero 3.061e-05 clos_own 8.901e-06 clos_univ 1.126e-05 clos_univ_t 1.716e-05 tlaw_Down 7.739e-06 town_Dr1 7.351e-06 ptrace 7.757e-06
+== n256_L8: corr(D_ij, t_j/3) over i != j, chain 'full', mean over layers >= 2: 0.735
+   full         final MSE 9.345e-07 | x zero 0.029 | share of k=3's kappa3 gain kept  100.0% (min  100.0%, max  100.0%)
+   zero         final MSE 3.457e-05 | x zero 1.000 | share of k=3's kappa3 gain kept    0.0% (min    0.0%, max    0.0%)
+   clos_own     final MSE 1.125e-05 | x zero 0.348 | share of k=3's kappa3 gain kept   67.1% (min   50.3%, max   81.5%)
+   clos_univ    final MSE 1.169e-05 | x zero 0.367 | share of k=3's kappa3 gain kept   65.1% (min   35.0%, max   82.7%)
+   clos_univ_t  final MSE 2.360e-05 | x zero 0.709 | share of k=3's kappa3 gain kept   29.8% (min    0.7%, max   56.0%)
+   tlaw_Down    final MSE 7.929e-06 | x zero 0.247 | share of k=3's kappa3 gain kept   77.4% (min   62.3%, max   90.5%)
+   town_Dr1     final MSE 8.783e-06 | x zero 0.269 | share of k=3's kappa3 gain kept   75.2% (min   59.7%, max   84.1%)
+   ptrace       final MSE 9.650e-06 | x zero 0.301 | share of k=3's kappa3 gain kept   71.9% (min   48.9%, max   83.6%)
+n512_L16 net 0: full 3.578e-07 zero 1.901e-05 clos_own 8.545e-06 clos_univ 7.266e-06 clos_univ_t 1.565e-05 tlaw_Down 4.903e-06 town_Dr1 5.653e-06 ptrace 7.061e-06
+n512_L16 net 1: full 3.858e-07 zero 1.291e-05 clos_own 4.663e-06 clos_univ 4.653e-06 clos_univ_t 1.444e-05 tlaw_Down 3.071e-06 town_Dr1 4.384e-06 ptrace 3.255e-06
+n512_L16 net 2: full 3.750e-07 zero 2.660e-05 clos_own 5.962e-06 clos_univ 6.442e-06 clos_univ_t 2.361e-05 tlaw_Down 5.470e-06 town_Dr1 5.566e-06 ptrace 4.816e-06
+n512_L16 net 3: full 4.122e-07 zero 1.601e-05 clos_own 6.663e-06 clos_univ 7.046e-06 clos_univ_t 2.160e-05 tlaw_Down 3.680e-06 town_Dr1 4.887e-06 ptrace 4.923e-06
+n512_L16 net 4: full 3.179e-07 zero 1.193e-05 clos_own 4.444e-06 clos_univ 6.085e-06 clos_univ_t 1.779e-05 tlaw_Down 4.427e-06 town_Dr1 4.140e-06 ptrace 3.373e-06
+n512_L16 net 5: full 2.726e-07 zero 1.189e-05 clos_own 4.058e-06 clos_univ 4.466e-06 clos_univ_t 1.306e-05 tlaw_Down 2.342e-06 town_Dr1 3.284e-06 ptrace 4.081e-06
+== n512_L16: corr(D_ij, t_j/3) over i != j, chain 'full', mean over layers >= 2: 0.777
+   full         final MSE 3.536e-07 | x zero 0.023 | share of k=3's kappa3 gain kept  100.0% (min  100.0%, max  100.0%)
+   zero         final MSE 1.639e-05 | x zero 1.000 | share of k=3's kappa3 gain kept    0.0% (min    0.0%, max    0.0%)
+   clos_own     final MSE 5.722e-06 | x zero 0.361 | share of k=3's kappa3 gain kept   65.4% (min   56.1%, max   78.7%)
+   clos_univ    final MSE 5.993e-06 | x zero 0.385 | share of k=3's kappa3 gain kept   62.9% (min   50.4%, max   76.9%)
+   clos_univ_t  final MSE 1.769e-05 | x zero 1.128 | share of k=3's kappa3 gain kept  -13.2% (min  -50.4%, max   18.1%)
+   tlaw_Down    final MSE 3.982e-06 | x zero 0.250 | share of k=3's kappa3 gain kept   76.8% (min   64.6%, max   82.2%)
+   town_Dr1     final MSE 4.652e-06 | x zero 0.296 | share of k=3's kappa3 gain kept   72.1% (min   67.1%, max   80.2%)
+   ptrace       final MSE 4.585e-06 | x zero 0.290 | share of k=3's kappa3 gain kept   72.7% (min   64.1%, max   83.1%)
+n256_L16 net 0: full 3.684e-06 zero 9.704e-05 clos_own 4.471e-05 clos_univ 4.595e-05 clos_univ_t 1.196e-04 tlaw_Down 3.222e-05 town_Dr1 4.473e-05 ptrace 3.038e-05
+n256_L16 net 1: full 3.965e-06 zero 8.592e-05 clos_own 4.675e-05 clos_univ 3.600e-05 clos_univ_t 1.101e-04 tlaw_Down 2.429e-05 town_Dr1 5.937e-05 ptrace 7.540e-05
+n256_L16 net 2: full 2.910e-06 zero 5.158e-05 clos_own 2.107e-05 clos_univ 3.518e-05 clos_univ_t 7.180e-05 tlaw_Down 2.946e-05 town_Dr1 1.633e-05 ptrace 2.888e-05
+n256_L16 net 3: full 2.617e-06 zero 4.672e-05 clos_own 2.465e-05 clos_univ 2.648e-05 clos_univ_t 7.876e-05 tlaw_Down 1.584e-05 town_Dr1 2.709e-05 ptrace 2.389e-05
+n256_L16 net 4: full 3.923e-06 zero 5.963e-05 clos_own 4.802e-05 clos_univ 3.869e-05 clos_univ_t 9.515e-05 tlaw_Down 3.088e-05 town_Dr1 4.296e-05 ptrace 4.135e-05
+n256_L16 net 5: full 2.177e-06 zero 5.367e-05 clos_own 2.238e-05 clos_univ 2.756e-05 clos_univ_t 5.369e-05 tlaw_Down 1.742e-05 town_Dr1 2.390e-05 ptrace 1.318e-05
+n256_L16 net 6: full 2.238e-06 zero 3.411e-05 clos_own 4.391e-05 clos_univ 6.818e-05 clos_univ_t 1.024e-04 tlaw_Down 3.882e-05 town_Dr1 3.738e-05 ptrace 3.145e-05
+n256_L16 net 7: full 1.571e-06 zero 7.344e-05 clos_own 2.407e-05 clos_univ 2.482e-05 clos_univ_t 4.253e-05 tlaw_Down 1.601e-05 town_Dr1 3.174e-05 ptrace 2.379e-05
+n256_L16 net 8: full 2.185e-06 zero 4.553e-05 clos_own 2.945e-05 clos_univ 3.814e-05 clos_univ_t 6.861e-05 tlaw_Down 3.250e-05 town_Dr1 2.141e-05 ptrace 2.210e-05
+n256_L16 net 9: full 2.455e-06 zero 1.011e-04 clos_own 1.817e-05 clos_univ 1.817e-05 clos_univ_t 1.230e-04 tlaw_Down 1.355e-05 town_Dr1 3.043e-05 ptrace 1.794e-05
+== n256_L16: corr(D_ij, t_j/3) over i != j, chain 'full', mean over layers >= 2: 0.726
+   full         final MSE 2.772e-06 | x zero 0.046 | share of k=3's kappa3 gain kept  100.0% (min  100.0%, max  100.0%)
+   zero         final MSE 6.488e-05 | x zero 1.000 | share of k=3's kappa3 gain kept    0.0% (min    0.0%, max    0.0%)
+   clos_own     final MSE 3.232e-05 | x zero 0.560 | share of k=3's kappa3 gain kept   45.7% (min  -30.8%, max   84.1%)
+   clos_univ    final MSE 3.592e-05 | x zero 0.666 | share of k=3's kappa3 gain kept   34.5% (min -106.9%, max   84.1%)
+   clos_univ_t  final MSE 8.655e-05 | x zero 1.449 | share of k=3's kappa3 gain kept  -47.8% (min -214.3%, max   43.0%)
+   tlaw_Down    final MSE 2.510e-05 | x zero 0.457 | share of k=3's kappa3 gain kept   56.6% (min  -14.8%, max   88.8%)
+   town_Dr1     final MSE 3.353e-05 | x zero 0.551 | share of k=3's kappa3 gain kept   46.8% (min  -10.3%, max   72.4%)
+   ptrace       final MSE 3.084e-05 | x zero 0.511 | share of k=3's kappa3 gain kept   51.0% (min    8.3%, max   84.3%)
+n256_L32 net 0: full 3.403e-05 zero 2.490e-04 clos_own 3.841e-04 clos_univ 1.225e-04 clos_univ_t 2.163e-04 tlaw_Down 7.268e-05 town_Dr1 2.111e-01 ptrace 7.414e-04
+n256_L32 net 1: full 1.816e-05 zero 1.381e-04 clos_own 1.643e-04 clos_univ 1.306e-04 clos_univ_t 2.037e-04 tlaw_Down 1.051e-04 town_Dr1 4.746e-03 ptrace 4.604e-04
+n256_L32 net 2: full 8.366e-06 zero 7.779e-05 clos_own 8.320e-05 clos_univ 2.836e-04 clos_univ_t 3.796e-04 tlaw_Down 1.977e-04 town_Dr1 1.543e-04 ptrace 1.390e-04
+n256_L32 net 3: full 2.106e-06 zero 3.731e-05 clos_own 2.881e-05 clos_univ 2.324e-04 clos_univ_t 1.573e-04 tlaw_Down 1.223e-04 town_Dr1 1.756e-04 ptrace 6.264e-05
+n256_L32 net 4: full 5.518e-06 zero 4.132e-05 clos_own 4.233e-05 clos_univ 2.216e-04 clos_univ_t 3.023e-04 tlaw_Down 1.526e-04 town_Dr1 7.394e-05 ptrace 5.918e-05
+n256_L32 net 5: full 7.168e-06 zero 3.542e-05 clos_own 3.843e-05 clos_univ 1.229e-04 clos_univ_t 2.776e-04 tlaw_Down 1.178e-04 town_Dr1 3.937e-05 ptrace 3.401e-05
+n256_L32 net 6: full 2.437e-05 zero 3.804e-04 clos_own 4.660e-04 clos_univ 1.631e-04 clos_univ_t 2.484e-04 tlaw_Down 7.201e-05 town_Dr1 2.256e-03 ptrace 9.480e-04
+n256_L32 net 7: full 1.286e-05 zero 9.110e-05 clos_own 1.595e-04 clos_univ 1.045e-04 clos_univ_t 1.088e-04 tlaw_Down 6.523e-05 town_Dr1 7.469e-04 ptrace 2.498e-04
+n256_L32 net 8: full 5.702e-06 zero 4.404e-05 clos_own 5.750e-05 clos_univ 2.397e-04 clos_univ_t 2.216e-04 tlaw_Down 1.584e-04 town_Dr1 1.485e-04 ptrace 1.342e-04
+n256_L32 net 9: full 2.076e-05 zero 7.013e-05 clos_own 1.630e-04 clos_univ 8.925e-05 clos_univ_t 8.930e-05 tlaw_Down 1.181e-04 town_Dr1 5.653e-04 ptrace 2.989e-04
+== n256_L32: corr(D_ij, t_j/3) over i != j, chain 'full', mean over layers >= 2: 0.669
+   full         final MSE 1.390e-05 | x zero 0.140 | share of k=3's kappa3 gain kept  100.0% (min  100.0%, max  100.0%)
+   zero         final MSE 1.165e-04 | x zero 1.000 | share of k=3's kappa3 gain kept    0.0% (min    0.0%, max    0.0%)
+   clos_own     final MSE 1.587e-04 | x zero 1.329 | share of k=3's kappa3 gain kept  -41.7% (min -188.1%, max   24.1%)
+   clos_univ    final MSE 1.710e-04 | x zero 2.844 | share of k=3's kappa3 gain kept -210.4% (min -554.1%, max   61.0%)
+   clos_univ_t  final MSE 2.205e-04 | x zero 3.475 | share of k=3's kappa3 gain kept -288.9% (min -857.3%, max   37.1%)
+   tlaw_Down    final MSE 1.182e-04 | x zero 2.008 | share of k=3's kappa3 gain kept -118.3% (min -310.9%, max   86.6%)
+   town_Dr1     final MSE 2.200e-02 | x zero 91.739 | share of k=3's kappa3 gain kept -10518.8% (min -98096.9%, max  -14.0%)
+   ptrace       final MSE 3.127e-04 | x zero 2.471 | share of k=3's kappa3 gain kept -176.4% (min -463.3%, max    5.0%)
+Wed Oct 14 20:12:37 +05 2026

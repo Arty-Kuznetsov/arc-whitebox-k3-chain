@@ -1,0 +1,3 @@
+MLP 0: B9 res 2.278922e-08 | plain 2.278922e-08 (== res: True) | hooks 2.278922e-08 (== plain: True, all layers equal: True) | max rel |diag(W^T C W) - var_next| 3.9e-15
+MLP 1: B9 res 2.205732e-08 | plain 2.205732e-08 (== res: True) | hooks 2.205732e-08 (== plain: True, all layers equal: True) | max rel |diag(W^T C W) - var_next| 4.7e-15
+SELF-CHECK PASSED

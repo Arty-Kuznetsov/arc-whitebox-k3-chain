@@ -1,0 +1,12 @@
+  0.5M, 28s
+  1.0M, 56s
+  1.5M, 84s
+  2.0M, 111s
+  2.5M, 139s
+  3.0M, 167s
+  3.5M, 194s
+  4.0M, 222s
+layer 6: q mean 0.99991  var 2.5422e-02  kappa3 3.1107e-03
+layer 10: q mean 1.00000  var 3.8141e-02  kappa3 8.4033e-03
+layer 14: q mean 0.99995  var 5.3438e-02  kappa3 2.0180e-02
+done 222s

@@ -1,0 +1,16 @@
+layer | slice | model    | corr   slope(MC on model) level(model/MC)
+    6 | K31  | AUGMENT  | 0.699  1.320  0.542
+    6 | K31  | closure  | 0.662  0.853  0.783
+    6 | K22  | AUGMENT  | 0.644  1.022  0.982
+    6 | K22  | closure  | 0.608  1.009  0.987
+    6 | K31  | MC C     | 0.659
+   10 | K31  | AUGMENT  | 0.741  1.418  0.549
+   10 | K31  | closure  | 0.704  0.924  0.782
+   10 | K22  | AUGMENT  | 0.695  1.040  0.969
+   10 | K22  | closure  | 0.668  1.030  0.968
+   10 | K31  | MC C     | 0.692
+   14 | K31  | AUGMENT  | 0.805  1.646  0.532
+   14 | K31  | closure  | 0.788  1.117  0.737
+   14 | K22  | AUGMENT  | 0.771  1.091  0.937
+   14 | K22  | closure  | 0.761  1.056  0.953
+   14 | K31  | MC C     | 0.754

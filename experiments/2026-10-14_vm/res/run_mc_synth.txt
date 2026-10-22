@@ -1,0 +1,10 @@
+Wed Oct 14 19:38:18 +05 2026
+vm_s256x16-0_gauss_s1.npz: pass 1 26 s, pass 2 44 s
+vm_s256x16-1_gauss_s1.npz: pass 1 25 s, pass 2 44 s
+vm_s256x16-2_gauss_s1.npz: pass 1 26 s, pass 2 44 s
+vm_s256x32-0_gauss_s1.npz: pass 1 48 s, pass 2 84 s
+vm_s256x32-1_gauss_s1.npz: pass 1 46 s, pass 2 83 s
+vm_s256x32-2_gauss_s1.npz: pass 1 46 s, pass 2 79 s
+vm_s256x32-0_sphere_s1.npz: pass 1 49 s, pass 2 84 s
+vm_s512x16-0_gauss_s1.npz: pass 1 75 s, pass 2 98 s
+Wed Oct 14 19:53:27 +05 2026

@@ -1,0 +1,6 @@
+base                   raw 2.3135e-08  x  1.000  (310s)
+exact_a1               raw 2.3135e-08  x  1.000  (216s)
+exact_a2               raw 2.3135e-08  x  1.000  (219s)
+exact_a3               raw 2.3135e-08  x  1.000  (214s)
+sTD_1em2_a1            raw 2.4318e-08  x  1.051  (216s)
+sTD_1em2_a2            raw 2.3629e-08  x  1.021  (216s)

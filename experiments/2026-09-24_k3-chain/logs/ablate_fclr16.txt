@@ -1,0 +1,4 @@
+  fclr16 mlp 0: final_mse=4.1517e-08  (7s)
+  fclr16 mlp 1: final_mse=4.8764e-08  (7s)
+  fclr16 mlp 2: final_mse=4.7450e-08  (8s)
+RESULT fclr16: mean final_mse over 3 MLPs = 4.5910e-08   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)

@@ -1,0 +1,8 @@
+base                       raw 2.3135e-08  x  1.000  (227s)
+S0_exact_a4                raw 2.3135e-08  x  1.000  (216s)
+A1_dropD_a4                raw 6.1202e-07  x 26.454  (215s)
+A1_dropD_a5                raw 3.5137e-07  x 15.188  (284s)
+A1_dropD_a6                raw 1.9723e-07  x  8.525  (219s)
+A3_rankD64_a4              raw 4.7081e-08  x  2.035  (238s)
+A3_rankD128_a4             raw 2.8796e-08  x  1.245  (235s)
+A3_rankD256_a4             raw 2.3329e-08  x  1.008  (228s)

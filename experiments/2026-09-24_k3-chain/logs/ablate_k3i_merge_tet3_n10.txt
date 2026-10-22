@@ -1,0 +1,1 @@
+RESULT k3i_merge_tet3: mean final_mse over 10 MLPs = 2.4441e-08   (reference SIMPLE k=3 on MLPs 0-2: 4.2509e-08; k=2: 5.1494e-06)
