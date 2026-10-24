@@ -6,7 +6,9 @@ experiments/2026-09-16_kprop-arc/baked/), and reports where its error is and how
 could ever remove:
   1. the final-layer MSE and its COHERENT share (the level shared by all neurons): the most a per-neuron level
      correction can buy, since the rest is independent across neurons (Proposition 1);
-  2. the coherent share at every layer;
+  1b. the MEAN-DIRECTION share: the error's projection on the true mean vector m of the layer. At depth cos(1, m) is only
+     ~0.6, and the coherent level is mostly the shadow of an error along m (asked by megan_park, forum 18249);
+  2. both shares at every layer;
   3. the parity check of Proposition 2 at order one: the pre-activation mean is linear, so its truth is W^T (true means
      of the previous layer) and the estimator's own is W^T (its means of the previous layer); the error is a random
      projection with no coherent level, z = mean / SE ~ N(0, 1) at every layer if the estimator propagates its means
@@ -62,12 +64,13 @@ def main():
         L = P.shape[0]
         e = P - gt
         cs = [float(np.mean(e[l]) ** 2 / np.mean(e[l] ** 2)) for l in range(L)]
+        ms = [float((e[l] @ gt[l]) ** 2 / ((gt[l] @ gt[l]) * (e[l] @ e[l]))) for l in range(L)]
         z_mu = [float(np.mean(W[l].T @ e[l - 1]) / np.sqrt(np.mean((W[l].T @ e[l - 1]) ** 2) / W.shape[1])) for l in range(1, L)]
         mu_hat = W[L - 1].T @ P[L - 2]
         X = np.stack([P[L - 1], np.sqrt(np.maximum(P[L - 1], 0)), mu_hat, mu_hat * mu_hat, np.linalg.norm(W[L - 1], axis=0),
                       P[L - 1] * mu_hat], 1)
-        per.append(dict(net=k, flops=used, final_mse=float(np.mean(e[-1] ** 2)), cs=cs, z_mu=z_mu, X=X, e=e[-1]))
-        print(f"net {k}: final MSE {per[-1]['final_mse']:.3e}, coherent share {100*cs[-1]:.2f}%, util {100*used/2**41:.2f}%, "
+        per.append(dict(net=k, flops=used, final_mse=float(np.mean(e[-1] ** 2)), cs=cs, ms=ms, z_mu=z_mu, X=X, e=e[-1]))
+        print(f"net {k}: final MSE {per[-1]['final_mse']:.3e}, coherent share {100*cs[-1]:.2f}%, mean-direction share {100*ms[-1]:.2f}%, util {100*used/2**41:.2f}%, "
               f"{time.time()-t0:.0f}s", flush=True)
     lf = []
     for i, r in enumerate(per):
@@ -79,10 +82,13 @@ def main():
     out = dict(estimator=est_path, nets=nets, final_mse=float(np.mean([r["final_mse"] for r in per])),
                coherent_share_final=float(np.mean([r["cs"][-1] for r in per])),
                coherent_share_by_layer=np.mean([r["cs"] for r in per], 0).tolist(),
+               mean_direction_share_final=float(np.mean([r["ms"][-1] for r in per])),
+               mean_direction_share_by_layer=np.mean([r["ms"] for r in per], 0).tolist(),
                parity_z_mean_sq=float(np.mean(z ** 2)), parity_z_max=float(np.max(np.abs(z))),
                learnable_share_loo=float(np.mean(lf)) if lf else None, learnable_share_loo_per_net=lf)
-    print(json.dumps({k: v for k, v in out.items() if k != "coherent_share_by_layer"}, indent=1))
+    print(json.dumps({k: v for k, v in out.items() if not k.endswith("_by_layer")}, indent=1))
     print("coherent share by layer:", [round(x, 4) for x in out["coherent_share_by_layer"]])
+    print("mean-direction share by layer:", [round(x, 4) for x in out["mean_direction_share_by_layer"]])
     name = Path(est_path).stem
     (ROOT / "experiments" / "2026-10-13_coherence-law" / "res").mkdir(parents=True, exist_ok=True)
     json.dump(out, open(ROOT / "experiments" / "2026-10-13_coherence-law" / "res" / f"anatomy_{name}.json", "w"), indent=1)

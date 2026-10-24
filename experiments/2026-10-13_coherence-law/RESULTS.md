@@ -72,3 +72,33 @@ k = 3 (learnable ≈ coherent); for k = 2 the learnable share exceeds the cohere
 not only the level. The law, as measured: **a per-neuron learned correction can remove about two thirds of a Gaussian
 closure's error at any of these shapes, and almost nothing of a chain that carries κ₃.** That explains why learned
 correctors helped Gaussian-closure anchors and failed on every k ≥ 3 chain in Phase 2, without a depth argument.
+
+## The learnable part is the error along the mean (2026-10-24; `mean_direction.py`, `res/mean_direction.txt`)
+
+**Question** (megan_park, forum 18249 post 3; her write-up 18282 §2.3 shows that an error along the mean direction keeps
+0.86 of its energy from layer 6 to the output, against 0.22 for a generic error): does `error_anatomy.py`'s coherent share
+line up with the share along the mean? By construction it does not: the coherent share is the projection on 1/√n, and the
+true post-activation mean vector m is far from uniform at depth, **cos(1, m̂) = 0.80 at layer 1 → 0.59 at layer 15**
+(10 public nets; 0.58–0.62 at the last layer of every synthetic shape). Measured on the saved runs of this folder
+(1024 × 16: 1e9 truth; synthetic: two MC seeds, energies as cross products, so the "along 1" column reproduces the table
+above exactly):
+
+| shape | ARC k = 3: along 1 / along m | ARC k = 2: along 1 / along m | k = 2 learnable → after removing the m-component | k = 2 learned correction along m |
+|---|---|---|---|---|
+| 1024 × 16 | 0.26% / 1.06% (0–3.6% per net) | 26% / 67% | 66% → 0.1% | 99% |
+| 256 × 8 | 2.1% / 4.0% | 35% / 67% | 66% → 1.2% | 97% |
+| 512 × 16 | 1.2% / 5.8% | 28% / 68% | 66% → 0.2% | 99% |
+| 256 × 16 | 0.9% / 3.6% | 26% / 66% | 64% → 0.1% | 99% |
+| 256 × 32 | 3.0% / 9.7% | 27% / 74% | 64% → 0.0% | 97% |
+
+span{1, m} adds ≤ 1.5 points over m alone at every shape and estimator → the coherent level reported so far is mostly the
+shadow (cos² ≈ 0.35) of an error along m. **The per-neuron learnable two thirds of a Gaussian closure's error IS the
+error along the mean:** with the m-component removed nothing is learnable (≤ 1.2%), and the learned correction lies
+97–99% along m̂ (the κ₃-free chain `cz` and the skew-law closure `cs` behave the same way: cz 62–73% along m, learnable
+60–65% → ≤ 0.7%; the k = 2.5 closure removes exactly that part). Consistent with the skew law (κ₃ᵢ ≈ c·μᵢ: the dropped
+skew is slaved to the mean) and with megan_park's §2.3 (that direction does not fade). For ARC's k = 3 chain the mean
+direction holds 1–10% of the final error (largest at 256 × 32) and is learnable only in part (0–4%). The `cs` row at
+256 × 32 has an exploding feature (t/σ³ at dead neurons), so its learnable number is not usable.
+`scripts/error_anatomy.py` now also reports the mean-direction share by layer. **k3z (#333534), 10 public nets:** along 1
+0.55%, along m 1.75% (net 7 alone 5.9%), learnable −0.4%; in absolute terms the error along m is the same as ARC k = 3's
+(≈ 3.8e-10 vs 4.1e-10 of MSE): our additions removed generic error and left the mean direction alone.

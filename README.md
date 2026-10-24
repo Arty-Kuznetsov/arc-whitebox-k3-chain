@@ -37,8 +37,9 @@ Most of the write-up is about why this family of estimators behaves as it does. 
 | the slope as the partial trace's projection on the mean, the input radius as a scale mode, other activations (§6.4) | `2026-10-14_vm` |
 | where the next order's accuracy lives; age-truncated k = 4 in ARC's own code (§7) | `2026-10-03_korder`, `2026-10-04_r1` … `_r3`, `2026-10-14_k4age` |
 
-`scripts/error_anatomy.py` measures the coherent and learnable shares of any estimator of this challenge from its outputs
-alone, on the ten public networks with their 10⁹-sample truth. `scripts/build_oracle_dataset.py` assembles the
+`scripts/error_anatomy.py` measures the coherent, mean-direction and learnable shares of any estimator of this challenge
+from its outputs alone, on the ten public networks with their 10⁹-sample truth (the mean-direction share was added on
+2026-10-24 after a question in forum 18249; `experiments/2026-10-13_coherence-law/RESULTS.md`, last section). `scripts/build_oracle_dataset.py` assembles the
 Monte-Carlo oracles we measured against.
 
 ## Data
