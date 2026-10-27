@@ -5,6 +5,9 @@
 **3.7357e-9** (final-layer MSE 2.0317e-8 at 18.33% of the FLOP budget; 0 failures on all 100 grader networks).*
 *Claim labels: **[M]** measured in a logged run · **[D]** derived algebraically · **[U]** our interpretation, not isolated
 by an intervention. The use of language models in this work is described in §9.*
+*Revised 27 October 2026, after the close: board numbers of the close (§4, §6.2, §7, §8), the release links (§10), one
+new measurement in §6.4 (the error along the mean) and later forum work that extends these results (§6.4, §7). The
+version posted on 16 October is otherwise unchanged.*
 
 ---
 

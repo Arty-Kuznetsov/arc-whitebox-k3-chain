@@ -9,7 +9,7 @@ several terms that *improve accuracy* are absent from the shipped estimator: the
 
 **The multiplier floors at 0.1.** Above 10% of the budget every FLOP is charged linearly; at or below it FLOPs are free
 and only accuracy matters. We never got under the floor (k3z: 18.33%). At our raw error, the floor alone would have
-been worth ×0.55: 2.03e-9, about 10th place on the board of 2026-10-16, and §6.1–6.2 are the record of
+been worth ×0.55: 2.03e-9, 16th place on the final board of 21 October, and §6.1–6.2 are the record of
 why it could not be reached with this representation.
 
 ### 4.1 The measured cost map of the shipped estimator

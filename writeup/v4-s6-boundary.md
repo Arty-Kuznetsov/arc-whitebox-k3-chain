@@ -114,10 +114,10 @@ walls. We think that turns "we could not" into "this family of representations c
 **What neither team explains**, and we say so: 504aldo observe that their bill *without* the old tier is 0.150·B,
 and that the top three entries sat at 0.149, 0.152 and 0.164·B on the same day with better raw error than either of
 us. Whatever carries the leaders' old-source content costs them approximately nothing. It is not a compression of
-the source representation, both catalogues rule that out, and we do not know what it is. [U] The public board of
-2026-10-16 says what that is worth: teams at about our raw error (1.95–2.05e-8) sit at 10–19% of the budget, one of
-them at rank 11 on the 10% floor. Our raw error at that floor would score 2.03e-9, about 10th place against our 55th;
-the cost of carrying κ₃ alone is worth some forty places [M].
+the source representation, both catalogues rule that out, and we do not know what it is. [U] The final public
+board (21 October) says what that is worth: teams at about our raw error (1.95–2.05e-8) sit at 10–34% of the budget,
+one of them at rank 16 on the 10% floor. Our raw error at that floor would score 2.0e-9, 16th place against our 77th;
+the cost of carrying κ₃ alone is worth some sixty places [M].
 
 ### 6.3 Coherence decides whether a cheap correction can help at all
 
@@ -297,6 +297,16 @@ a missing κ₃ or κ₄ level alone carry no more than the intercept. Across al
 Monte-Carlo cloud, which carry joint information; it is consistent with Proposition 1 and needs no depth argument
 (`experiments/2026-10-13_coherence-law`).
 
+**The learnable part is the error along the mean** (measured after the close, in answer to megan_park's question in
+forum 18249). The coherent share above is the projection on the uniform direction. The true post-activation mean
+vector m is far from uniform at depth, cos(1, m) = 0.80 at layer 1 and 0.59 at layer 15, and the coherent level is
+mostly the shadow of an error along m. Along m lie 66–74% of the Gaussian closure's final error at every shape, 1–10%
+of ARC's k = 3 chain's, and 1.75% of our designated estimator's (0.55% along the uniform direction). With the component
+along m removed, at most 1.2% of the Gaussian closure's error is learnable, and the learned correction lies 97–99%
+along m [M] (`mean_direction.py` in the same folder). The two thirds a per-neuron model learns from a Gaussian closure
+are therefore its error in the direction that survives depth best: megan_park's survival law (forum 18282, §2.3)
+keeps 0.86 of a mean-direction error from layer 6 to the output, against 0.22 for a generic one.
+
 The learnable part has a closed form. A neuron's true pre-activation κ₃ is proportional to its mean, κ₃ᵢ ≈ c(l)·μᵢ,
 with zero intercept and R² rising from 0.5 at layer 1 (the first layer whose pre-activations are not Gaussian) to
 0.71–0.90 deeper, at every shape [M]. The
@@ -346,7 +356,12 @@ cos(v, m) falls to 0.75 and the law's R² to 0.47 at layer 15 (256 × 16) [M]. T
 (repository history 2026-10-14) and before our release, reach related results independently: il.miscusi (forum 18248)
 uses the same scale mode (covariance + εmmᵀ, κ₃ + 2ε·Sym(C ⊗ m), κ₄ + 4ε·Pair₃(C ⊗ C)) and removes it inside an estimator;
 kai_leal_gonzalez (forum 18246) states a conditional form of the decomposition behind the slope identity (the next κ₃
-given the weight column's projection on the mean).
+given the weight column's projection on the mean). Later write-ups build on Proposition 1: megan_park (forum 18282)
+averages the energy of the random projection over the gates and obtains a fit-free survival law, the slope
+1 − arccos(c)/π of the mean-field correlation map; Susupro (forum 18254) places three correctors on one axis: a
+neuron's own state (bounded near 4% here), isotropic O(n²) row reductions (our κ₄ corrector, ×0.988) and a corrector
+that reads through W and W∘W (×0.887 on the 50 grader networks). That ordering is what Proposition 1 predicts: the
+recoverable error is in the weight-aligned cross-neuron channel.
 
 The same measurement can be run on any estimator from its outputs alone, because the pre-activation mean is linear:
 its truth is Wᵀ times the true means of the previous layer. `scripts/error_anatomy.py` does that on the ten public

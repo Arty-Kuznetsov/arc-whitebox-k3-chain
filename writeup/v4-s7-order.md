@@ -12,7 +12,11 @@ Monte-Carlo ground truth at 10⁷ samples (Figure 7, left) [M]:
 
 Our chain sits at the level of the augmented k = 3 at both widths, as at 1024×16. In the reference, k = 3 augmented
 and k = 4 sum the same Edgeworth diagrams; the only difference is that k = 4 carries the fourth cumulant completely, and
-that alone is ×3 at L/n = 1/16 and ×6–7 at 1/32. Exact k = 4 costs ≈L²n⁴, far outside the budget at 1024×16, so we
+that alone is ×3 at L/n = 1/16 and ×6–7 at 1/32. Susupro (forum 18254, posted after this write-up) ran exact K = 4 at
+1024 × 16 outside the budget: ×11.8 below augmented K = 3 at L/n = 1/64 (1.72e-9 on networks 0–4 against our graded
+2.03e-8), which continues the trend; at that width the
+exact (3,1) slice holds at most 10% of K = 4's log gain and removing the carried C·κ₃ births costs ×5.39, so the gain
+sits in the births there too (§7.1, §7.2). Exact k = 4 costs ≈L²n⁴, far outside the budget at 1024×16, so we
 took its gain apart with the chain as the instrument: k = 4's per-layer statistics substituted into our chain upstream
 of its last step, then k = 4's κ₄ split by where and how it was born (a full factorial over channels on 8 networks at
 each of n = 128 and n = 256; the age and tree splits on 3) [M].
@@ -63,9 +67,9 @@ to 1e-16, and the leg implementation the factorised one to 1e-14 [M]:
 <figure><img src="figures/fig_v4_ladder.png" alt="Figure 7"><figcaption>Figure 7. Left: the cumulant ladder against Monte-Carlo truth. At small width ARC's k = 4 is ×3 (n = 128) to ×6–7 (n = 256) better than our chain, which sits at the augmented k = 3's level; at 1024 × 16 the reference's own k = 1, 2, 3 and our designated estimator. Right: the young-tree reader at full width, per network — the first κ₄ carrier in this work that improves every network.</figcaption></figure>
 
 This is the first κ₄ carrier in this work that improves every network, and ×0.70 of our raw error is close to the
-leaders' raw error (1.15–1.35e-8 for the first four on 2026-10-16, against our 2.03e-8). Read against that board, raw
-1.42e-8 would score 2.6e-9 at our utilisation (≈ 22nd place), 2.0e-9 at 14% (≈ 10th) and 1.42e-9 at the 10% floor,
-level with the leading entry [D]. The accuracy
+leaders' raw error (1.1–1.3e-8 for the first three at the close, against our 2.03e-8). Read against the final board,
+raw 1.42e-8 would score 2.6e-9 at our utilisation (≈ 30th place), 2.0e-9 at 14% (≈ 16th) and 1.42e-9 at the 10% floor,
+level with the third entry [D]. The accuracy
 for the top of the board is in this chain; the cost of carrying κ₃ (§6.1–§6.2) is what stands between the two.
 
 ### 7.3 The same, inside ARC's own algorithm

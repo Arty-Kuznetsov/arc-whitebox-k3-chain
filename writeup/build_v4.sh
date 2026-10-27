@@ -27,6 +27,11 @@ parts.append("""## References and credits
 - mliston, AIcrowd forum topic 18170 — the idea of an offline-trained corrector of the chain's own moments (§3.7).
 - il.miscusi, AIcrowd forum topic 18248, and kai_leal_gonzalez, topic 18246 (both 2026-10-15) — the scale mode of a
   positively homogeneous network and a conditional skew identity, found independently of our §6.4 (concurrent work).
+- Later forum work that uses or tests these results (posted after 2026-10-16): Susupro, topic 18254 (exact K = 4 at
+  1024 × 16, the corrector hierarchy, a table of all Phase 2 write-ups; §6.4, §7); megan_park, topic 18282 (a survival
+  law built on Proposition 1, and the question behind the mean-direction paragraph of §6.4); michael_anderson7, topic
+  18272 (noise-corrected oracles, crediting our two-seed noise subtraction); dogus_ozel, topic 18281 (tested the
+  young-κ₄ tree of §7).
 """)
 src = "\n\n".join(parts)
 # python-markdown needs a blank line before a list that follows a paragraph line; and no TeX-style subscripts
